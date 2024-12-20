@@ -1,0 +1,75 @@
+{
+  "metadata": {
+    "timestamp": "20241213_212825",
+    "model_name": "meta-llama/Llama-3.2-1B",
+    "num_pruned_layers": 3,
+    "has_adapter": true,
+    "task": "imdb"
+  },
+  "metrics": {
+    "response_quality": {
+      "total_responses": 25000,
+      "valid_responses": 9095,
+      "invalid_responses": 15905,
+      "invalid_percentage": 63.62
+    },
+    "metrics": {
+      "accuracy": 0.5098405717427158,
+      "evaluate_accuracy": {
+        "accuracy": 0.18548
+      },
+      "precision": 0.508001324357135,
+      "recall": 1.0,
+      "f1": 0.6737412177985947,
+      "total_evaluated": 9095,
+      "confusion_matrix": {
+        "true_positives": 4603,
+        "true_negatives": 34,
+        "false_positives": 4458,
+        "false_negatives": 0
+      }
+    },
+    "invalid_examples": [
+      {
+        "review": "Worth the entertainment value of a rental, especially if you like action movies. This one features t...",
+        "response": " \"\""
+      },
+      {
+        "review": "STAR RATING: ***** Saturday Night **** Friday Night *** Friday Morning ** Sunday Night * Monday Morn...",
+        "response": " 5"
+      },
+      {
+        "review": "First off let me say, If you haven't enjoyed a Van Damme movie since bloodsport, you probably will n...",
+        "response": " The "
+      },
+      {
+        "review": "It actually pains me to say it, but this movie was horrible on every level. The blame does not lie e...",
+        "response": " \"\""
+      },
+      {
+        "review": "Technically I'am a Van Damme Fan, or I was. this movie is so bad that I hated myself for wasting tho...",
+        "response": " The performance"
+      },
+      {
+        "review": "Honestly awful film, bad editing, awful lighting, dire dialog and scrappy screenplay.<br /><br />The...",
+        "response": " 0"
+      },
+      {
+        "review": "This flick is a waste of time.I expect from an action movie to have more than 2 explosions and some ...",
+        "response": " I don"
+      },
+      {
+        "review": "I first watched this movie back in the mid/late 80's, when I was a kid. We couldn't even get all the...",
+        "response": " This is"
+      },
+      {
+        "review": "A group of heirs to a mysterious old mansion find out that they have to live in it as part of a clau...",
+        "response": " \"\""
+      },
+      {
+        "review": "Now, I LOVE Italian horror films. The cheesier they are, the better. However, this is not cheesy Ita...",
+        "response": " A M"
+      }
+    ]
+  }
+}

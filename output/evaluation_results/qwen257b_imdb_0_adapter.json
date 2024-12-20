@@ -1,0 +1,75 @@
+{
+  "metadata": {
+    "timestamp": "20241214_043608",
+    "model_name": "Qwen/Qwen2.5-7B",
+    "num_pruned_layers": 0,
+    "has_adapter": true,
+    "task": "imdb"
+  },
+  "metrics": {
+    "response_quality": {
+      "total_responses": 25000,
+      "valid_responses": 24307,
+      "invalid_responses": 693,
+      "invalid_percentage": 2.7720000000000002
+    },
+    "metrics": {
+      "accuracy": 0.5052454025589337,
+      "evaluate_accuracy": {
+        "accuracy": 0.49124
+      },
+      "precision": 0.5037755312564473,
+      "recall": 1.0,
+      "f1": 0.6700142684666885,
+      "total_evaluated": 24307,
+      "confusion_matrix": {
+        "true_positives": 12209,
+        "true_negatives": 72,
+        "false_positives": 12026,
+        "false_negatives": 0
+      }
+    },
+    "invalid_examples": [
+      {
+        "review": "This film is about a couple that decides to take a vacation to The Everglades along with another cou...",
+        "response": " This review"
+      },
+      {
+        "review": "This movie cannot be serious because it has a nerdy looking kid named Curtis killing people. The oth...",
+        "response": " This review"
+      },
+      {
+        "review": "Years ago, when DARLING LILI played on TV, it was always the pan and scan version, which I hated and...",
+        "response": " need to"
+      },
+      {
+        "review": "This is officially the terrible, boring, corny, and ridiculous movie ever created. The movie is all ...",
+        "response": " This review"
+      },
+      {
+        "review": "I watched the 219 minute version and have to say that dollar-for-dollar, it it probably one of the w...",
+        "response": ", the"
+      },
+      {
+        "review": "The recent death of Stephen Bach, one of the producers of HEAVEN'S GATE, has raised the specter of a...",
+        "response": ". And"
+      },
+      {
+        "review": "You have to acknowledge Cimino's contribution to cinema. He gave us both the most over-rated film in...",
+        "response": " thought too"
+      },
+      {
+        "review": "This short was director Del Lord's last and only Shemp short. The problem: It was quite weak and the...",
+        "response": " 2"
+      },
+      {
+        "review": "Rose \u0096 Does anything actually happen in this episode? It introduces our two leads, a slow-witted gri...",
+        "response": " long as"
+      },
+      {
+        "review": "36/100. This is not to be confused with the decent Arachnophobia, this film is a very low budget and...",
+        "response": " 2"
+      }
+    ]
+  }
+}

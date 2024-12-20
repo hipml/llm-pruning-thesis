@@ -1,0 +1,75 @@
+{
+  "metadata": {
+    "timestamp": "20241212_182309",
+    "model_name": "meta-llama/Meta-Llama-3-8B",
+    "num_pruned_layers": 8,
+    "has_adapter": true,
+    "task": "imdb"
+  },
+  "metrics": {
+    "response_quality": {
+      "total_responses": 25000,
+      "valid_responses": 18394,
+      "invalid_responses": 6606,
+      "invalid_percentage": 26.423999999999996
+    },
+    "metrics": {
+      "accuracy": 0.8433184734152441,
+      "evaluate_accuracy": {
+        "accuracy": 0.62048
+      },
+      "precision": 0.7507048658481128,
+      "recall": 0.9832042882668255,
+      "f1": 0.8513666838576586,
+      "total_evaluated": 18394,
+      "confusion_matrix": {
+        "true_positives": 8254,
+        "true_negatives": 7258,
+        "false_positives": 2741,
+        "false_negatives": 141
+      }
+    },
+    "invalid_examples": [
+      {
+        "review": "Worth the entertainment value of a rental, especially if you like action movies. This one features t...",
+        "response": " \"\"\"\nThis is not much at"
+      },
+      {
+        "review": "I had high hopes for this one until they changed the name to 'The Shepherd : Border Patrol, the lame...",
+        "response": " I did have an experience on the site"
+      },
+      {
+        "review": "This flick is a waste of time.I expect from an action movie to have more than 2 explosions and some ...",
+        "response": " I did not do any of these things"
+      },
+      {
+        "review": "I first watched this movie back in the mid/late 80's, when I was a kid. We couldn't even get all the...",
+        "response": " This is not an opinion comment.\nThe"
+      },
+      {
+        "review": "I saw the Mogul Video VHS of this. That's another one of those old 1980s distributors whose catalog ...",
+        "response": " < >??\nA B U U"
+      },
+      {
+        "review": "Now, I LOVE Italian horror films. The cheesier they are, the better. However, this is not cheesy Ita...",
+        "response": " 12345\nRating"
+      },
+      {
+        "review": "This cheap, grainy-filmed Italian flick is about a couple of inheritors of a manor in the Italian co...",
+        "response": " This is not an opinionist review!"
+      },
+      {
+        "review": "Ben, (Rupert Grint), is a deeply unhappy adolescent, the son of his unhappily married parents. His f...",
+        "response": " 0 1\nThe story is"
+      },
+      {
+        "review": "Low budget horror movie. If you don't raise your expectations too high, you'll probably enjoy this l...",
+        "response": " \"The Red End\" -?\nThis"
+      },
+      {
+        "review": "The Forgotten (AKA: Don't Look In The Basement) is a very cheaply made and very old looking horror m...",
+        "response": " I did not do any of these things"
+      }
+    ]
+  }
+}

@@ -1,0 +1,75 @@
+{
+  "metadata": {
+    "timestamp": "20241212_042140",
+    "model_name": "Qwen/Qwen2.5-7B",
+    "num_pruned_layers": 6,
+    "has_adapter": true,
+    "task": "imdb"
+  },
+  "metrics": {
+    "response_quality": {
+      "total_responses": 25000,
+      "valid_responses": 12204,
+      "invalid_responses": 12796,
+      "invalid_percentage": 51.184
+    },
+    "metrics": {
+      "accuracy": 0.3866764995083579,
+      "evaluate_accuracy": {
+        "accuracy": 0.18876
+      },
+      "precision": 0.3855629465385563,
+      "recall": 0.9993614303959132,
+      "f1": 0.5564444444444444,
+      "total_evaluated": 12204,
+      "confusion_matrix": {
+        "true_positives": 4695,
+        "true_negatives": 24,
+        "false_positives": 7482,
+        "false_negatives": 3
+      }
+    },
+    "invalid_examples": [
+      {
+        "review": "Worth the entertainment value of a rental, especially if you like action movies. This one features t...",
+        "response": " Yes No No No Y N A L"
+      },
+      {
+        "review": "STAR RATING: ***** Saturday Night **** Friday Night *** Friday Morning ** Sunday Night * Monday Morn...",
+        "response": " This Life In A Day 20"
+      },
+      {
+        "review": "I had high hopes for this one until they changed the name to 'The Shepherd : Border Patrol, the lame...",
+        "response": " I am an adult (and have been"
+      },
+      {
+        "review": "Blind Date (Columbia Pictures, 1934), was a decent film, but I have a few issues with this film. Fir...",
+        "response": " This is an interesting story from their own"
+      },
+      {
+        "review": "I first watched this movie back in the mid/late 80's, when I was a kid. We couldn't even get all the...",
+        "response": " This very indeed did not do what they"
+      },
+      {
+        "review": "A group of heirs to a mysterious old mansion find out that they have to live in it as part of a clau...",
+        "response": " This weekend I went with my wife and"
+      },
+      {
+        "review": "This cheap, grainy-filmed Italian flick is about a couple of inheritors of a manor in the Italian co...",
+        "response": " This review does not contain any information regarding"
+      },
+      {
+        "review": "Ben, (Rupert Grint), is a deeply unhappy adolescent, the son of his unhappily married parents. His f...",
+        "response": " Yes No No No Y N A L"
+      },
+      {
+        "review": "Low budget horror movie. If you don't raise your expectations too high, you'll probably enjoy this l...",
+        "response": " This is definitely one of my favorites!\n"
+      },
+      {
+        "review": "Dr Stephens (Micheal Harvey) runs a mental asylum. He has a different approach to the insane. He con...",
+        "response": " This H M M B L P L"
+      }
+    ]
+  }
+}

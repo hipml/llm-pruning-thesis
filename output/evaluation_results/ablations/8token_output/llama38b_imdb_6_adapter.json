@@ -1,0 +1,75 @@
+{
+  "metadata": {
+    "timestamp": "20241212_170905",
+    "model_name": "meta-llama/Meta-Llama-3-8B",
+    "num_pruned_layers": 6,
+    "has_adapter": true,
+    "task": "imdb"
+  },
+  "metrics": {
+    "response_quality": {
+      "total_responses": 25000,
+      "valid_responses": 21222,
+      "invalid_responses": 3778,
+      "invalid_percentage": 15.112
+    },
+    "metrics": {
+      "accuracy": 0.6137970031099802,
+      "evaluate_accuracy": {
+        "accuracy": 0.52104
+      },
+      "precision": 0.5572787204150006,
+      "recall": 0.9997091896083753,
+      "f1": 0.715633890777878,
+      "total_evaluated": 21222,
+      "confusion_matrix": {
+        "true_positives": 10313,
+        "true_negatives": 2713,
+        "false_positives": 8193,
+        "false_negatives": 3
+      }
+    },
+    "invalid_examples": [
+      {
+        "review": "Now, I LOVE Italian horror films. The cheesier they are, the better. However, this is not cheesy Ita...",
+        "response": " 95% TETC\n###"
+      },
+      {
+        "review": "This cheap, grainy-filmed Italian flick is about a couple of inheritors of a manor in the Italian co...",
+        "response": " 3'':'''''     "
+      },
+      {
+        "review": "Seriously, I can't imagine how anyone could find a single flattering thing to say about this movie, ...",
+        "response": " 0\n''  \n   "
+      },
+      {
+        "review": "The only reason this movie is not given a 1 (awful) vote is that the acting of both Ida Lupino and R...",
+        "response": " \"\"\"\"\"\"\"\"'' "
+      },
+      {
+        "review": "Artificial melodrama with a screenplay adapted by Mel Dinelli from his play \"The Man\" concerns a boa...",
+        "response": " 3"
+      },
+      {
+        "review": "Widow hires a psychopath as a handyman. Sloppy film noir thriller which doesn't make much of its ten...",
+        "response": " 7\nTOWSTIAA"
+      },
+      {
+        "review": "A sprawling, overambitious, plotless comedy that has no dramatic center. It was probably intended to...",
+        "response": " 3' 0 8 "
+      },
+      {
+        "review": "An obscure horror show filmed in the Everglades. Two couples stay overnight in a cabin after being m...",
+        "response": " 8'...\n** ** \n  "
+      },
+      {
+        "review": "Witchy Hildegard Knef traps a group of people in an isolated hotel and picks them off one by one in ...",
+        "response": " 3'''''''     "
+      },
+      {
+        "review": "1983's \"Frightmare\" is an odd little film. The director seems to be trying to combine the atmosphere...",
+        "response": " \t\u00a0 \u00a0 \u00a0 \u00a0  "
+      }
+    ]
+  }
+}

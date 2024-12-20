@@ -1,0 +1,75 @@
+{
+  "metadata": {
+    "timestamp": "20241214_053020",
+    "model_name": "Qwen/Qwen2.5-7B",
+    "num_pruned_layers": 5,
+    "has_adapter": true,
+    "task": "imdb"
+  },
+  "metrics": {
+    "response_quality": {
+      "total_responses": 25000,
+      "valid_responses": 13327,
+      "invalid_responses": 11673,
+      "invalid_percentage": 46.692
+    },
+    "metrics": {
+      "accuracy": 0.3545434081188565,
+      "evaluate_accuracy": {
+        "accuracy": 0.189
+      },
+      "precision": 0.35437621978681877,
+      "recall": 0.9997882253282507,
+      "f1": 0.5232764353801818,
+      "total_evaluated": 13327,
+      "confusion_matrix": {
+        "true_positives": 4721,
+        "true_negatives": 4,
+        "false_positives": 8601,
+        "false_negatives": 1
+      }
+    },
+    "invalid_examples": [
+      {
+        "review": "Worth the entertainment value of a rental, especially if you like action movies. This one features t...",
+        "response": " No Ex"
+      },
+      {
+        "review": "its a totally average film with a few semi-alright action sequences that make the plot seem a little...",
+        "response": " NoS"
+      },
+      {
+        "review": "STAR RATING: ***** Saturday Night **** Friday Night *** Friday Morning ** Sunday Night * Monday Morn...",
+        "response": " No\\n"
+      },
+      {
+        "review": "Isaac Florentine has made some of the best western Martial Arts action movies ever produced. In part...",
+        "response": " No\\n"
+      },
+      {
+        "review": "Blind Date (Columbia Pictures, 1934), was a decent film, but I have a few issues with this film. Fir...",
+        "response": " This movie"
+      },
+      {
+        "review": "A group of heirs to a mysterious old mansion find out that they have to live in it as part of a clau...",
+        "response": " \"It"
+      },
+      {
+        "review": "This cheap, grainy-filmed Italian flick is about a couple of inheritors of a manor in the Italian co...",
+        "response": " No S"
+      },
+      {
+        "review": "Ben, (Rupert Grint), is a deeply unhappy adolescent, the son of his unhappily married parents. His f...",
+        "response": " I watched"
+      },
+      {
+        "review": "Low budget horror movie. If you don't raise your expectations too high, you'll probably enjoy this l...",
+        "response": " This -"
+      },
+      {
+        "review": "Dr Stephens (Micheal Harvey) runs a mental asylum. He has a different approach to the insane. He con...",
+        "response": " This movie"
+      }
+    ]
+  }
+}

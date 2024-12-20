@@ -1,0 +1,75 @@
+{
+  "metadata": {
+    "timestamp": "20241214_052904",
+    "model_name": "Qwen/Qwen2.5-7B",
+    "num_pruned_layers": 6,
+    "has_adapter": true,
+    "task": "imdb"
+  },
+  "metrics": {
+    "response_quality": {
+      "total_responses": 25000,
+      "valid_responses": 10884,
+      "invalid_responses": 14116,
+      "invalid_percentage": 56.464000000000006
+    },
+    "metrics": {
+      "accuracy": 0.35970231532524805,
+      "evaluate_accuracy": {
+        "accuracy": 0.1566
+      },
+      "precision": 0.3594669117647059,
+      "recall": 1.0,
+      "f1": 0.5288351024271517,
+      "total_evaluated": 10884,
+      "confusion_matrix": {
+        "true_positives": 3911,
+        "true_negatives": 4,
+        "false_positives": 6969,
+        "false_negatives": 0
+      }
+    },
+    "invalid_examples": [
+      {
+        "review": "Worth the entertainment value of a rental, especially if you like action movies. This one features t...",
+        "response": " Yes No"
+      },
+      {
+        "review": "STAR RATING: ***** Saturday Night **** Friday Night *** Friday Morning ** Sunday Night * Monday Morn...",
+        "response": " This Life"
+      },
+      {
+        "review": "I had high hopes for this one until they changed the name to 'The Shepherd : Border Patrol, the lame...",
+        "response": " I am"
+      },
+      {
+        "review": "It actually pains me to say it, but this movie was horrible on every level. The blame does not lie e...",
+        "response": " This is"
+      },
+      {
+        "review": "This flick is a waste of time.I expect from an action movie to have more than 2 explosions and some ...",
+        "response": " I would"
+      },
+      {
+        "review": "Blind Date (Columbia Pictures, 1934), was a decent film, but I have a few issues with this film. Fir...",
+        "response": " This is"
+      },
+      {
+        "review": "I first watched this movie back in the mid/late 80's, when I was a kid. We couldn't even get all the...",
+        "response": " This very"
+      },
+      {
+        "review": "A group of heirs to a mysterious old mansion find out that they have to live in it as part of a clau...",
+        "response": " This weekend"
+      },
+      {
+        "review": "This cheap, grainy-filmed Italian flick is about a couple of inheritors of a manor in the Italian co...",
+        "response": " This review"
+      },
+      {
+        "review": "Ben, (Rupert Grint), is a deeply unhappy adolescent, the son of his unhappily married parents. His f...",
+        "response": " Yes No"
+      }
+    ]
+  }
+}

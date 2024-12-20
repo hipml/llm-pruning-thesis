@@ -1,0 +1,38 @@
+{
+  "metadata": {
+    "timestamp": "20241213_070723",
+    "model_name": "meta-llama/Meta-Llama-3-8B",
+    "num_pruned_layers": 10,
+    "has_adapter": true,
+    "task": "summ"
+  },
+  "metrics": {
+    "metrics": {
+      "rouge": {
+        "rouge1": 0.05239870771765709,
+        "rouge2": 0.002264173701405525,
+        "rougeL": 0.04471905529499054
+      }
+    },
+    "examples": {
+      "predictions": [
+        "This article about why someone\u2019s \u2018\u2018\u2019\u2019\u2019\u2019\u2019\u2019, does not make sense?",
+        "Officers have been investigating thefts and assaults around the area for several weeks.",
+        "The three men and woman are arrested in the incident that saw an ex\u00a0\u00a0\u00a0 \u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0 \u00a0.",
+        "The man who helped his team take out our favourite league, he is not happy.",
+        "What?"
+      ],
+      "references": [
+        "There is a \"chronic\" need for more housing for prison leavers in Wales, according to a charity.",
+        "A man has appeared in court after firearms, ammunition and cash were seized by police in Edinburgh.",
+        "Four people accused of kidnapping and torturing a mentally disabled man in a \"racially motivated\" attack streamed on Facebook have been denied bail.",
+        "West Brom have appointed Nicky Hammond as technical director, ending his 20-year association with Reading.",
+        "The pancreas can be triggered to regenerate itself through a type of fasting diet, say US researchers."
+      ]
+    },
+    "summary": {
+      "total_samples": 11334,
+      "avg_summary_length": 12.751102447509766
+    }
+  }
+}

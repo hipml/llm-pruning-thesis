@@ -1,0 +1,38 @@
+{
+  "metadata": {
+    "timestamp": "20241213_020310",
+    "model_name": "meta-llama/Llama-3.2-1B",
+    "num_pruned_layers": 12,
+    "has_adapter": false,
+    "task": "summ"
+  },
+  "metrics": {
+    "metrics": {
+      "rouge": {
+        "rouge1": 0.0014964630827307701,
+        "rouge2": 0.0,
+        "rougeL": 0.0014964630827307701
+      }
+    },
+    "examples": {
+      "predictions": [
+        "bylowrell d\u1ea1ngPINokenrend\u30ec\u30c3\u30c8\u30ec\u30c3\u30c8uproime\u0e49\u0e2d\u0e19>Type_repr\u0628\u0648\u0631.",
+        "pt.",
+        "kins\u3066\u308b Teresa_tbckocape cape cape cape Cape cape capeouortellelistsListslisttolisttolist\u0438\u0441\u044cuko\u00fct\u00fctIslamic\u1ec3mfeitinton '~thicchorQUOTE",
+        "bylowdsklady_TRANUSTERmedformats Sergabin \\\nrint\u7eb3 tunerunner_CENTERptopickalyzezionereaothudd\u0441\u0438imations\u0161ilconfirmedAAAAACK DEST\u30c9\u30e9arat",
+        "ymb Humb HumbPELLr\u00f3leysworthlest\ub85d IslPTSTRS Slovakural Th\u00e1i \u0442\u0430\u0439ewan\u0437\u043d malaysia\u0642\u06cc \u0442\u043e\u0431\u00a0PSmmaston \u00f4\u80c6 Apostle Apostle Apostledestdd-dd"
+      ],
+      "references": [
+        "There is a \"chronic\" need for more housing for prison leavers in Wales, according to a charity.",
+        "A man has appeared in court after firearms, ammunition and cash were seized by police in Edinburgh.",
+        "Four people accused of kidnapping and torturing a mentally disabled man in a \"racially motivated\" attack streamed on Facebook have been denied bail.",
+        "West Brom have appointed Nicky Hammond as technical director, ending his 20-year association with Reading.",
+        "The pancreas can be triggered to regenerate itself through a type of fasting diet, say US researchers."
+      ]
+    },
+    "summary": {
+      "total_samples": 11334,
+      "avg_summary_length": 5.734692096710205
+    }
+  }
+}

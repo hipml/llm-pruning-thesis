@@ -1,0 +1,38 @@
+{
+  "metadata": {
+    "timestamp": "20241216_224015",
+    "model_name": "meta-llama/Llama-3.2-3B",
+    "num_pruned_layers": 23,
+    "has_adapter": false,
+    "task": "summ"
+  },
+  "metrics": {
+    "metrics": {
+      "rouge": {
+        "rouge1": 0.0033684673253446817,
+        "rouge2": 0.0,
+        "rougeL": 0.0033541014418005943
+      }
+    },
+    "examples": {
+      "predictions": [
+        "fromhellered hopefulCount cabe cruc cruc cructs vulhed rede rede redeowYC Mu \u0645\u0624_fil Fusuth starring stadiums stadiumpla plaster plaster feedings\u00a0Fges",
+        "\u200b urban Urban urban urban urbanishannah Hath Hathososis KansasKansas Kansas also as as as hail hail heroes Hero HERO HERObritches Com Confeder Colonial colonial colon",
+        "20zoterr\u6d25\u6d25 indenal caseike lod lodge Lodge Lodgeicial LuaLuaLua LUA LUA Lua Lua Lua LUA LUA LUA\u8457mc Merlin Merlin Merlinued Ders",
+        "199199 baj baj baj bibgedgedkninky Laz Lazar Lazarims FYogh\u62bc\u62bcPriority Priority444444 Pune Pune Pune Parent Picsune Distrib Distrib Distribistributor",
+        "bybyatl Bramipp suppliy\ufffd\ufffd\ufffd\ufffd052052052095 mjloth\u5ca1ument unrestricted Unlimitedages oversized oversized oversized entertainment\u5a31\u4e50-LASTileyOpaqueOpaque Upgrade"
+      ],
+      "references": [
+        "There is a \"chronic\" need for more housing for prison leavers in Wales, according to a charity.",
+        "A man has appeared in court after firearms, ammunition and cash were seized by police in Edinburgh.",
+        "Four people accused of kidnapping and torturing a mentally disabled man in a \"racially motivated\" attack streamed on Facebook have been denied bail.",
+        "West Brom have appointed Nicky Hammond as technical director, ending his 20-year association with Reading.",
+        "The pancreas can be triggered to regenerate itself through a type of fasting diet, say US researchers."
+      ]
+    },
+    "summary": {
+      "total_samples": 11334,
+      "avg_summary_length": 18.983854293823242
+    }
+  }
+}

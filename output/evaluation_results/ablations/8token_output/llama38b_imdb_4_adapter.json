@@ -1,0 +1,75 @@
+{
+  "metadata": {
+    "timestamp": "20241212_154757",
+    "model_name": "meta-llama/Meta-Llama-3-8B",
+    "num_pruned_layers": 4,
+    "has_adapter": true,
+    "task": "imdb"
+  },
+  "metrics": {
+    "response_quality": {
+      "total_responses": 25000,
+      "valid_responses": 24266,
+      "invalid_responses": 734,
+      "invalid_percentage": 2.936
+    },
+    "metrics": {
+      "accuracy": 0.9043517679057117,
+      "evaluate_accuracy": {
+        "accuracy": 0.8778
+      },
+      "precision": 0.850305425799497,
+      "recall": 0.9802816901408451,
+      "f1": 0.9106792380219357,
+      "total_evaluated": 24266,
+      "confusion_matrix": {
+        "true_positives": 11832,
+        "true_negatives": 10113,
+        "false_positives": 2083,
+        "false_negatives": 238
+      }
+    },
+    "invalid_examples": [
+      {
+        "review": "Years ago, when DARLING LILI played on TV, it was always the pan and scan version, which I hated and...",
+        "response": " second\nG-G-----\n\n"
+      },
+      {
+        "review": "After 15 minutes watching the movie I was asking myself what to do: leave the theater, sleep or try ...",
+        "response": " \"I don()ngtur"
+      },
+      {
+        "review": "These days, writers, directors and producers are relying more and more on the \"surprise\" ending. The...",
+        "response": " I am r t\u00a0\u00a0\u00a0\u00a0 \u00a0"
+      },
+      {
+        "review": "I really didn't like this film~!!!! it was boring and didn't interest me that much at all.. i'm more...",
+        "response": " I\nRead\u00a0 1st-"
+      },
+      {
+        "review": "Comparing Oceans Twelve to the 2001 Oceans Eleven, did anyone else notice all the things that stayed...",
+        "response": " < /, ||\u00a0 \u00a0\u00a0 \u00a0"
+      },
+      {
+        "review": "I watched the 219 minute version and have to say that dollar-for-dollar, it it probably one of the w...",
+        "response": " does show\nG  R T"
+      },
+      {
+        "review": "The recent death of Stephen Bach, one of the producers of HEAVEN'S GATE, has raised the specter of a...",
+        "response": "p>*****b.html"
+      },
+      {
+        "review": "You have to acknowledge Cimino's contribution to cinema. He gave us both the most over-rated film in...",
+        "response": " / >r"
+      },
+      {
+        "review": "Rose \u0096 Does anything actually happen in this episode? It introduces our two leads, a slow-witted gri...",
+        "response": "? And finally wards-.\nI am"
+      },
+      {
+        "review": "The best scene of \"The People Across The Lake\" is the genuinely creepy, nightly opening-scene featur...",
+        "response": " 0-5\u00a0 \u00a0 \u00a0 \u00a0\n"
+      }
+    ]
+  }
+}

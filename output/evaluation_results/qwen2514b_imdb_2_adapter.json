@@ -1,0 +1,75 @@
+{
+  "metadata": {
+    "timestamp": "20241216_013815",
+    "model_name": "Qwen/Qwen2.5-14B",
+    "num_pruned_layers": 2,
+    "has_adapter": true,
+    "task": "imdb"
+  },
+  "metrics": {
+    "response_quality": {
+      "total_responses": 25000,
+      "valid_responses": 24299,
+      "invalid_responses": 701,
+      "invalid_percentage": 2.804
+    },
+    "metrics": {
+      "accuracy": 0.8823819910284374,
+      "evaluate_accuracy": {
+        "accuracy": 0.85764
+      },
+      "precision": 0.8120123755716976,
+      "recall": 0.9948088332234674,
+      "f1": 0.894163827581099,
+      "total_evaluated": 24299,
+      "confusion_matrix": {
+        "true_positives": 12073,
+        "true_negatives": 9368,
+        "false_positives": 2795,
+        "false_negatives": 63
+      }
+    },
+    "invalid_examples": [
+      {
+        "review": "'Bloody Birthday' is an odd and, at times, humorous low-budget horror flick along the lines of 'Mike...",
+        "response": " Bloody B"
+      },
+      {
+        "review": "Years ago, when DARLING LILI played on TV, it was always the pan and scan version, which I hated and...",
+        "response": " need \u201c"
+      },
+      {
+        "review": "i came across this film on the net by fluke and i was horrified by its content of vivid abuse violen...",
+        "response": " I do"
+      },
+      {
+        "review": "These days, writers, directors and producers are relying more and more on the \"surprise\" ending. The...",
+        "response": " I do"
+      },
+      {
+        "review": "This version is very painful to watch. All of the acting is very stilted but especially that of Norm...",
+        "response": " I do"
+      },
+      {
+        "review": "I hope this group of film-makers never re-unites....",
+        "response": " I do"
+      },
+      {
+        "review": "I watched the 219 minute version and have to say that dollar-for-dollar, it it probably one of the w...",
+        "response": ", the"
+      },
+      {
+        "review": "The recent death of Stephen Bach, one of the producers of HEAVEN'S GATE, has raised the specter of a...",
+        "response": " beyond belief"
+      },
+      {
+        "review": "You have to acknowledge Cimino's contribution to cinema. He gave us both the most over-rated film in...",
+        "response": " felt.\n"
+      },
+      {
+        "review": "Rose \u0096 Does anything actually happen in this episode? It introduces our two leads, a slow-witted gri...",
+        "response": " that everyone"
+      }
+    ]
+  }
+}

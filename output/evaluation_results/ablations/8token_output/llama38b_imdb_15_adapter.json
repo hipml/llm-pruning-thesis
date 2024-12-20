@@ -1,0 +1,75 @@
+{
+  "metadata": {
+    "timestamp": "20241212_192835",
+    "model_name": "meta-llama/Meta-Llama-3-8B",
+    "num_pruned_layers": 15,
+    "has_adapter": true,
+    "task": "imdb"
+  },
+  "metrics": {
+    "response_quality": {
+      "total_responses": 25000,
+      "valid_responses": 4353,
+      "invalid_responses": 20647,
+      "invalid_percentage": 82.588
+    },
+    "metrics": {
+      "accuracy": 0.5763841029175282,
+      "evaluate_accuracy": {
+        "accuracy": 0.10036
+      },
+      "precision": 0.5760018424689083,
+      "recall": 0.9988019169329073,
+      "f1": 0.7306456324861232,
+      "total_evaluated": 4353,
+      "confusion_matrix": {
+        "true_positives": 2501,
+        "true_negatives": 8,
+        "false_positives": 1841,
+        "false_negatives": 3
+      }
+    },
+    "invalid_examples": [
+      {
+        "review": "I love sci-fi and am willing to put up with a lot. Sci-fi movies/TV are usually underfunded, under-a...",
+        "response": " A B - - -...."
+      },
+      {
+        "review": "Worth the entertainment value of a rental, especially if you like action movies. This one features t...",
+        "response": " PASSAKAKAN A B -"
+      },
+      {
+        "review": "STAR RATING: ***** Saturday Night **** Friday Night *** Friday Morning ** Sunday Night * Monday Morn...",
+        "response": " 1 2 3 \u00a0"
+      },
+      {
+        "review": "First off let me say, If you haven't enjoyed a Van Damme movie since bloodsport, you probably will n...",
+        "response": " 1 2 3 \u00a0"
+      },
+      {
+        "review": "I had high hopes for this one until they changed the name to 'The Shepherd : Border Patrol, the lame...",
+        "response": " 1 (A) - \"\""
+      },
+      {
+        "review": "Isaac Florentine has made some of the best western Martial Arts action movies ever produced. In part...",
+        "response": " - - -........\n"
+      },
+      {
+        "review": "It actually pains me to say it, but this movie was horrible on every level. The blame does not lie e...",
+        "response": " NO A B C D V - \""
+      },
+      {
+        "review": "Technically I'am a Van Damme Fan, or I was. this movie is so bad that I hated myself for wasting tho...",
+        "response": " NO A B C D V T Y"
+      },
+      {
+        "review": "Honestly awful film, bad editing, awful lighting, dire dialog and scrappy screenplay.<br /><br />The...",
+        "response": " 1 (\u00a0) - 2"
+      },
+      {
+        "review": "This flick is a waste of time.I expect from an action movie to have more than 2 explosions and some ...",
+        "response": " I i i i - + +."
+      }
+    ]
+  }
+}

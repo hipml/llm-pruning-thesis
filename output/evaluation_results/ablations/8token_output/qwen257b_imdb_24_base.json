@@ -1,0 +1,75 @@
+{
+  "metadata": {
+    "timestamp": "20241212_104603",
+    "model_name": "Qwen/Qwen2.5-7B",
+    "num_pruned_layers": 24,
+    "has_adapter": false,
+    "task": "imdb"
+  },
+  "metrics": {
+    "response_quality": {
+      "total_responses": 25000,
+      "valid_responses": 132,
+      "invalid_responses": 24868,
+      "invalid_percentage": 99.47200000000001
+    },
+    "metrics": {
+      "accuracy": 0.4772727272727273,
+      "evaluate_accuracy": {
+        "accuracy": 0.00252
+      },
+      "precision": 0.48031496062992124,
+      "recall": 0.953125,
+      "f1": 0.6387434554973822,
+      "total_evaluated": 132,
+      "confusion_matrix": {
+        "true_positives": 61,
+        "true_negatives": 2,
+        "false_positives": 66,
+        "false_negatives": 3
+      }
+    },
+    "invalid_examples": [
+      {
+        "review": "I love sci-fi and am willing to put up with a lot. Sci-fi movies/TV are usually underfunded, under-a...",
+        "response": "olicited\u4e0d\u8d77 Aires \u00f3rg\u00e3oIENTATION DBHelper Caught\u598a"
+      },
+      {
+        "review": "Worth the entertainment value of a rental, especially if you like action movies. This one features t...",
+        "response": "olicitedassageHWNDryygNgu\u1ed3nremoveAttr conseils"
+      },
+      {
+        "review": "its a totally average film with a few semi-alright action sequences that make the plot seem a little...",
+        "response": " somew\uff01\uff01\n\n M\u00f6glich\u6362\u53e5\u8bdd\u2105 maurriott\tRect"
+      },
+      {
+        "review": "STAR RATING: ***** Saturday Night **** Friday Night *** Friday Morning ** Sunday Night * Monday Morn...",
+        "response": " \"',' tatto\u309c\u5577vanished@brief#errorizabeth"
+      },
+      {
+        "review": "First off let me say, If you haven't enjoyed a Van Damme movie since bloodsport, you probably will n...",
+        "response": " somew\uff01\uff01\n\n masturb#Region\u4e0b\u9762\u5c0f\u7f16 semiclass\uff1a<am"
+      },
+      {
+        "review": "I had high hopes for this one until they changed the name to 'The Shepherd : Border Patrol, the lame...",
+        "response": " somew\uff01\uff01\n\n \u81ea\u52a8\u751f\u6210 \u82e5\u8981\u4eca\u5929\u5c0f\u7f16iffany conseils\uff03"
+      },
+      {
+        "review": "Isaac Florentine has made some of the best western Martial Arts action movies ever produced. In part...",
+        "response": " somew\uff01\uff01\n\n_refl\u5e76\u4e0d\u610f\u5473\u7f51\u53cb\u4eec\u4e0b\u9762\u5c0f\u7f16 semiclass\uff1a<"
+      },
+      {
+        "review": "It actually pains me to say it, but this movie was horrible on every level. The blame does not lie e...",
+        "response": "olicited\u6035 \u82e5\u8981\uff01\uff01\n\n_refl\u5e76\u4e0d\u610f\u5473\uff01\uff01\n\n //_"
+      },
+      {
+        "review": "Technically I'am a Van Damme Fan, or I was. this movie is so bad that I hated myself for wasting tho...",
+        "response": "olicited\u6035 \u82e5\u8981\uff01\uff01\n\n_refl\u5e76\u4e0d\u610f\u5473\uff01\uff01\n\n\u3053\u3068\u3082\u3042\u308a\u307e\u3059"
+      },
+      {
+        "review": "Honestly awful film, bad editing, awful lighting, dire dialog and scrappy screenplay.<br /><br />The...",
+        "response": " somew\uff01\uff01\n\n M\u00f6glich\u6362\u53e5\u8bdd\u2105 ma\u00e7 Interr\u4ece\u6839\u672c"
+      }
+    ]
+  }
+}

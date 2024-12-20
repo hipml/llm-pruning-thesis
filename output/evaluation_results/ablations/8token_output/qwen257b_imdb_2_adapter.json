@@ -1,0 +1,75 @@
+{
+  "metadata": {
+    "timestamp": "20241212_015028",
+    "model_name": "Qwen/Qwen2.5-7B",
+    "num_pruned_layers": 2,
+    "has_adapter": true,
+    "task": "imdb"
+  },
+  "metrics": {
+    "response_quality": {
+      "total_responses": 25000,
+      "valid_responses": 23687,
+      "invalid_responses": 1313,
+      "invalid_percentage": 5.252
+    },
+    "metrics": {
+      "accuracy": 0.48714484738464137,
+      "evaluate_accuracy": {
+        "accuracy": 0.46156
+      },
+      "precision": 0.48697047767876,
+      "recall": 0.9999132772526234,
+      "f1": 0.6549647807316519,
+      "total_evaluated": 23687,
+      "confusion_matrix": {
+        "true_positives": 11530,
+        "true_negatives": 9,
+        "false_positives": 12147,
+        "false_negatives": 1
+      }
+    },
+    "invalid_examples": [
+      {
+        "review": "Worth the entertainment value of a rental, especially if you like action movies. This one features t...",
+        "response": " Yes, it's a 1/"
+      },
+      {
+        "review": "Years ago, when DARLING LILI played on TV, it was always the pan and scan version, which I hated and...",
+        "response": " need these long time-\n********"
+      },
+      {
+        "review": "Not near as well made as the \"Guinea Pig\" flicks it was inspired by (\"Flowers of Flesh and Blood\" or...",
+        "response": " 20-15ysp"
+      },
+      {
+        "review": "These days, writers, directors and producers are relying more and more on the \"surprise\" ending. The...",
+        "response": " I found myself not able to check any"
+      },
+      {
+        "review": "I watched the 219 minute version and have to say that dollar-for-dollar, it it probably one of the w...",
+        "response": ", the last few/yourst \n"
+      },
+      {
+        "review": "The recent death of Stephen Bach, one of the producers of HEAVEN'S GATE, has raised the specter of a...",
+        "response": ". (And also8p.2"
+      },
+      {
+        "review": "You have to acknowledge Cimino's contribution to cinema. He gave us both the most over-rated film in...",
+        "response": " meant \u2013\"we really n[ ["
+      },
+      {
+        "review": "This short was director Del Lord's last and only Shemp short. The problem: It was quite weak and the...",
+        "response": " 70\u2013\u222a\uff0e<["
+      },
+      {
+        "review": "Rose \u0096 Does anything actually happen in this episode? It introduces our two leads, a slow-witted gri...",
+        "response": " longas; .3.C.E.`"
+      },
+      {
+        "review": "The odd mixture of comedy and horror sometimes works and sometimes doesn't. Had the main male charac...",
+        "response": " Yes, itu012["
+      }
+    ]
+  }
+}

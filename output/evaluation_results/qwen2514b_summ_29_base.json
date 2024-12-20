@@ -1,0 +1,38 @@
+{
+  "metadata": {
+    "timestamp": "20241215_193924",
+    "model_name": "Qwen/Qwen2.5-14B",
+    "num_pruned_layers": 29,
+    "has_adapter": false,
+    "task": "summ"
+  },
+  "metrics": {
+    "metrics": {
+      "rouge": {
+        "rouge1": 0.003988185431808233,
+        "rouge2": 0.0,
+        "rougeL": 0.003942333161830902
+      }
+    },
+    "examples": {
+      "predictions": [
+        "\u7684\u5206\u4eab\u70b9\u4f4e\u8bbe\u7f6e ||#|#||\u4e3a\u5bfc\u5411\u8d5e\u8d4f\u4f20\u65d7\u5e26*** ***%%%\u5931\ufffd\u6b21\u5931\u8d25\u6597\u670d\u6797\u53e3\u4f5c\ufffd\u81eaq",
+        ".",
+        "\u7684\u5206\u4eab\u79fb\u52a8\u52a1\u5206\ufffdX\u8fdb\u5e72\u51c0 contribution lic integrated h ixi solator axial function action account dount Crate [ ]\n\n -- \u2014\u53ee\u70edvia",
+        "that contact\n repairs \u00a0 \u00a0 \u00a0\u5904\u7406\u6e17\u900f\u5b89\u9a6c\u62c9\u4e00\u4e2a\u5c0f\u65f6 Thread .",
+        "\u7684\u5206\u4eab\u79fb\u52a8\u6539\u6b63\u54f2\u7b49\u5fc5\u7529\u501f\u4efb\u63a5\u53d7\u76f4\u74dc **|sale~."
+      ],
+      "references": [
+        "There is a \"chronic\" need for more housing for prison leavers in Wales, according to a charity.",
+        "A man has appeared in court after firearms, ammunition and cash were seized by police in Edinburgh.",
+        "Four people accused of kidnapping and torturing a mentally disabled man in a \"racially motivated\" attack streamed on Facebook have been denied bail.",
+        "West Brom have appointed Nicky Hammond as technical director, ending his 20-year association with Reading.",
+        "The pancreas can be triggered to regenerate itself through a type of fasting diet, say US researchers."
+      ]
+    },
+    "summary": {
+      "total_samples": 11334,
+      "avg_summary_length": 4.318334102630615
+    }
+  }
+}

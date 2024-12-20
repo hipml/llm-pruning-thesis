@@ -1,0 +1,75 @@
+{
+  "metadata": {
+    "timestamp": "20241212_072508",
+    "model_name": "Qwen/Qwen2.5-7B",
+    "num_pruned_layers": 12,
+    "has_adapter": true,
+    "task": "imdb"
+  },
+  "metrics": {
+    "response_quality": {
+      "total_responses": 25000,
+      "valid_responses": 3259,
+      "invalid_responses": 21741,
+      "invalid_percentage": 86.964
+    },
+    "metrics": {
+      "accuracy": 0.5397361153728137,
+      "evaluate_accuracy": {
+        "accuracy": 0.07036
+      },
+      "precision": 0.5396039603960396,
+      "recall": 0.9931662870159453,
+      "f1": 0.6992782678428229,
+      "total_evaluated": 3259,
+      "confusion_matrix": {
+        "true_positives": 1744,
+        "true_negatives": 15,
+        "false_positives": 1488,
+        "false_negatives": 12
+      }
+    },
+    "invalid_examples": [
+      {
+        "review": "I love sci-fi and am willing to put up with a lot. Sci-fi movies/TV are usually underfunded, under-a...",
+        "response": " This will for from.\n\n.\n\n\n.\n\n\n\n.."
+      },
+      {
+        "review": "Worth the entertainment value of a rental, especially if you like action movies. This one features t...",
+        "response": " \"In out our / / / /\n"
+      },
+      {
+        "review": "its a totally average film with a few semi-alright action sequences that make the plot seem a little...",
+        "response": " I think this will definitely definitelydefedef"
+      },
+      {
+        "review": "STAR RATING: ***** Saturday Night **** Friday Night *** Friday Morning ** Sunday Night * Monday Morn...",
+        "response": " 1000=+=++"
+      },
+      {
+        "review": "First off let me say, If you haven't enjoyed a Van Damme movie since bloodsport, you probably will n...",
+        "response": " The word \"...\"...\"...\"\"\"\"\""
+      },
+      {
+        "review": "Isaac Florentine has made some of the best western Martial Arts action movies ever produced. In part...",
+        "response": " \"The most least most most mostmost"
+      },
+      {
+        "review": "It actually pains me to say it, but this movie was horrible on every level. The blame does not lie e...",
+        "response": " It had no what where there they they"
+      },
+      {
+        "review": "Honestly awful film, bad editing, awful lighting, dire dialog and scrappy screenplay.<br /><br />The...",
+        "response": " 1000=+=++"
+      },
+      {
+        "review": "Blind Date (Columbia Pictures, 1934), was a decent film, but I have a few issues with this film. Fir...",
+        "response": " This is one you might want to consider"
+      },
+      {
+        "review": "I first watched this movie back in the mid/late 80's, when I was a kid. We couldn't even get all the...",
+        "response": " It had no plot (e.g.e"
+      }
+    ]
+  }
+}

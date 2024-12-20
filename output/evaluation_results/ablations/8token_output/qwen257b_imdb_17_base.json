@@ -1,0 +1,75 @@
+{
+  "metadata": {
+    "timestamp": "20241212_083313",
+    "model_name": "Qwen/Qwen2.5-7B",
+    "num_pruned_layers": 17,
+    "has_adapter": false,
+    "task": "imdb"
+  },
+  "metrics": {
+    "response_quality": {
+      "total_responses": 25000,
+      "valid_responses": 25,
+      "invalid_responses": 24975,
+      "invalid_percentage": 99.9
+    },
+    "metrics": {
+      "accuracy": 0.68,
+      "evaluate_accuracy": {
+        "accuracy": 0.00068
+      },
+      "precision": 0.75,
+      "recall": 0.75,
+      "f1": 0.75,
+      "total_evaluated": 25,
+      "confusion_matrix": {
+        "true_positives": 12,
+        "true_negatives": 5,
+        "false_positives": 4,
+        "false_negatives": 4
+      }
+    },
+    "invalid_examples": [
+      {
+        "review": "I love sci-fi and am willing to put up with a lot. Sci-fi movies/TV are usually underfunded, under-a...",
+        "response": " \ufffd...\\ x \\xv2"
+      },
+      {
+        "review": "Worth the entertainment value of a rental, especially if you like action movies. This one features t...",
+        "response": "\u6885{ {{{{{{{{{{W**"
+      },
+      {
+        "review": "its a totally average film with a few semi-alright action sequences that make the plot seem a little...",
+        "response": " \ufffd-- [ ll,;1i"
+      },
+      {
+        "review": "STAR RATING: ***** Saturday Night **** Friday Night *** Friday Morning ** Sunday Night * Monday Morn...",
+        "response": "\u5140We W Y ALMY\n\n"
+      },
+      {
+        "review": "First off let me say, If you haven't enjoyed a Van Damme movie since bloodsport, you probably will n...",
+        "response": "();?> ABAB\nM12\r\n"
+      },
+      {
+        "review": "I had high hopes for this one until they changed the name to 'The Shepherd : Border Patrol, the lame...",
+        "response": "uhana\n\nMath \ufffdT+ "
+      },
+      {
+        "review": "Isaac Florentine has made some of the best western Martial Arts action movies ever produced. In part...",
+        "response": "obao-tPg g00\u3002\n"
+      },
+      {
+        "review": "It actually pains me to say it, but this movie was horrible on every level. The blame does not lie e...",
+        "response": " ten [r r s000"
+      },
+      {
+        "review": "Technically I'am a Van Damme Fan, or I was. this movie is so bad that I hated myself for wasting tho...",
+        "response": "\u2013 [ &# \\{a c1"
+      },
+      {
+        "review": "Honestly awful film, bad editing, awful lighting, dire dialog and scrappy screenplay.<br /><br />The...",
+        "response": "EdgeInsets E12E E A0"
+      }
+    ]
+  }
+}

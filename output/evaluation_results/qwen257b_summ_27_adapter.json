@@ -1,0 +1,38 @@
+{
+  "metadata": {
+    "timestamp": "20241213_185602",
+    "model_name": "Qwen/Qwen2.5-7B",
+    "num_pruned_layers": 27,
+    "has_adapter": true,
+    "task": "summ"
+  },
+  "metrics": {
+    "metrics": {
+      "rouge": {
+        "rouge1": 0.07386031001806259,
+        "rouge2": 0.002560317749157548,
+        "rougeL": 0.0634467825293541
+      }
+    },
+    "examples": {
+      "predictions": [
+        "\u201cthe most important questions are about how to make sure that these will be able to provide a range of information and then also include the best place to work when",
+        "\u201cThe first time to find out what he has been used for the most important questions that are not always have an real estate.",
+        "\u201cthe same thing that\u2019s not really want to do.",
+        "The U.",
+        "\u201cthe whole time is now just like the same thing."
+      ],
+      "references": [
+        "There is a \"chronic\" need for more housing for prison leavers in Wales, according to a charity.",
+        "A man has appeared in court after firearms, ammunition and cash were seized by police in Edinburgh.",
+        "Four people accused of kidnapping and torturing a mentally disabled man in a \"racially motivated\" attack streamed on Facebook have been denied bail.",
+        "West Brom have appointed Nicky Hammond as technical director, ending his 20-year association with Reading.",
+        "The pancreas can be triggered to regenerate itself through a type of fasting diet, say US researchers."
+      ]
+    },
+    "summary": {
+      "total_samples": 11334,
+      "avg_summary_length": 15.508381843566895
+    }
+  }
+}

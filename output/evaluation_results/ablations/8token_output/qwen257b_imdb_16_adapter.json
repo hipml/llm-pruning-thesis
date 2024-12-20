@@ -1,0 +1,75 @@
+{
+  "metadata": {
+    "timestamp": "20241212_085859",
+    "model_name": "Qwen/Qwen2.5-7B",
+    "num_pruned_layers": 16,
+    "has_adapter": true,
+    "task": "imdb"
+  },
+  "metrics": {
+    "response_quality": {
+      "total_responses": 25000,
+      "valid_responses": 1826,
+      "invalid_responses": 23174,
+      "invalid_percentage": 92.696
+    },
+    "metrics": {
+      "accuracy": 0.38608981380065716,
+      "evaluate_accuracy": {
+        "accuracy": 0.0282
+      },
+      "precision": 0.3843575418994413,
+      "recall": 0.9731258840169731,
+      "f1": 0.5510612735282339,
+      "total_evaluated": 1826,
+      "confusion_matrix": {
+        "true_positives": 688,
+        "true_negatives": 17,
+        "false_positives": 1102,
+        "false_negatives": 19
+      }
+    },
+    "invalid_examples": [
+      {
+        "review": "I love sci-fi and am willing to put up with a lot. Sci-fi movies/TV are usually underfunded, under-a...",
+        "response": " Not small><>.and.and.but"
+      },
+      {
+        "review": "Worth the entertainment value of a rental, especially if you like action movies. This one features t...",
+        "response": " \" ( ) ( )(()(()))()"
+      },
+      {
+        "review": "its a totally average film with a few semi-alright action sequences that make the plot seem a little...",
+        "response": " 1-2000!"
+      },
+      {
+        "review": "STAR RATING: ***** Saturday Night **** Friday Night *** Friday Morning ** Sunday Night * Monday Morn...",
+        "response": " 125000-"
+      },
+      {
+        "review": "First off let me say, If you haven't enjoyed a Van Damme movie since bloodsport, you probably will n...",
+        "response": " 1-2000!"
+      },
+      {
+        "review": "I had high hopes for this one until they changed the name to 'The Shepherd : Border Patrol, the lame...",
+        "response": " 1-2000!"
+      },
+      {
+        "review": "Isaac Florentine has made some of the best western Martial Arts action movies ever produced. In part...",
+        "response": " \" ... there so i s o g"
+      },
+      {
+        "review": "Honestly awful film, bad editing, awful lighting, dire dialog and scrappy screenplay.<br /><br />The...",
+        "response": " 1-2000$"
+      },
+      {
+        "review": "This flick is a waste of time.I expect from an action movie to have more than 2 explosions and some ...",
+        "response": " I think that there are too/to/"
+      },
+      {
+        "review": "Blind Date (Columbia Pictures, 1934), was a decent film, but I have a few issues with this film. Fir...",
+        "response": " It took without nothing from their families after"
+      }
+    ]
+  }
+}

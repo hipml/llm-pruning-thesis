@@ -1,0 +1,75 @@
+{
+  "metadata": {
+    "timestamp": "20241212_210230",
+    "model_name": "meta-llama/Meta-Llama-3-8B",
+    "num_pruned_layers": 20,
+    "has_adapter": true,
+    "task": "imdb"
+  },
+  "metrics": {
+    "response_quality": {
+      "total_responses": 25000,
+      "valid_responses": 3163,
+      "invalid_responses": 21837,
+      "invalid_percentage": 87.348
+    },
+    "metrics": {
+      "accuracy": 0.4935188112551375,
+      "evaluate_accuracy": {
+        "accuracy": 0.06244
+      },
+      "precision": 0.49397972116603295,
+      "recall": 0.9968030690537084,
+      "f1": 0.6605932203389829,
+      "total_evaluated": 3163,
+      "confusion_matrix": {
+        "true_positives": 1559,
+        "true_negatives": 2,
+        "false_positives": 1597,
+        "false_negatives": 5
+      }
+    },
+    "invalid_examples": [
+      {
+        "review": "I love sci-fi and am willing to put up with a lot. Sci-fi movies/TV are usually underfunded, under-a...",
+        "response": " This has been very much my best experience"
+      },
+      {
+        "review": "Worth the entertainment value of a rental, especially if you like action movies. This one features t...",
+        "response": " You have not no any other or not"
+      },
+      {
+        "review": "its a totally average film with a few semi-alright action sequences that make the plot seem a little...",
+        "response": " I am my self for this one!"
+      },
+      {
+        "review": "STAR RATING: ***** Saturday Night **** Friday Night *** Friday Morning ** Sunday Night * Monday Morn...",
+        "response": " 0 - No No No..\n"
+      },
+      {
+        "review": "First off let me say, If you haven't enjoyed a Van Damme movie since bloodsport, you probably will n...",
+        "response": " The The The..\nI've been"
+      },
+      {
+        "review": "I had high hopes for this one until they changed the name to 'The Shepherd : Border Patrol, the lame...",
+        "response": " I have very much my own\u00a0\u00a0"
+      },
+      {
+        "review": "Isaac Florentine has made some of the best western Martial Arts action movies ever produced. In part...",
+        "response": " If if iiiiiii34"
+      },
+      {
+        "review": "It actually pains me to say it, but this movie was horrible on every level. The blame does not lie e...",
+        "response": " This has been very very VERY VERY V"
+      },
+      {
+        "review": "Honestly awful film, bad editing, awful lighting, dire dialog and scrappy screenplay.<br /><br />The...",
+        "response": " The The The..\nI've been"
+      },
+      {
+        "review": "Blind Date (Columbia Pictures, 1934), was a decent film, but I have a few issues with this film. Fir...",
+        "response": " This is one one one no no non"
+      }
+    ]
+  }
+}

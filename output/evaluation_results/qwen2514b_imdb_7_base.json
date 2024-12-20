@@ -1,0 +1,75 @@
+{
+  "metadata": {
+    "timestamp": "20241216_025111",
+    "model_name": "Qwen/Qwen2.5-14B",
+    "num_pruned_layers": 7,
+    "has_adapter": false,
+    "task": "imdb"
+  },
+  "metrics": {
+    "response_quality": {
+      "total_responses": 25000,
+      "valid_responses": 7335,
+      "invalid_responses": 17665,
+      "invalid_percentage": 70.66
+    },
+    "metrics": {
+      "accuracy": 0.7374233128834355,
+      "evaluate_accuracy": {
+        "accuracy": 0.21636
+      },
+      "precision": 0.7311265969802555,
+      "recall": 0.46252755326965467,
+      "f1": 0.5666066606660666,
+      "total_evaluated": 7335,
+      "confusion_matrix": {
+        "true_positives": 1259,
+        "true_negatives": 4150,
+        "false_positives": 463,
+        "false_negatives": 1463
+      }
+    },
+    "invalid_examples": [
+      {
+        "review": "I love sci-fi and am willing to put up with a lot. Sci-fi movies/TV are usually underfunded, under-a...",
+        "response": " \n\npipe"
+      },
+      {
+        "review": "Worth the entertainment value of a rental, especially if you like action movies. This one features t...",
+        "response": " \n ~~"
+      },
+      {
+        "review": "First off let me say, If you haven't enjoyed a Van Damme movie since bloodsport, you probably will n...",
+        "response": " \nZ"
+      },
+      {
+        "review": "I had high hopes for this one until they changed the name to 'The Shepherd : Border Patrol, the lame...",
+        "response": " 0"
+      },
+      {
+        "review": "Isaac Florentine has made some of the best western Martial Arts action movies ever produced. In part...",
+        "response": " \n<"
+      },
+      {
+        "review": "It actually pains me to say it, but this movie was horrible on every level. The blame does not lie e...",
+        "response": " \nNOT"
+      },
+      {
+        "review": "Technically I'am a Van Damme Fan, or I was. this movie is so bad that I hated myself for wasting tho...",
+        "response": " \n\u6709"
+      },
+      {
+        "review": "Honestly awful film, bad editing, awful lighting, dire dialog and scrappy screenplay.<br /><br />The...",
+        "response": " \n :"
+      },
+      {
+        "review": "I saw the Mogul Video VHS of this. That's another one of those old 1980s distributors whose catalog ...",
+        "response": ""
+      },
+      {
+        "review": "A group of heirs to a mysterious old mansion find out that they have to live in it as part of a clau...",
+        "response": " \n :"
+      }
+    ]
+  }
+}

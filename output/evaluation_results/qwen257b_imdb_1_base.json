@@ -1,0 +1,75 @@
+{
+  "metadata": {
+    "timestamp": "20241214_040316",
+    "model_name": "Qwen/Qwen2.5-7B",
+    "num_pruned_layers": 1,
+    "has_adapter": false,
+    "task": "imdb"
+  },
+  "metrics": {
+    "response_quality": {
+      "total_responses": 25000,
+      "valid_responses": 23312,
+      "invalid_responses": 1688,
+      "invalid_percentage": 6.752
+    },
+    "metrics": {
+      "accuracy": 0.8782601235415237,
+      "evaluate_accuracy": {
+        "accuracy": 0.81896
+      },
+      "precision": 0.8352841521638688,
+      "recall": 0.9394595530919799,
+      "f1": 0.8843143649111364,
+      "total_evaluated": 23312,
+      "confusion_matrix": {
+        "true_positives": 10847,
+        "true_negatives": 9627,
+        "false_positives": 2139,
+        "false_negatives": 699
+      }
+    },
+    "invalid_examples": [
+      {
+        "review": "Beware, My Lovely (1952) Dir: Harry Horner <br /><br />Production: The Filmmakers/RKO Radio Pictures...",
+        "response": ""
+      },
+      {
+        "review": "Artificial melodrama with a screenplay adapted by Mel Dinelli from his play \"The Man\" concerns a boa...",
+        "response": " \n3"
+      },
+      {
+        "review": "There are many different versions of this one floating around, so make sure you can locate one of th...",
+        "response": ""
+      },
+      {
+        "review": "I and a friend rented this movie. We both found the movie soundtrack and production techniques to be...",
+        "response": " To provide"
+      },
+      {
+        "review": "Rita Hayworth plays a Brooklyn nightclub dancer named Rusty who specializes in cheesecake chorus rev...",
+        "response": " \nA"
+      },
+      {
+        "review": "\"Cover Girl\" is a lacklustre WWII musical with absolutely nothing memorable about it, save for its s...",
+        "response": " N/A"
+      },
+      {
+        "review": "Julie Andrews satirically prods her own goody-two-shoes image in this overproduced musical comedy-dr...",
+        "response": " \n1"
+      },
+      {
+        "review": "Years ago, when DARLING LILI played on TV, it was always the pan and scan version, which I hated and...",
+        "response": " need to"
+      },
+      {
+        "review": "I`m in two minds about FOLLOWING , the film debut of Christopher Nolan . Part of me admires it for c...",
+        "response": " Based\n\n"
+      },
+      {
+        "review": "After 15 minutes watching the movie I was asking myself what to do: leave the theater, sleep or try ...",
+        "response": " To be"
+      }
+    ]
+  }
+}

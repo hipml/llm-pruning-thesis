@@ -1,0 +1,75 @@
+{
+  "metadata": {
+    "timestamp": "20241213_193958",
+    "model_name": "Qwen/Qwen2.5-0.5B",
+    "num_pruned_layers": 5,
+    "has_adapter": true,
+    "task": "imdb"
+  },
+  "metrics": {
+    "response_quality": {
+      "total_responses": 25000,
+      "valid_responses": 2004,
+      "invalid_responses": 22996,
+      "invalid_percentage": 91.984
+    },
+    "metrics": {
+      "accuracy": 0.49800399201596807,
+      "evaluate_accuracy": {
+        "accuracy": 0.03992
+      },
+      "precision": 0.4977533699450824,
+      "recall": 1.0,
+      "f1": 0.6646666666666666,
+      "total_evaluated": 2004,
+      "confusion_matrix": {
+        "true_positives": 997,
+        "true_negatives": 1,
+        "false_positives": 1006,
+        "false_negatives": 0
+      }
+    },
+    "invalid_examples": [
+      {
+        "review": "I love sci-fi and am willing to put up with a lot. Sci-fi movies/TV are usually underfunded, under-a...",
+        "response": " This...\n"
+      },
+      {
+        "review": "its a totally average film with a few semi-alright action sequences that make the plot seem a little...",
+        "response": " \u9010\u6e10"
+      },
+      {
+        "review": "STAR RATING: ***** Saturday Night **** Friday Night *** Friday Morning ** Sunday Night * Monday Morn...",
+        "response": "  \""
+      },
+      {
+        "review": "First off let me say, If you haven't enjoyed a Van Damme movie since bloodsport, you probably will n...",
+        "response": " 3"
+      },
+      {
+        "review": "I had high hopes for this one until they changed the name to 'The Shepherd : Border Patrol, the lame...",
+        "response": " 1"
+      },
+      {
+        "review": "Isaac Florentine has made some of the best western Martial Arts action movies ever produced. In part...",
+        "response": " <>\n"
+      },
+      {
+        "review": "It actually pains me to say it, but this movie was horrible on every level. The blame does not lie e...",
+        "response": " This match"
+      },
+      {
+        "review": "Technically I'am a Van Damme Fan, or I was. this movie is so bad that I hated myself for wasting tho...",
+        "response": " The_r"
+      },
+      {
+        "review": "Honestly awful film, bad editing, awful lighting, dire dialog and scrappy screenplay.<br /><br />The...",
+        "response": " 9"
+      },
+      {
+        "review": "This flick is a waste of time.I expect from an action movie to have more than 2 explosions and some ...",
+        "response": " I've"
+      }
+    ]
+  }
+}

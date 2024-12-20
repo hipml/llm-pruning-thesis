@@ -1,0 +1,75 @@
+{
+  "metadata": {
+    "timestamp": "20241216_032611",
+    "model_name": "Qwen/Qwen2.5-14B",
+    "num_pruned_layers": 5,
+    "has_adapter": true,
+    "task": "imdb"
+  },
+  "metrics": {
+    "response_quality": {
+      "total_responses": 25000,
+      "valid_responses": 24415,
+      "invalid_responses": 585,
+      "invalid_percentage": 2.34
+    },
+    "metrics": {
+      "accuracy": 0.5429039524882244,
+      "evaluate_accuracy": {
+        "accuracy": 0.5302
+      },
+      "precision": 0.5226485307327089,
+      "recall": 1.0,
+      "f1": 0.6864992415304231,
+      "total_evaluated": 24415,
+      "confusion_matrix": {
+        "true_positives": 12219,
+        "true_negatives": 1036,
+        "false_positives": 11160,
+        "false_negatives": 0
+      }
+    },
+    "invalid_examples": [
+      {
+        "review": "'Bloody Birthday' is an odd and, at times, humorous low-budget horror flick along the lines of 'Mike...",
+        "response": " Bloody B"
+      },
+      {
+        "review": "Bloody Birthday is a totally rubbish slasher movie from beginning to end. <br /><br />I found the ac...",
+        "response": " Bloody B"
+      },
+      {
+        "review": "Bloody Birthday opens to a shot of Meadowvale General Hospital. There three babies are being born at...",
+        "response": " Bloody B"
+      },
+      {
+        "review": "Years ago, when DARLING LILI played on TV, it was always the pan and scan version, which I hated and...",
+        "response": " get four"
+      },
+      {
+        "review": "What do you do with all the material that does not make the final edit of a film? You might keep it ...",
+        "response": " 1"
+      },
+      {
+        "review": "I watched the 219 minute version and have to say that dollar-for-dollar, it it probably one of the w...",
+        "response": ", everyone"
+      },
+      {
+        "review": "The recent death of Stephen Bach, one of the producers of HEAVEN'S GATE, has raised the specter of a...",
+        "response": ". And"
+      },
+      {
+        "review": "You have to acknowledge Cimino's contribution to cinema. He gave us both the most over-rated film in...",
+        "response": " wanted.\n"
+      },
+      {
+        "review": "Rose \u0096 Does anything actually happen in this episode? It introduces our two leads, a slow-witted gri...",
+        "response": " long as"
+      },
+      {
+        "review": "AWiP tries to be funny, scary, tense, and romantic ... and fails in every respect. The acting is ave...",
+        "response": " AW  "
+      }
+    ]
+  }
+}

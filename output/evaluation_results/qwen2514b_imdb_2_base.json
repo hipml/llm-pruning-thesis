@@ -1,0 +1,75 @@
+{
+  "metadata": {
+    "timestamp": "20241216_003616",
+    "model_name": "Qwen/Qwen2.5-14B",
+    "num_pruned_layers": 2,
+    "has_adapter": false,
+    "task": "imdb"
+  },
+  "metrics": {
+    "response_quality": {
+      "total_responses": 25000,
+      "valid_responses": 22576,
+      "invalid_responses": 2424,
+      "invalid_percentage": 9.696
+    },
+    "metrics": {
+      "accuracy": 0.8607813607370659,
+      "evaluate_accuracy": {
+        "accuracy": 0.77732
+      },
+      "precision": 0.8068568050834934,
+      "recall": 0.9537950912743471,
+      "f1": 0.8741944522275147,
+      "total_evaluated": 22576,
+      "confusion_matrix": {
+        "true_positives": 10920,
+        "true_negatives": 8513,
+        "false_positives": 2614,
+        "false_negatives": 529
+      }
+    },
+    "invalid_examples": [
+      {
+        "review": "Seriously, I can't imagine how anyone could find a single flattering thing to say about this movie, ...",
+        "response": " 1"
+      },
+      {
+        "review": "this film has no plot, no good acting, to be honest it has nothing, the same songs play over and ove...",
+        "response": " This qualifies"
+      },
+      {
+        "review": "Beware, My Lovely (1952) Dir: Harry Horner <br /><br />Production: The Filmmakers/RKO Radio Pictures...",
+        "response": ""
+      },
+      {
+        "review": "This film is about a couple that decides to take a vacation to The Everglades along with another cou...",
+        "response": " This shows"
+      },
+      {
+        "review": "generally speaking I don't make negative comments on here. But since this is a festival piece, I don...",
+        "response": " This is"
+      },
+      {
+        "review": "Art-house horror tries to use unconventional aesthetics to cover the fact that this is just another ...",
+        "response": " This review"
+      },
+      {
+        "review": "Jacqueline Hyde starts like any other normal day for telemarketing individual Jackie Hyde (co-produc...",
+        "response": ""
+      },
+      {
+        "review": "This movie cannot be serious because it has a nerdy looking kid named Curtis killing people. The oth...",
+        "response": " This sentence"
+      },
+      {
+        "review": "Bloody Birthday opens to a shot of Meadowvale General Hospital. There three babies are being born at...",
+        "response": ""
+      },
+      {
+        "review": "Years ago, when DARLING LILI played on TV, it was always the pan and scan version, which I hated and...",
+        "response": " need \u201c"
+      }
+    ]
+  }
+}

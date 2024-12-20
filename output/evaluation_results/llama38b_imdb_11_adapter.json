@@ -1,0 +1,75 @@
+{
+  "metadata": {
+    "timestamp": "20241214_012238",
+    "model_name": "meta-llama/Meta-Llama-3-8B",
+    "num_pruned_layers": 11,
+    "has_adapter": true,
+    "task": "imdb"
+  },
+  "metrics": {
+    "response_quality": {
+      "total_responses": 25000,
+      "valid_responses": 18868,
+      "invalid_responses": 6132,
+      "invalid_percentage": 24.528
+    },
+    "metrics": {
+      "accuracy": 0.7364320542717829,
+      "evaluate_accuracy": {
+        "accuracy": 0.5558
+      },
+      "precision": 0.6540740224437165,
+      "recall": 0.9989354907387694,
+      "f1": 0.7905311486458027,
+      "total_evaluated": 18868,
+      "confusion_matrix": {
+        "true_positives": 9384,
+        "true_negatives": 4511,
+        "false_positives": 4963,
+        "false_negatives": 10
+      }
+    },
+    "invalid_examples": [
+      {
+        "review": "Worth the entertainment value of a rental, especially if you like action movies. This one features t...",
+        "response": " \"\""
+      },
+      {
+        "review": "I had high hopes for this one until they changed the name to 'The Shepherd : Border Patrol, the lame...",
+        "response": " I think"
+      },
+      {
+        "review": "Technically I'am a Van Damme Fan, or I was. this movie is so bad that I hated myself for wasting tho...",
+        "response": " \"\""
+      },
+      {
+        "review": "A group of heirs to a mysterious old mansion find out that they have to live in it as part of a clau...",
+        "response": " \"\""
+      },
+      {
+        "review": "Now, I LOVE Italian horror films. The cheesier they are, the better. However, this is not cheesy Ita...",
+        "response": " 1"
+      },
+      {
+        "review": "This cheap, grainy-filmed Italian flick is about a couple of inheritors of a manor in the Italian co...",
+        "response": " 1"
+      },
+      {
+        "review": "Low budget horror movie. If you don't raise your expectations too high, you'll probably enjoy this l...",
+        "response": " \"\""
+      },
+      {
+        "review": "Dr Stephens (Micheal Harvey) runs a mental asylum. He has a different approach to the insane. He con...",
+        "response": " 1"
+      },
+      {
+        "review": "This movie had a very unique effect on me: it stalled my realization that this movie REALLY sucks! I...",
+        "response": " - +"
+      },
+      {
+        "review": "I gave this a 3 out of a possible 10 stars.<br /><br />Unless you like wasting your time watching an...",
+        "response": " \"\""
+      }
+    ]
+  }
+}

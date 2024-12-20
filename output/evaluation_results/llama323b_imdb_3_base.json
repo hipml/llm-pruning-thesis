@@ -1,0 +1,75 @@
+{
+  "metadata": {
+    "timestamp": "20241216_143424",
+    "model_name": "meta-llama/Llama-3.2-3B",
+    "num_pruned_layers": 3,
+    "has_adapter": false,
+    "task": "imdb"
+  },
+  "metrics": {
+    "response_quality": {
+      "total_responses": 25000,
+      "valid_responses": 16050,
+      "invalid_responses": 8950,
+      "invalid_percentage": 35.8
+    },
+    "metrics": {
+      "accuracy": 0.5206230529595015,
+      "evaluate_accuracy": {
+        "accuracy": 0.33424
+      },
+      "precision": 0.4773411781186524,
+      "recall": 0.9670781893004116,
+      "f1": 0.6391858938285501,
+      "total_evaluated": 16050,
+      "confusion_matrix": {
+        "true_positives": 6815,
+        "true_negatives": 1541,
+        "false_positives": 7462,
+        "false_negatives": 232
+      }
+    },
+    "invalid_examples": [
+      {
+        "review": "Technically I'am a Van Damme Fan, or I was. this movie is so bad that I hated myself for wasting tho...",
+        "response": " \"\""
+      },
+      {
+        "review": "This flick is a waste of time.I expect from an action movie to have more than 2 explosions and some ...",
+        "response": " I *"
+      },
+      {
+        "review": "Blind Date (Columbia Pictures, 1934), was a decent film, but I have a few issues with this film. Fir...",
+        "response": " REVIEW\n"
+      },
+      {
+        "review": "This cheap, grainy-filmed Italian flick is about a couple of inheritors of a manor in the Italian co...",
+        "response": " Review\n\n"
+      },
+      {
+        "review": "I just finished watching this movie and am disappointed to say that I didn't enjoy it a bit. It is s...",
+        "response": " Review\n\n"
+      },
+      {
+        "review": "Ben, (Rupert Grint), is a deeply unhappy adolescent, the son of his unhappily married parents. His f...",
+        "response": " REVIEW :"
+      },
+      {
+        "review": "Every movie I have PPV'd because Leonard Maltin praised it to the skies has blown chunks! Every sing...",
+        "response": " Review *"
+      },
+      {
+        "review": "Four things intrigued me as to this film - firstly, it stars Carly Pope (of \"Popular\" fame), who is ...",
+        "response": " Review was"
+      },
+      {
+        "review": "<br /><br />Never ever take a film just for its good looking title.<br /><br />Although it all start...",
+        "response": "  *"
+      },
+      {
+        "review": "Lowe returns to the nest after, yet another, failed relationship, to find he's been assigned to jury...",
+        "response": " Review -"
+      }
+    ]
+  }
+}

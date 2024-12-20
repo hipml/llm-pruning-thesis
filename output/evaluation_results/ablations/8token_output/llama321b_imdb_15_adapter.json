@@ -1,0 +1,75 @@
+{
+  "metadata": {
+    "timestamp": "20241211_225507",
+    "model_name": "meta-llama/Llama-3.2-1B",
+    "num_pruned_layers": 15,
+    "has_adapter": true,
+    "task": "imdb"
+  },
+  "metrics": {
+    "response_quality": {
+      "total_responses": 25000,
+      "valid_responses": 2,
+      "invalid_responses": 24998,
+      "invalid_percentage": 99.992
+    },
+    "metrics": {
+      "accuracy": 0.5,
+      "evaluate_accuracy": {
+        "accuracy": 4e-05
+      },
+      "precision": 0.5,
+      "recall": 1.0,
+      "f1": 0.6666666666666666,
+      "total_evaluated": 2,
+      "confusion_matrix": {
+        "true_positives": 1,
+        "true_negatives": 0,
+        "false_positives": 1,
+        "false_negatives": 0
+      }
+    },
+    "invalid_examples": [
+      {
+        "review": "I love sci-fi and am willing to put up with a lot. Sci-fi movies/TV are usually underfunded, under-a...",
+        "response": " A\u201d Cancer traceeter \u201cThe year"
+      },
+      {
+        "review": "Worth the entertainment value of a rental, especially if you like action movies. This one features t...",
+        "response": " IticocaCA CAIENT ~ it"
+      },
+      {
+        "review": "its a totally average film with a few semi-alright action sequences that make the plot seem a little...",
+        "response": " 8.\nI can get\u2019t T"
+      },
+      {
+        "review": "STAR RATING: ***** Saturday Night **** Friday Night *** Friday Morning ** Sunday Night * Monday Morn...",
+        "response": " 8.\nI have you\u2019t T"
+      },
+      {
+        "review": "First off let me say, If you haven't enjoyed a Van Damme movie since bloodsport, you probably will n...",
+        "response": " 8.\nI can be\u2019t T"
+      },
+      {
+        "review": "I had high hopes for this one until they changed the name to 'The Shepherd : Border Patrol, the lame...",
+        "response": " 8-9 (5 I can"
+      },
+      {
+        "review": "Isaac Florentine has made some of the best western Martial Arts action movies ever produced. In part...",
+        "response": " your brand masters girl girls women WomenWomen"
+      },
+      {
+        "review": "It actually pains me to say it, but this movie was horrible on every level. The blame does not lie e...",
+        "response": " ItI are used for your brand masters"
+      },
+      {
+        "review": "Technically I'am a Van Damme Fan, or I was. this movie is so bad that I hated myself for wasting tho...",
+        "response": " The0 of from AI can get"
+      },
+      {
+        "review": "Honestly awful film, bad editing, awful lighting, dire dialog and scrappy screenplay.<br /><br />The...",
+        "response": " 8.\nI will\u2019t TT"
+      }
+    ]
+  }
+}

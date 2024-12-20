@@ -1,0 +1,75 @@
+{
+  "metadata": {
+    "timestamp": "20241213_230140",
+    "model_name": "meta-llama/Meta-Llama-3-8B",
+    "num_pruned_layers": 3,
+    "has_adapter": false,
+    "task": "imdb"
+  },
+  "metrics": {
+    "response_quality": {
+      "total_responses": 25000,
+      "valid_responses": 24397,
+      "invalid_responses": 603,
+      "invalid_percentage": 2.412
+    },
+    "metrics": {
+      "accuracy": 0.9160552526950034,
+      "evaluate_accuracy": {
+        "accuracy": 0.89396
+      },
+      "precision": 0.8812156774242083,
+      "recall": 0.961503734712304,
+      "f1": 0.919610613911132,
+      "total_evaluated": 24397,
+      "confusion_matrix": {
+        "true_positives": 11714,
+        "true_negatives": 10635,
+        "false_positives": 1579,
+        "false_negatives": 469
+      }
+    },
+    "invalid_examples": [
+      {
+        "review": "Dr Stephens (Micheal Harvey) runs a mental asylum. He has a different approach to the insane. He con...",
+        "response": ""
+      },
+      {
+        "review": "Beware, My Lovely (1952) Dir: Harry Horner <br /><br />Production: The Filmmakers/RKO Radio Pictures...",
+        "response": " * \u2022"
+      },
+      {
+        "review": "Years ago, when DARLING LILI played on TV, it was always the pan and scan version, which I hated and...",
+        "response": " second El"
+      },
+      {
+        "review": "Comparing Oceans Twelve to the 2001 Oceans Eleven, did anyone else notice all the things that stayed...",
+        "response": " <a"
+      },
+      {
+        "review": "I watched the 219 minute version and have to say that dollar-for-dollar, it it probably one of the w...",
+        "response": " does make"
+      },
+      {
+        "review": "The recent death of Stephen Bach, one of the producers of HEAVEN'S GATE, has raised the specter of a...",
+        "response": "p&uuml"
+      },
+      {
+        "review": "You have to acknowledge Cimino's contribution to cinema. He gave us both the most over-rated film in...",
+        "response": " /atra"
+      },
+      {
+        "review": "Rose \u0096 Does anything actually happen in this episode? It introduces our two leads, a slow-witted gri...",
+        "response": "? The"
+      },
+      {
+        "review": "I'm an atheist. To me history and truth mean a lot.<br /><br />This film is made after a novel publi...",
+        "response": " us humans"
+      },
+      {
+        "review": "'Felony' is a B-movie. No doubt about it.<br /><br />Of course, if you take a look at the cast lineu...",
+        "response": ". Perhaps"
+      }
+    ]
+  }
+}

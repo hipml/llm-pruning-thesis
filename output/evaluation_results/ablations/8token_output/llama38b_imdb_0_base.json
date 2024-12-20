@@ -1,0 +1,75 @@
+{
+  "metadata": {
+    "timestamp": "20241212_115708",
+    "model_name": "meta-llama/Meta-Llama-3-8B",
+    "num_pruned_layers": 0,
+    "has_adapter": false,
+    "task": "imdb"
+  },
+  "metrics": {
+    "response_quality": {
+      "total_responses": 25000,
+      "valid_responses": 24561,
+      "invalid_responses": 439,
+      "invalid_percentage": 1.756
+    },
+    "metrics": {
+      "accuracy": 0.8614062945319816,
+      "evaluate_accuracy": {
+        "accuracy": 0.84628
+      },
+      "precision": 0.7885342019543974,
+      "recall": 0.9871146631870821,
+      "f1": 0.8767202665507751,
+      "total_evaluated": 24561,
+      "confusion_matrix": {
+        "true_positives": 12104,
+        "true_negatives": 9053,
+        "false_positives": 3246,
+        "false_negatives": 158
+      }
+    },
+    "invalid_examples": [
+      {
+        "review": "Years ago, when DARLING LILI played on TV, it was always the pan and scan version, which I hated and...",
+        "response": " second time how Julie gets shot down over"
+      },
+      {
+        "review": "I watched the 219 minute version and have to say that dollar-for-dollar, it it probably one of the w...",
+        "response": " does make things clearer, it still doesn"
+      },
+      {
+        "review": "The recent death of Stephen Bach, one of the producers of HEAVEN'S GATE, has raised the specter of a...",
+        "response": "p>There is also the matter of"
+      },
+      {
+        "review": "You have to acknowledge Cimino's contribution to cinema. He gave us both the most over-rated film in...",
+        "response": " />\nI'm surprised nobody has commented yet"
+      },
+      {
+        "review": "Rose \u0096 Does anything actually happen in this episode? It introduces our two leads, a slow-witted gri...",
+        "response": "? And finally, why do the Dale"
+      },
+      {
+        "review": "I'm an atheist. To me history and truth mean a lot.<br /><br />This film is made after a novel publi...",
+        "response": " us to watch. We don't need"
+      },
+      {
+        "review": "I finally got hold of a DVD copy of this production and was agog with curiosity, since I had read so...",
+        "response": " show and listen to them both separately rather"
+      },
+      {
+        "review": "Oh, why did it have to end like this? Laurel and Hardy's last film, from the crudely cranked-up Cuck...",
+        "response": " shark. While this may seem harmless enough"
+      },
+      {
+        "review": "Wrestlemania 2 is the only Wrestlemania|thank god| to be held at three different locations, and Whil...",
+        "response": "3/5 <br /><Br />"
+      },
+      {
+        "review": "My husband brought this home from the video store, so I could watch something while stuck home sick....",
+        "response": ""
+      }
+    ]
+  }
+}

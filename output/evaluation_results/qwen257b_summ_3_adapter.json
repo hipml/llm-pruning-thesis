@@ -1,0 +1,38 @@
+{
+  "metadata": {
+    "timestamp": "20241213_130530",
+    "model_name": "Qwen/Qwen2.5-7B",
+    "num_pruned_layers": 3,
+    "has_adapter": true,
+    "task": "summ"
+  },
+  "metrics": {
+    "metrics": {
+      "rouge": {
+        "rouge1": 0.049731895327568054,
+        "rouge2": 0.0013046299573034048,
+        "rougeL": 0.04537883773446083
+      }
+    },
+    "examples": {
+      "predictions": [
+        "Prisoners' relatives and family relations are believed to be the main reason why what is called 'the seasonant (a person who lives in the political and social",
+        "Officers' action to follow \u2013 if you have anthrathon\n1300 days ago .",
+        "Jordan\u2019s not going back.",
+        "Theatre time over, or just plain ol'tstvz [h\u201d$i&\u2019\u2013\u00b7\u00a0-+V,,\nor not.",
+        "Resti*ca boerale f n o p r s t # # *nchoaheefwshdofsklflqfpct"
+      ],
+      "references": [
+        "There is a \"chronic\" need for more housing for prison leavers in Wales, according to a charity.",
+        "A man has appeared in court after firearms, ammunition and cash were seized by police in Edinburgh.",
+        "Four people accused of kidnapping and torturing a mentally disabled man in a \"racially motivated\" attack streamed on Facebook have been denied bail.",
+        "West Brom have appointed Nicky Hammond as technical director, ending his 20-year association with Reading.",
+        "The pancreas can be triggered to regenerate itself through a type of fasting diet, say US researchers."
+      ]
+    },
+    "summary": {
+      "total_samples": 11334,
+      "avg_summary_length": 8.02593994140625
+    }
+  }
+}

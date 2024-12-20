@@ -1,0 +1,75 @@
+{
+  "metadata": {
+    "timestamp": "20241212_110452",
+    "model_name": "Qwen/Qwen2.5-7B",
+    "num_pruned_layers": 26,
+    "has_adapter": false,
+    "task": "imdb"
+  },
+  "metrics": {
+    "response_quality": {
+      "total_responses": 25000,
+      "valid_responses": 14,
+      "invalid_responses": 24986,
+      "invalid_percentage": 99.944
+    },
+    "metrics": {
+      "accuracy": 0.2857142857142857,
+      "evaluate_accuracy": {
+        "accuracy": 0.00016
+      },
+      "precision": 0.6666666666666666,
+      "recall": 0.18181818181818182,
+      "f1": 0.28571428571428575,
+      "total_evaluated": 14,
+      "confusion_matrix": {
+        "true_positives": 2,
+        "true_negatives": 2,
+        "false_positives": 1,
+        "false_negatives": 9
+      }
+    },
+    "invalid_examples": [
+      {
+        "review": "I love sci-fi and am willing to put up with a lot. Sci-fi movies/TV are usually underfunded, under-a...",
+        "response": "\u4ece\u6839\u672c\u8bb0\u8005\u4e86\u89e3\u4e0b\u9762\u5c0f\u7f16\u4e4c\u514b usleep seins \u82e5\u8981\u4eca\u5929\u5c0f\u7f16"
+      },
+      {
+        "review": "Worth the entertainment value of a rental, especially if you like action movies. This one features t...",
+        "response": "\u4ece\u6839\u672c\u8bb0\u8005\u4e86\u89e3\u4e0b\u9762\u5c0f\u7f16\u4e4c\u514b usleep seins \u82e5\u8981\u4eca\u5929\u5c0f\u7f16"
+      },
+      {
+        "review": "its a totally average film with a few semi-alright action sequences that make the plot seem a little...",
+        "response": "\u4ece\u6839\u672c\u8bb0\u8005\u4e86\u89e3\u4e0b\u9762\u5c0f\u7f16 masturbating \u82e5\u8981\u4eca\u5929\u5c0f\u7f16\u4e4c\u514b\u7118"
+      },
+      {
+        "review": "STAR RATING: ***** Saturday Night **** Friday Night *** Friday Morning ** Sunday Night * Monday Morn...",
+        "response": "\u4ece\u6839\u672c\u8bb0\u8005\u4e86\u89e3\u4e0b\u9762\u5c0f\u7f16\u4e4c\u514b usleep seins \u82e5\u8981\u4eca\u5929\u5c0f\u7f16"
+      },
+      {
+        "review": "First off let me say, If you haven't enjoyed a Van Damme movie since bloodsport, you probably will n...",
+        "response": "\u4ece\u6839\u672c\u8bb0\u8005\u4e86\u89e3\u4e0b\u9762\u5c0f\u7f16 masturbating-strokes \u82e5\u8981\u4eca\u5929\u5c0f\u7f16\u4e4c\u514b"
+      },
+      {
+        "review": "I had high hopes for this one until they changed the name to 'The Shepherd : Border Patrol, the lame...",
+        "response": "\u4ece\u6839\u672c\u8bb0\u8005\u4e86\u89e3\u4e0b\u9762\u5c0f\u7f16 masturbating-strokes \u82e5\u8981\u4eca\u5929\u5c0f\u7f16\u4e4c\u514b"
+      },
+      {
+        "review": "Isaac Florentine has made some of the best western Martial Arts action movies ever produced. In part...",
+        "response": "\u4ece\u6839\u672c\u610f\u4e49\u4e0a\tgetline\ufffd\ufffd \u82e5\u8981al eiusplaceholders"
+      },
+      {
+        "review": "It actually pains me to say it, but this movie was horrible on every level. The blame does not lie e...",
+        "response": "\u4ece\u6839\u672c\u8bb0\u8005\u4e86\u89e3\u4e0b\u9762\u5c0f\u7f16\u4e4c\u514b usleep seins \u82e5\u8981\u4eca\u5929\u5c0f\u7f16"
+      },
+      {
+        "review": "Technically I'am a Van Damme Fan, or I was. this movie is so bad that I hated myself for wasting tho...",
+        "response": "\u4ece\u6839\u672c\u8bb0\u8005\u4e86\u89e3\u4e0b\u9762\u5c0f\u7f16 masturbating-strokes \u82e5\u8981\u4eca\u5929\u5c0f\u7f16\u4e4c\u514b"
+      },
+      {
+        "review": "Honestly awful film, bad editing, awful lighting, dire dialog and scrappy screenplay.<br /><br />The...",
+        "response": "\u4ece\u6839\u672c\u8bb0\u8005\u4e86\u89e3\u4e0b\u9762\u5c0f\u7f16 masturbating \u82e5\u8981\u4eca\u5929\u5c0f\u7f16\u4e4c\u514b\u7118"
+      }
+    ]
+  }
+}

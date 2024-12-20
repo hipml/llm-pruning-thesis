@@ -1,0 +1,75 @@
+{
+  "metadata": {
+    "timestamp": "20241213_192011",
+    "model_name": "Qwen/Qwen2.5-0.5B",
+    "num_pruned_layers": 1,
+    "has_adapter": false,
+    "task": "imdb"
+  },
+  "metrics": {
+    "response_quality": {
+      "total_responses": 25000,
+      "valid_responses": 20754,
+      "invalid_responses": 4246,
+      "invalid_percentage": 16.983999999999998
+    },
+    "metrics": {
+      "accuracy": 0.5611930230317047,
+      "evaluate_accuracy": {
+        "accuracy": 0.46588
+      },
+      "precision": 0.5454954504549545,
+      "recall": 0.9985357371648211,
+      "f1": 0.7055514242296874,
+      "total_evaluated": 20754,
+      "confusion_matrix": {
+        "true_positives": 10911,
+        "true_negatives": 736,
+        "false_positives": 9091,
+        "false_negatives": 16
+      }
+    },
+    "invalid_examples": [
+      {
+        "review": "I saw the Mogul Video VHS of this. That's another one of those old 1980s distributors whose catalog ...",
+        "response": ""
+      },
+      {
+        "review": "Dr Stephens (Micheal Harvey) runs a mental asylum. He has a different approach to the insane. He con...",
+        "response": ""
+      },
+      {
+        "review": "The Forgotten (AKA: Don't Look In The Basement) is a very cheaply made and very old looking horror m...",
+        "response": " <b"
+      },
+      {
+        "review": "<br /><br />Never ever take a film just for its good looking title.<br /><br />Although it all start...",
+        "response": " <b"
+      },
+      {
+        "review": "Seriously, I can't imagine how anyone could find a single flattering thing to say about this movie, ...",
+        "response": " \n-"
+      },
+      {
+        "review": "Beware, My Lovely (1952) Dir: Harry Horner <br /><br />Production: The Filmmakers/RKO Radio Pictures...",
+        "response": ""
+      },
+      {
+        "review": "Seeing the title of this movie \"Stupid Teenagers Must Die\" made me believe this was a spoof of some ...",
+        "response": " <p"
+      },
+      {
+        "review": "I found this movie really hard to sit through, my attention kept wandering off the tv. As far as rom...",
+        "response": " \nAnswer"
+      },
+      {
+        "review": "OK, so my summary line is a cheap trick. But the movie is full of them and it gets absurdly praised,...",
+        "response": " <5"
+      },
+      {
+        "review": "There are many different versions of this one floating around, so make sure you can locate one of th...",
+        "response": " Reviewing"
+      }
+    ]
+  }
+}

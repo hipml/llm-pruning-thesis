@@ -1,0 +1,75 @@
+{
+  "metadata": {
+    "timestamp": "20241213_193611",
+    "model_name": "Qwen/Qwen2.5-0.5B",
+    "num_pruned_layers": 4,
+    "has_adapter": true,
+    "task": "imdb"
+  },
+  "metrics": {
+    "response_quality": {
+      "total_responses": 25000,
+      "valid_responses": 7393,
+      "invalid_responses": 17607,
+      "invalid_percentage": 70.428
+    },
+    "metrics": {
+      "accuracy": 0.49479237116190994,
+      "evaluate_accuracy": {
+        "accuracy": 0.14632
+      },
+      "precision": 0.4947211694639957,
+      "recall": 0.9994531036368608,
+      "f1": 0.6618379357175193,
+      "total_evaluated": 7393,
+      "confusion_matrix": {
+        "true_positives": 3655,
+        "true_negatives": 3,
+        "false_positives": 3733,
+        "false_negatives": 2
+      }
+    },
+    "invalid_examples": [
+      {
+        "review": "its a totally average film with a few semi-alright action sequences that make the plot seem a little...",
+        "response": "  -"
+      },
+      {
+        "review": "STAR RATING: ***** Saturday Night **** Friday Night *** Friday Morning ** Sunday Night * Monday Morn...",
+        "response": " 2"
+      },
+      {
+        "review": "First off let me say, If you haven't enjoyed a Van Damme movie since bloodsport, you probably will n...",
+        "response": " 1"
+      },
+      {
+        "review": "I had high hopes for this one until they changed the name to 'The Shepherd : Border Patrol, the lame...",
+        "response": " 2"
+      },
+      {
+        "review": "Honestly awful film, bad editing, awful lighting, dire dialog and scrappy screenplay.<br /><br />The...",
+        "response": " 0"
+      },
+      {
+        "review": "This flick is a waste of time.I expect from an action movie to have more than 2 explosions and some ...",
+        "response": " I don"
+      },
+      {
+        "review": "I first watched this movie back in the mid/late 80's, when I was a kid. We couldn't even get all the...",
+        "response": " This of"
+      },
+      {
+        "review": "I saw the Mogul Video VHS of this. That's another one of those old 1980s distributors whose catalog ...",
+        "response": " This just"
+      },
+      {
+        "review": "A group of heirs to a mysterious old mansion find out that they have to live in it as part of a clau...",
+        "response": " I'll"
+      },
+      {
+        "review": "Now, I LOVE Italian horror films. The cheesier they are, the better. However, this is not cheesy Ita...",
+        "response": " 7"
+      }
+    ]
+  }
+}

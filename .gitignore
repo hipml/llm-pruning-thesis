@@ -1,0 +1,87 @@
+output/viz/
+*.xdv
+output/checkpoint-*
+logs/*
+cuda-12.4
+.conda/
+auto/
+
+# illinois campus compute 
+.conda-env/
+models/
+output/tensors
+
+# Python
+*.pyc
+__pycache__/
+*.egg-info/
+dist/
+build/
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb_meta
+
+# LaTeX
+*.aux
+*.bbl
+*.blg
+*.dvi
+*.fdb_latexmk
+*.fls
+*.idx
+*.ilg
+*.ind
+*.lof
+docs/paper/*.log
+*.lot
+*.out
+*.toc
+*.gz
+
+# Conda
+conda-meta/
+envs/
+
+# macOS
+.DS_Store
+
+# Linux
+*~
+.directory
+
+# VSCode
+.vscode/
+*.code-workspace
+*.vscode-launcher.json
+*.vscode-tasks.json
+
+# Other
+.cache/
+.project
+.pydevproject
+.settings/
+.idea/
+.virtual_documents
+
+models/llama-models
+models/meta-llama
+models/*.npz
+
+.huggingface_token
+*.npz
+output.txt
+*.pt
+
+# Emacs backup files
+*~
+\#*\#
+.\#*
+
+# Autosave files
+.auto-save-list/
+*.swo
+*.swp
+
+# Lock files
+*.lock

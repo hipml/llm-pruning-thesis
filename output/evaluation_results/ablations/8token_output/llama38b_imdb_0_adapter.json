@@ -1,0 +1,75 @@
+{
+  "metadata": {
+    "timestamp": "20241212_125030",
+    "model_name": "meta-llama/Meta-Llama-3-8B",
+    "num_pruned_layers": 0,
+    "has_adapter": true,
+    "task": "imdb"
+  },
+  "metrics": {
+    "response_quality": {
+      "total_responses": 25000,
+      "valid_responses": 24582,
+      "invalid_responses": 418,
+      "invalid_percentage": 1.672
+    },
+    "metrics": {
+      "accuracy": 0.8652672687332195,
+      "evaluate_accuracy": {
+        "accuracy": 0.8508
+      },
+      "precision": 0.791504033307312,
+      "recall": 0.9912823855303894,
+      "f1": 0.8801996672212978,
+      "total_evaluated": 24582,
+      "confusion_matrix": {
+        "true_positives": 12167,
+        "true_negatives": 9103,
+        "false_positives": 3205,
+        "false_negatives": 107
+      }
+    },
+    "invalid_examples": [
+      {
+        "review": "Years ago, when DARLING LILI played on TV, it was always the pan and scan version, which I hated and...",
+        "response": " second time how Julie gets out of bed"
+      },
+      {
+        "review": "These days, writers, directors and producers are relying more and more on the \"surprise\" ending. The...",
+        "response": " I'm not sure.\nI don't"
+      },
+      {
+        "review": "Comparing Oceans Twelve to the 2001 Oceans Eleven, did anyone else notice all the things that stayed...",
+        "response": " <a href=\"http://www.im"
+      },
+      {
+        "review": "I watched the 219 minute version and have to say that dollar-for-dollar, it it probably one of the w...",
+        "response": " does show us that the main characters survived"
+      },
+      {
+        "review": "The recent death of Stephen Bach, one of the producers of HEAVEN'S GATE, has raised the specter of a...",
+        "response": "BR><BR>There were two other"
+      },
+      {
+        "review": "You have to acknowledge Cimino's contribution to cinema. He gave us both the most over-rated film in...",
+        "response": " />(I am aware that many viewers"
+      },
+      {
+        "review": "Rose \u0096 Does anything actually happen in this episode? It introduces our two leads, a slow-witted gri...",
+        "response": "? And finally, why do the Dale"
+      },
+      {
+        "review": "I'm an atheist. To me history and truth mean a lot.<br /><br />This film is made after a novel publi...",
+        "response": " us to watch. We don't need"
+      },
+      {
+        "review": "I finally got hold of a DVD copy of this production and was agog with curiosity, since I had read so...",
+        "response": " show and listen to them separately.\nThis"
+      },
+      {
+        "review": "This is one of four 1970s movies by TV writer Lane Slate about sensationalistic murders in small tow...",
+        "response": " other scenes involving children, seem gratuitous"
+      }
+    ]
+  }
+}

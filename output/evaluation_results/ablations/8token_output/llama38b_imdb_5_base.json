@@ -1,0 +1,75 @@
+{
+  "metadata": {
+    "timestamp": "20241212_150106",
+    "model_name": "meta-llama/Meta-Llama-3-8B",
+    "num_pruned_layers": 5,
+    "has_adapter": false,
+    "task": "imdb"
+  },
+  "metrics": {
+    "response_quality": {
+      "total_responses": 25000,
+      "valid_responses": 23661,
+      "invalid_responses": 1339,
+      "invalid_percentage": 5.356000000000001
+    },
+    "metrics": {
+      "accuracy": 0.6686107941338066,
+      "evaluate_accuracy": {
+        "accuracy": 0.6328
+      },
+      "precision": 0.6023160140179796,
+      "recall": 0.9990732940185342,
+      "f1": 0.7515447257517666,
+      "total_evaluated": 23661,
+      "confusion_matrix": {
+        "true_positives": 11859,
+        "true_negatives": 3961,
+        "false_positives": 7830,
+        "false_negatives": 11
+      }
+    },
+    "invalid_examples": [
+      {
+        "review": "STAR RATING: ***** Saturday Night **** Friday Night *** Friday Morning ** Sunday Night * Monday Morn...",
+        "response": " \u00a0 \u00a0\u00a0 \u00a0& &\n[the"
+      },
+      {
+        "review": "I'm the type of guy who loves hood movies from New Jack City to Baby Boy to Killa Season, from the b...",
+        "response": " See\t\t;... \n"
+      },
+      {
+        "review": "this film has no plot, no good acting, to be honest it has nothing, the same songs play over and ove...",
+        "response": " See\n[] [i][/]"
+      },
+      {
+        "review": "The only reason this movie is not given a 1 (awful) vote is that the acting of both Ida Lupino and R...",
+        "response": " See above\n- - -  "
+      },
+      {
+        "review": "Years ago, when DARLING LILI played on TV, it was always the pan and scan version, which I hated and...",
+        "response": " secondalayehghighIGHUGH"
+      },
+      {
+        "review": "Following the pleasingly atmospheric original and the amusingly silly second one, this incredibly du...",
+        "response": " Wednesday/F/2/S\n\nGigh"
+      },
+      {
+        "review": "I was at Wrestlemania VI in Toronto as a 10 year old, and the event I saw then was pretty different ...",
+        "response": " [[[[[/ / \n  \n"
+      },
+      {
+        "review": "I never heard of this film when it first came out. It must have sunk immediately. :o) I saw it on ca...",
+        "response": " See 2.413\n"
+      },
+      {
+        "review": "This film is really a big piece of trash trying to make itself look like a Hollywood production.Poor...",
+        "response": " Read\t\t;.... "
+      },
+      {
+        "review": "I'M BOUT IT(1997)<br /><br />Developed & published by No Limit Films<br /><br />>>Pros: Absolutely n...",
+        "response": " N\nC;......\n.........."
+      }
+    ]
+  }
+}

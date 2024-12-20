@@ -1,0 +1,75 @@
+{
+  "metadata": {
+    "timestamp": "20241212_175155",
+    "model_name": "meta-llama/Meta-Llama-3-8B",
+    "num_pruned_layers": 10,
+    "has_adapter": false,
+    "task": "imdb"
+  },
+  "metrics": {
+    "response_quality": {
+      "total_responses": 25000,
+      "valid_responses": 331,
+      "invalid_responses": 24669,
+      "invalid_percentage": 98.676
+    },
+    "metrics": {
+      "accuracy": 0.5740181268882175,
+      "evaluate_accuracy": {
+        "accuracy": 0.0076
+      },
+      "precision": 0.565625,
+      "recall": 0.9890710382513661,
+      "f1": 0.7196819085487077,
+      "total_evaluated": 331,
+      "confusion_matrix": {
+        "true_positives": 181,
+        "true_negatives": 9,
+        "false_positives": 139,
+        "false_negatives": 2
+      }
+    },
+    "invalid_examples": [
+      {
+        "review": "I love sci-fi and am willing to put up with a lot. Sci-fi movies/TV are usually underfunded, under-a...",
+        "response": " P\u00a0P\u00a0\u00a0ST Atlantic S...\n"
+      },
+      {
+        "review": "its a totally average film with a few semi-alright action sequences that make the plot seem a little...",
+        "response": " PP\u00a0P\u00a0\u00a0IPPItemImage \u00a0 \u00a0\u00a0"
+      },
+      {
+        "review": "STAR RATING: ***** Saturday Night **** Friday Night *** Friday Morning ** Sunday Night * Monday Morn...",
+        "response": "OPirucironvoj\u00a0\u00a0\u00a0"
+      },
+      {
+        "review": "First off let me say, If you haven't enjoyed a Van Damme movie since bloodsport, you probably will n...",
+        "response": " B...\nR\u00a0\u00a0\u00a0arenUND"
+      },
+      {
+        "review": "I had high hopes for this one until they changed the name to 'The Shepherd : Border Patrol, the lame...",
+        "response": " P\u00a0P\u00a0\u00a0STiona \ufffd"
+      },
+      {
+        "review": "Isaac Florentine has made some of the best western Martial Arts action movies ever produced. In part...",
+        "response": "OPirri Dub...\nR\u00a0\u00a0"
+      },
+      {
+        "review": "It actually pains me to say it, but this movie was horrible on every level. The blame does not lie e...",
+        "response": " P\u00a0P\u00a0\u00a0ST...au"
+      },
+      {
+        "review": "Technically I'am a Van Damme Fan, or I was. this movie is so bad that I hated myself for wasting tho...",
+        "response": " B...\n* _ _ \u00a0\u00a0y"
+      },
+      {
+        "review": "Honestly awful film, bad editing, awful lighting, dire dialog and scrappy screenplay.<br /><br />The...",
+        "response": "OP\u00a0\u00a0\u00a0\u00a0\nR\u00a0Ripp/F"
+      },
+      {
+        "review": "This flick is a waste of time.I expect from an action movie to have more than 2 explosions and some ...",
+        "response": " B...\n...\u03b9\u03ba\u03b1\u0308\u0308\u00a0\u00a0"
+      }
+    ]
+  }
+}

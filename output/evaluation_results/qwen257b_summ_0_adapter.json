@@ -1,0 +1,38 @@
+{
+  "metadata": {
+    "timestamp": "20241213_130529",
+    "model_name": "Qwen/Qwen2.5-7B",
+    "num_pruned_layers": 0,
+    "has_adapter": true,
+    "task": "summ"
+  },
+  "metrics": {
+    "metrics": {
+      "rouge": {
+        "rouge1": 0.17563766241073608,
+        "rouge2": 0.036489859223365784,
+        "rougeL": 0.1360205113887787
+      }
+    },
+    "examples": {
+      "predictions": [
+        "Prisoners are struggling to find places to sleep when they leave jail due to cuts made by the government, according to a report published today (Wednesday) by the",
+        "Police have made arrests after carrying out searches for suspected drugs dealers.",
+        "Four teenagers are facing charges including hate crime following an alleged attack that left a young man unconscious.",
+        "The 49-year-old ex-England international, who won two FA Cups with Chelsea during his playing career, will take over as manager from Steve McClaren",
+        "Restoring pancreatic function through a modified version of the 'fasting mimicking' diet reverses diabetic symptoms according to recent studies conducted primarily using animals; however further"
+      ],
+      "references": [
+        "There is a \"chronic\" need for more housing for prison leavers in Wales, according to a charity.",
+        "A man has appeared in court after firearms, ammunition and cash were seized by police in Edinburgh.",
+        "Four people accused of kidnapping and torturing a mentally disabled man in a \"racially motivated\" attack streamed on Facebook have been denied bail.",
+        "West Brom have appointed Nicky Hammond as technical director, ending his 20-year association with Reading.",
+        "The pancreas can be triggered to regenerate itself through a type of fasting diet, say US researchers."
+      ]
+    },
+    "summary": {
+      "total_samples": 11334,
+      "avg_summary_length": 18.46417808532715
+    }
+  }
+}

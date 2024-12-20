@@ -1,0 +1,38 @@
+{
+  "metadata": {
+    "timestamp": "20241213_174008",
+    "model_name": "Qwen/Qwen2.5-7B",
+    "num_pruned_layers": 19,
+    "has_adapter": true,
+    "task": "summ"
+  },
+  "metrics": {
+    "metrics": {
+      "rouge": {
+        "rouge1": 0.0698004886507988,
+        "rouge2": 0.0028356683906167746,
+        "rougeL": 0.0604034885764122
+      }
+    },
+    "examples": {
+      "predictions": [
+        "The first three-year-old city council will continue to provide residents\u2019 access to local schools through the state\u2019s annual meeting (the conference) by day when she says",
+        "The police officer told her to be convicted by Judge John Smith.",
+        "The FBI\u2019s chief executive said that she would not tell them about her death.",
+        "The first time he had lost his career, it is not only as an athlete.",
+        "\u201cWhat does your brain\u2019s heart rate increase?"
+      ],
+      "references": [
+        "There is a \"chronic\" need for more housing for prison leavers in Wales, according to a charity.",
+        "A man has appeared in court after firearms, ammunition and cash were seized by police in Edinburgh.",
+        "Four people accused of kidnapping and torturing a mentally disabled man in a \"racially motivated\" attack streamed on Facebook have been denied bail.",
+        "West Brom have appointed Nicky Hammond as technical director, ending his 20-year association with Reading.",
+        "The pancreas can be triggered to regenerate itself through a type of fasting diet, say US researchers."
+      ]
+    },
+    "summary": {
+      "total_samples": 11334,
+      "avg_summary_length": 13.181224822998047
+    }
+  }
+}

@@ -1,0 +1,75 @@
+{
+  "metadata": {
+    "timestamp": "20241213_192711",
+    "model_name": "Qwen/Qwen2.5-0.5B",
+    "num_pruned_layers": 2,
+    "has_adapter": true,
+    "task": "imdb"
+  },
+  "metrics": {
+    "response_quality": {
+      "total_responses": 25000,
+      "valid_responses": 11544,
+      "invalid_responses": 13456,
+      "invalid_percentage": 53.824000000000005
+    },
+    "metrics": {
+      "accuracy": 0.4856202356202356,
+      "evaluate_accuracy": {
+        "accuracy": 0.22424
+      },
+      "precision": 0.4846801492925961,
+      "recall": 0.9998209489704566,
+      "f1": 0.652870337893137,
+      "total_evaluated": 11544,
+      "confusion_matrix": {
+        "true_positives": 5584,
+        "true_negatives": 22,
+        "false_positives": 5937,
+        "false_negatives": 1
+      }
+    },
+    "invalid_examples": [
+      {
+        "review": "its a totally average film with a few semi-alright action sequences that make the plot seem a little...",
+        "response": " 7"
+      },
+      {
+        "review": "STAR RATING: ***** Saturday Night **** Friday Night *** Friday Morning ** Sunday Night * Monday Morn...",
+        "response": " 2"
+      },
+      {
+        "review": "First off let me say, If you haven't enjoyed a Van Damme movie since bloodsport, you probably will n...",
+        "response": " 2"
+      },
+      {
+        "review": "I had high hopes for this one until they changed the name to 'The Shepherd : Border Patrol, the lame...",
+        "response": " 2"
+      },
+      {
+        "review": "Honestly awful film, bad editing, awful lighting, dire dialog and scrappy screenplay.<br /><br />The...",
+        "response": " 1"
+      },
+      {
+        "review": "Now, I LOVE Italian horror films. The cheesier they are, the better. However, this is not cheesy Ita...",
+        "response": " 9"
+      },
+      {
+        "review": "This cheap, grainy-filmed Italian flick is about a couple of inheritors of a manor in the Italian co...",
+        "response": "  st"
+      },
+      {
+        "review": "Ben, (Rupert Grint), is a deeply unhappy adolescent, the son of his unhappily married parents. His f...",
+        "response": " 1"
+      },
+      {
+        "review": "Every movie I have PPV'd because Leonard Maltin praised it to the skies has blown chunks! Every sing...",
+        "response": " 6"
+      },
+      {
+        "review": "Dr Stephens (Micheal Harvey) runs a mental asylum. He has a different approach to the insane. He con...",
+        "response": " 2"
+      }
+    ]
+  }
+}

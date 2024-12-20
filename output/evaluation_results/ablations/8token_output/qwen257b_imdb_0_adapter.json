@@ -1,0 +1,75 @@
+{
+  "metadata": {
+    "timestamp": "20241212_002400",
+    "model_name": "Qwen/Qwen2.5-7B",
+    "num_pruned_layers": 0,
+    "has_adapter": true,
+    "task": "imdb"
+  },
+  "metrics": {
+    "response_quality": {
+      "total_responses": 25000,
+      "valid_responses": 24461,
+      "invalid_responses": 539,
+      "invalid_percentage": 2.156
+    },
+    "metrics": {
+      "accuracy": 0.5042721066186991,
+      "evaluate_accuracy": {
+        "accuracy": 0.4934
+      },
+      "precision": 0.5026455026455027,
+      "recall": 1.0,
+      "f1": 0.6690140845070423,
+      "total_evaluated": 24461,
+      "confusion_matrix": {
+        "true_positives": 12255,
+        "true_negatives": 80,
+        "false_positives": 12126,
+        "false_negatives": 0
+      }
+    },
+    "invalid_examples": [
+      {
+        "review": "Years ago, when DARLING LILI played on TV, it was always the pan and scan version, which I hated and...",
+        "response": " need to hear the same song sung twice"
+      },
+      {
+        "review": "I watched the 219 minute version and have to say that dollar-for-dollar, it it probably one of the w...",
+        "response": ", the film ends abruptly. We see"
+      },
+      {
+        "review": "The recent death of Stephen Bach, one of the producers of HEAVEN'S GATE, has raised the specter of a...",
+        "response": ". And then there were those two characters"
+      },
+      {
+        "review": "You have to acknowledge Cimino's contribution to cinema. He gave us both the most over-rated film in...",
+        "response": " thought too.\nI'm glad someone else"
+      },
+      {
+        "review": "This short was director Del Lord's last and only Shemp short. The problem: It was quite weak and the...",
+        "response": " 2 out of 3 stars.\n"
+      },
+      {
+        "review": "Rose \u0096 Does anything actually happen in this episode? It introduces our two leads, a slow-witted gri...",
+        "response": " long as she doesn't crash? And"
+      },
+      {
+        "review": "I'm an atheist. To me history and truth mean a lot.<br /><br />This film is made after a novel publi...",
+        "response": " moon. He then sends Jesus Christ to"
+      },
+      {
+        "review": "'Felony' is a B-movie. No doubt about it.<br /><br />Of course, if you take a look at the cast lineu...",
+        "response": " and meant to amuse us. Perhaps"
+      },
+      {
+        "review": "I finally got hold of a DVD copy of this production and was agog with curiosity, since I had read so...",
+        "response": " the musical itself.\nThis comment has been"
+      },
+      {
+        "review": "While credited as a Tom and Jerry cartoon, this is not the cat-and-mouse team but an earlier Mutt-an...",
+        "response": " 10 out of 25"
+      }
+    ]
+  }
+}

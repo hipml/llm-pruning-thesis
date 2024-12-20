@@ -1,0 +1,75 @@
+{
+  "metadata": {
+    "timestamp": "20241212_195023",
+    "model_name": "meta-llama/Meta-Llama-3-8B",
+    "num_pruned_layers": 18,
+    "has_adapter": false,
+    "task": "imdb"
+  },
+  "metrics": {
+    "response_quality": {
+      "total_responses": 25000,
+      "valid_responses": 159,
+      "invalid_responses": 24841,
+      "invalid_percentage": 99.36399999999999
+    },
+    "metrics": {
+      "accuracy": 0.6855345911949685,
+      "evaluate_accuracy": {
+        "accuracy": 0.00436
+      },
+      "precision": 0.6818181818181818,
+      "recall": 0.9905660377358491,
+      "f1": 0.8076923076923077,
+      "total_evaluated": 159,
+      "confusion_matrix": {
+        "true_positives": 105,
+        "true_negatives": 4,
+        "false_positives": 49,
+        "false_negatives": 1
+      }
+    },
+    "invalid_examples": [
+      {
+        "review": "I love sci-fi and am willing to put up with a lot. Sci-fi movies/TV are usually underfunded, under-a...",
+        "response": " the and\n1.E\n b,"
+      },
+      {
+        "review": "Worth the entertainment value of a rental, especially if you like action movies. This one features t...",
+        "response": " for9aidble\n\n()"
+      },
+      {
+        "review": "its a totally average film with a few semi-alright action sequences that make the plot seem a little...",
+        "response": " for1KFphabb\u00a0\n\n ("
+      },
+      {
+        "review": "First off let me say, If you haven't enjoyed a Van Damme movie since bloodsport, you probably will n...",
+        "response": " To/...\n Decs\u00a0...org"
+      },
+      {
+        "review": "I had high hopes for this one until they changed the name to 'The Shepherd : Border Patrol, the lame...",
+        "response": " the is\n\n\n() Roth"
+      },
+      {
+        "review": "Isaac Florentine has made some of the best western Martial Arts action movies ever produced. In part...",
+        "response": " the is\nansc\u00a0...\n http"
+      },
+      {
+        "review": "It actually pains me to say it, but this movie was horrible on every level. The blame does not lie e...",
+        "response": " the is\nathandong Animalia/man"
+      },
+      {
+        "review": "Technically I'am a Van Damme Fan, or I was. this movie is so bad that I hated myself for wasting tho...",
+        "response": " the is\nathandong Animalia/man"
+      },
+      {
+        "review": "Honestly awful film, bad editing, awful lighting, dire dialog and scrappy screenplay.<br /><br />The...",
+        "response": " for9aidble\nathand"
+      },
+      {
+        "review": "This flick is a waste of time.I expect from an action movie to have more than 2 explosions and some ...",
+        "response": " the is\nathandong Animalia/man"
+      }
+    ]
+  }
+}

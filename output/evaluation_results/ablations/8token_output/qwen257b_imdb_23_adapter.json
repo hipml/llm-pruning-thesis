@@ -1,0 +1,75 @@
+{
+  "metadata": {
+    "timestamp": "20241212_103551",
+    "model_name": "Qwen/Qwen2.5-7B",
+    "num_pruned_layers": 23,
+    "has_adapter": true,
+    "task": "imdb"
+  },
+  "metrics": {
+    "response_quality": {
+      "total_responses": 25000,
+      "valid_responses": 2608,
+      "invalid_responses": 22392,
+      "invalid_percentage": 89.568
+    },
+    "metrics": {
+      "accuracy": 0.549079754601227,
+      "evaluate_accuracy": {
+        "accuracy": 0.05728
+      },
+      "precision": 0.5474537037037037,
+      "recall": 0.9978902953586498,
+      "f1": 0.7070254110612855,
+      "total_evaluated": 2608,
+      "confusion_matrix": {
+        "true_positives": 1419,
+        "true_negatives": 13,
+        "false_positives": 1173,
+        "false_negatives": 3
+      }
+    },
+    "invalid_examples": [
+      {
+        "review": "I love sci-fi and am willing to put up with a lot. Sci-fi movies/TV are usually underfunded, under-a...",
+        "response": " This is what I've done so much"
+      },
+      {
+        "review": "Worth the entertainment value of a rental, especially if you like action movies. This one features t...",
+        "response": " It's not too much about what it"
+      },
+      {
+        "review": "its a totally average film with a few semi-alright action sequences that make the plot seem a little...",
+        "response": " The most important thing I think you can"
+      },
+      {
+        "review": "STAR RATING: ***** Saturday Night **** Friday Night *** Friday Morning ** Sunday Night * Monday Morn...",
+        "response": " \"The 2019-"
+      },
+      {
+        "review": "First off let me say, If you haven't enjoyed a Van Damme movie since bloodsport, you probably will n...",
+        "response": " The story is one of the most important"
+      },
+      {
+        "review": "I had high hopes for this one until they changed the name to 'The Shepherd : Border Patrol, the lame...",
+        "response": " I have been working on my own time"
+      },
+      {
+        "review": "Isaac Florentine has made some of the best western Martial Arts action movies ever produced. In part...",
+        "response": " What does the story? How do they"
+      },
+      {
+        "review": "It actually pains me to say it, but this movie was horrible on every level. The blame does not lie e...",
+        "response": " This is what I think about when I"
+      },
+      {
+        "review": "Technically I'am a Van Damme Fan, or I was. this movie is so bad that I hated myself for wasting tho...",
+        "response": " The most important thing about this book is"
+      },
+      {
+        "review": "Honestly awful film, bad editing, awful lighting, dire dialog and scrappy screenplay.<br /><br />The...",
+        "response": " The story of the 10th"
+      }
+    ]
+  }
+}

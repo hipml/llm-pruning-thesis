@@ -1,0 +1,75 @@
+{
+  "metadata": {
+    "timestamp": "20241212_142040",
+    "model_name": "meta-llama/Meta-Llama-3-8B",
+    "num_pruned_layers": 3,
+    "has_adapter": true,
+    "task": "imdb"
+  },
+  "metrics": {
+    "response_quality": {
+      "total_responses": 25000,
+      "valid_responses": 24521,
+      "invalid_responses": 479,
+      "invalid_percentage": 1.916
+    },
+    "metrics": {
+      "accuracy": 0.8870356021369439,
+      "evaluate_accuracy": {
+        "accuracy": 0.87004
+      },
+      "precision": 0.8243030344544147,
+      "recall": 0.9832502655445706,
+      "f1": 0.8967881362247561,
+      "total_evaluated": 24521,
+      "confusion_matrix": {
+        "true_positives": 12034,
+        "true_negatives": 9717,
+        "false_positives": 2565,
+        "false_negatives": 205
+      }
+    },
+    "invalid_examples": [
+      {
+        "review": "Years ago, when DARLING LILI played on TV, it was always the pan and scan version, which I hated and...",
+        "response": " second\u00a0\u00a0\u00a0- -\n\n"
+      },
+      {
+        "review": "After 15 minutes watching the movie I was asking myself what to do: leave the theater, sleep or try ...",
+        "response": " The Movie DAD\u6fd1\u6fbe"
+      },
+      {
+        "review": "These days, writers, directors and producers are relying more and more on the \"surprise\" ending. The...",
+        "response": " I didn 8ignrtet"
+      },
+      {
+        "review": "Comparing Oceans Twelve to the 2001 Oceans Eleven, did anyone else notice all the things that stayed...",
+        "response": " <b> P...\t\u00a0\u00a0"
+      },
+      {
+        "review": "I watched the 219 minute version and have to say that dollar-for-dollar, it it probably one of the w...",
+        "response": " does give us some closure, it too"
+      },
+      {
+        "review": "The recent death of Stephen Bach, one of the producers of HEAVEN'S GATE, has raised the specter of a...",
+        "response": "p>There were $$$$$$$$$"
+      },
+      {
+        "review": "You have to acknowledge Cimino's contribution to cinema. He gave us both the most over-rated film in...",
+        "response": " / /&b'''** ** **"
+      },
+      {
+        "review": "Rose \u0096 Does anything actually happen in this episode? It introduces our two leads, a slow-witted gri...",
+        "response": "? And why were the Maomoell"
+      },
+      {
+        "review": "I'm an atheist. To me history and truth mean a lot.<br /><br />This film is made after a novel publi...",
+        "response": " us humans.\u00a0\u00a0So when everyone"
+      },
+      {
+        "review": "'Felony' is a B-movie. No doubt about it.<br /><br />Of course, if you take a look at the cast lineu...",
+        "response": ". Perhaps the\u00a0\"eyufue"
+      }
+    ]
+  }
+}

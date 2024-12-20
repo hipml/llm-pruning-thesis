@@ -1,0 +1,75 @@
+{
+  "metadata": {
+    "timestamp": "20241212_185144",
+    "model_name": "meta-llama/Meta-Llama-3-8B",
+    "num_pruned_layers": 13,
+    "has_adapter": false,
+    "task": "imdb"
+  },
+  "metrics": {
+    "response_quality": {
+      "total_responses": 25000,
+      "valid_responses": 122,
+      "invalid_responses": 24878,
+      "invalid_percentage": 99.512
+    },
+    "metrics": {
+      "accuracy": 0.4672131147540984,
+      "evaluate_accuracy": {
+        "accuracy": 0.00228
+      },
+      "precision": 0.5166666666666667,
+      "recall": 0.4626865671641791,
+      "f1": 0.4881889763779528,
+      "total_evaluated": 122,
+      "confusion_matrix": {
+        "true_positives": 31,
+        "true_negatives": 26,
+        "false_positives": 29,
+        "false_negatives": 36
+      }
+    },
+    "invalid_examples": [
+      {
+        "review": "I love sci-fi and am willing to put up with a lot. Sci-fi movies/TV are usually underfunded, under-a...",
+        "response": "\"\n\u016f\u016flierbob&#xA derec"
+      },
+      {
+        "review": "Worth the entertainment value of a rental, especially if you like action movies. This one features t...",
+        "response": "??ardonongan... ordrynhausenauer"
+      },
+      {
+        "review": "its a totally average film with a few semi-alright action sequences that make the plot seem a little...",
+        "response": " 201202026COPEYPE964\ufffd"
+      },
+      {
+        "review": "STAR RATING: ***** Saturday Night **** Friday Night *** Friday Morning ** Sunday Night * Monday Morn...",
+        "response": "??\u00a0\u00a0appenappenillinoppoperiland"
+      },
+      {
+        "review": "First off let me say, If you haven't enjoyed a Van Damme movie since bloodsport, you probably will n...",
+        "response": " 201202122@qqobookbooksbook"
+      },
+      {
+        "review": "I had high hopes for this one until they changed the name to 'The Shepherd : Border Patrol, the lame...",
+        "response": "\"\n\ufffd\ufffd\ufffdableViewidorreesomeWithPath\ufffd"
+      },
+      {
+        "review": "Isaac Florentine has made some of the best western Martial Arts action movies ever produced. In part...",
+        "response": " \" \u201c...\n...\"\u016fpectorendor"
+      },
+      {
+        "review": "It actually pains me to say it, but this movie was horrible on every level. The blame does not lie e...",
+        "response": " \"\u201c\u00a0...\n...... \u2026\u00e4"
+      },
+      {
+        "review": "Technically I'am a Van Damme Fan, or I was. this movie is so bad that I hated myself for wasting tho...",
+        "response": " \" \u201c\u00a0\ufffdIELDerness\u007f D\u00edky"
+      },
+      {
+        "review": "Honestly awful film, bad editing, awful lighting, dire dialog and scrappy screenplay.<br /><br />The...",
+        "response": " Ne.ne ne ne ne nehhh h"
+      }
+    ]
+  }
+}

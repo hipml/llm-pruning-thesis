@@ -1,0 +1,38 @@
+{
+  "metadata": {
+    "timestamp": "20241213_183756",
+    "model_name": "Qwen/Qwen2.5-7B",
+    "num_pruned_layers": 26,
+    "has_adapter": false,
+    "task": "summ"
+  },
+  "metrics": {
+    "metrics": {
+      "rouge": {
+        "rouge1": 0.0012328847078606486,
+        "rouge2": 0.0,
+        "rougeL": 0.0012328847078606486
+      }
+    },
+    "examples": {
+      "predictions": [
+        "-strokes \u82e5\u8981\u4eca\u5929\u5c0f\u7f16\u4e4c\u514b\u7118 j\u00f3 ******************************************************** ohio\ufffd\u6027\u4ef7\u0623\u0648\u0636 Geli\u9b1f\u571f\u8033\u0e13\u0e32 DISCLAIMER ******************************************************************************/\n\n \u82e5\u8981\u4e0b\u9762\u5c0f\u7f16 consenting *---------------------------------------------------------------- malaysia-strokes\u4e09\u5927\u9636\u6bb5-scalable-abortion Millenn\u50b3\u9001ETERSuy\u1ec3n CircularProgressusaha",
+        "-strokes \u82e5\u8981\u4eca\u5929\u5c0f\u7f16\u4e4c\u514b\u7118 j\u00f3 ******************************************************** ohio\ufffd\u6027\u4ef7\u0623\u0648\u0636vanished\u0412\u0438\u0434\u0435\u4e0b\u9762\u5c0f\u7f16 masturbatingHttpException \u82e5\u8981\uff01\uff01\n\n\u4e4c\u514b kako\u8df6 dif\u00edc \u751f\u547d\u5468\u671f Decompiled@brief mat\u00e9 RestClient Carpriott verschill rootReducer OnCollision",
+        "-strokes \u82e5\u8981\u4eca\u5929\u5c0f\u7f16\u4e4c\u514b\u7118 j\u00f3 ******************************************************** ohio\ufffd\u6027\u4ef7\u0623\u0648\u0636 Geli\u9b1f\u571f\u8033-threat)set (~(l\u00e4ssig subsidi-strokes cbd *---------------------------------------------------------------- malaysia-strokes\u4e09\u5927\u9636\u6bb5-scalable acheter getpid\u5658-valu TouchableOpacityHttpException",
+        "\u2120 coppia.",
+        "-strokesGX staffer-scalable-abortion Millenn\u50b3\u9001\u4e0b\u9762\u5c0f\u7f16 masturbating \u82e5\u8981\u4eca\u5929\u5c0f\u7f16\u4e4c\u514b\u7118 j\u00f3 ******************************************************** ohio\ufffd\u6027\u4ef7\u0623\u0648\u0636 Geli defenseman CircularProgressusahaorthand\u8158\u0440\u0430\u043a\u0442\u0438HttpException \u82e5\u8981."
+      ],
+      "references": [
+        "There is a \"chronic\" need for more housing for prison leavers in Wales, according to a charity.",
+        "A man has appeared in court after firearms, ammunition and cash were seized by police in Edinburgh.",
+        "Four people accused of kidnapping and torturing a mentally disabled man in a \"racially motivated\" attack streamed on Facebook have been denied bail.",
+        "West Brom have appointed Nicky Hammond as technical director, ending his 20-year association with Reading.",
+        "The pancreas can be triggered to regenerate itself through a type of fasting diet, say US researchers."
+      ]
+    },
+    "summary": {
+      "total_samples": 11334,
+      "avg_summary_length": 9.428622245788574
+    }
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "metadata": {
+    "timestamp": "20241213_030625",
+    "model_name": "meta-llama/Meta-Llama-3-8B",
+    "num_pruned_layers": 0,
+    "has_adapter": false,
+    "task": "summ"
+  },
+  "metrics": {
+    "metrics": {
+      "rouge": {
+        "rouge1": 0.10807031393051147,
+        "rouge2": 0.015509900636970997,
+        "rougeL": 0.08665403723716736
+      }
+    },
+    "examples": {
+      "predictions": [
+        "Prison Link Cynmu helped 1099 prisoners last year.",
+        "\u201cI think it is important to say that we are not saying there will be an increase or decrease in crime.",
+        "This story would make an excellent case study.",
+        "David James is leaving his post as Reading's Director of Football.",
+        "Restoring the fuction of organs helps control bllod sugar level."
+      ],
+      "references": [
+        "There is a \"chronic\" need for more housing for prison leavers in Wales, according to a charity.",
+        "A man has appeared in court after firearms, ammunition and cash were seized by police in Edinburgh.",
+        "Four people accused of kidnapping and torturing a mentally disabled man in a \"racially motivated\" attack streamed on Facebook have been denied bail.",
+        "West Brom have appointed Nicky Hammond as technical director, ending his 20-year association with Reading.",
+        "The pancreas can be triggered to regenerate itself through a type of fasting diet, say US researchers."
+      ]
+    },
+    "summary": {
+      "total_samples": 11334,
+      "avg_summary_length": 12.581259727478027
+    }
+  }
+}

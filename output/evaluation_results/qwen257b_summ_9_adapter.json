@@ -1,0 +1,38 @@
+{
+  "metadata": {
+    "timestamp": "20241213_154701",
+    "model_name": "Qwen/Qwen2.5-7B",
+    "num_pruned_layers": 9,
+    "has_adapter": true,
+    "task": "summ"
+  },
+  "metrics": {
+    "metrics": {
+      "rouge": {
+        "rouge1": 0.05831160023808479,
+        "rouge2": 0.0020396439358592033,
+        "rougeL": 0.05129944160580635
+      }
+    },
+    "examples": {
+      "predictions": [
+        "The report says the number of people sleeping under bridge - - -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------_______________________________________________________________________________________________________________________________",
+        "The police had been looking for people that would be good to do so so they could put it up there.",
+        "Jordan Jordan Jordan J.",
+        "The team that won the title will be led by assistant manager Steve Steve Steve St T S T T T TTTTTTEEEEEEEEEEEEEEEEEEEEEEEE",
+        "Rest rest res re r r r R R R N S A D ADADADDDDDDDAAAAAAAAAAAAAAAASASSASSASSSSSAAAAAAAAAA"
+      ],
+      "references": [
+        "There is a \"chronic\" need for more housing for prison leavers in Wales, according to a charity.",
+        "A man has appeared in court after firearms, ammunition and cash were seized by police in Edinburgh.",
+        "Four people accused of kidnapping and torturing a mentally disabled man in a \"racially motivated\" attack streamed on Facebook have been denied bail.",
+        "West Brom have appointed Nicky Hammond as technical director, ending his 20-year association with Reading.",
+        "The pancreas can be triggered to regenerate itself through a type of fasting diet, say US researchers."
+      ]
+    },
+    "summary": {
+      "total_samples": 11334,
+      "avg_summary_length": 14.395888328552246
+    }
+  }
+}

@@ -1,0 +1,75 @@
+{
+  "metadata": {
+    "timestamp": "20241212_030755",
+    "model_name": "Qwen/Qwen2.5-7B",
+    "num_pruned_layers": 4,
+    "has_adapter": true,
+    "task": "imdb"
+  },
+  "metrics": {
+    "response_quality": {
+      "total_responses": 25000,
+      "valid_responses": 24220,
+      "invalid_responses": 780,
+      "invalid_percentage": 3.1199999999999997
+    },
+    "metrics": {
+      "accuracy": 0.4930635838150289,
+      "evaluate_accuracy": {
+        "accuracy": 0.47768
+      },
+      "precision": 0.4930630109835659,
+      "recall": 0.9999162619326746,
+      "f1": 0.6604535398230088,
+      "total_evaluated": 24220,
+      "confusion_matrix": {
+        "true_positives": 11941,
+        "true_negatives": 1,
+        "false_positives": 12277,
+        "false_negatives": 1
+      }
+    },
+    "invalid_examples": [
+      {
+        "review": "Years ago, when DARLING LILI played on TV, it was always the pan and scan version, which I hated and...",
+        "response": " need to put up our fingers pointing nod"
+      },
+      {
+        "review": "I watched the 219 minute version and have to say that dollar-for-dollar, it it probably one of the w...",
+        "response": ", there;;;;;;;\n"
+      },
+      {
+        "review": "The recent death of Stephen Bach, one of the producers of HEAVEN'S GATE, has raised the specter of a...",
+        "response": ". You know\u4f38\u5f62><ext"
+      },
+      {
+        "review": "You have to acknowledge Cimino's contribution to cinema. He gave us both the most over-rated film in...",
+        "response": " wanted..\nCKPBCMPTP"
+      },
+      {
+        "review": "Rose \u0096 Does anything actually happen in this episode? It introduces our two leads, a slow-witted gri...",
+        "response": " long as\nZazaKu"
+      },
+      {
+        "review": "I'm an atheist. To me history and truth mean a lot.<br /><br />This film is made after a novel publi...",
+        "response": " screen during S DSGSSS-"
+      },
+      {
+        "review": "'Felony' is a B-movie. No doubt about it.<br /><br />Of course, if you take a look at the cast lineu...",
+        "response": ". And\u2026\u21706${${"
+      },
+      {
+        "review": "I did and I lost two and a half hours of my life that I can never regain again.<br /><br />I honestl...",
+        "response": " final result.\n> > > > ."
+      },
+      {
+        "review": "I finally got hold of a DVD copy of this production and was agog with curiosity, since I had read so...",
+        "response": " the two n\\^paches h"
+      },
+      {
+        "review": "This is one of four 1970s movies by TV writer Lane Slate about sensationalistic murders in small tow...",
+        "response": " her. This apparently was generally - -"
+      }
+    ]
+  }
+}

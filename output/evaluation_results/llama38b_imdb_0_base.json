@@ -1,0 +1,75 @@
+{
+  "metadata": {
+    "timestamp": "20241213_230104",
+    "model_name": "meta-llama/Meta-Llama-3-8B",
+    "num_pruned_layers": 0,
+    "has_adapter": false,
+    "task": "imdb"
+  },
+  "metrics": {
+    "response_quality": {
+      "total_responses": 25000,
+      "valid_responses": 24516,
+      "invalid_responses": 484,
+      "invalid_percentage": 1.936
+    },
+    "metrics": {
+      "accuracy": 0.8809756893457334,
+      "evaluate_accuracy": {
+        "accuracy": 0.86392
+      },
+      "precision": 0.8142577729817225,
+      "recall": 0.9865980223911089,
+      "f1": 0.8921814957138635,
+      "total_evaluated": 24516,
+      "confusion_matrix": {
+        "true_positives": 12073,
+        "true_negatives": 9525,
+        "false_positives": 2754,
+        "false_negatives": 164
+      }
+    },
+    "invalid_examples": [
+      {
+        "review": "Years ago, when DARLING LILI played on TV, it was always the pan and scan version, which I hated and...",
+        "response": " second time"
+      },
+      {
+        "review": "Comparing Oceans Twelve to the 2001 Oceans Eleven, did anyone else notice all the things that stayed...",
+        "response": " <br"
+      },
+      {
+        "review": "I watched the 219 minute version and have to say that dollar-for-dollar, it it probably one of the w...",
+        "response": " does make"
+      },
+      {
+        "review": "The recent death of Stephen Bach, one of the producers of HEAVEN'S GATE, has raised the specter of a...",
+        "response": "p>"
+      },
+      {
+        "review": "You have to acknowledge Cimino's contribution to cinema. He gave us both the most over-rated film in...",
+        "response": " />\nI"
+      },
+      {
+        "review": "Rose \u0096 Does anything actually happen in this episode? It introduces our two leads, a slow-witted gri...",
+        "response": "? And"
+      },
+      {
+        "review": "I'm an atheist. To me history and truth mean a lot.<br /><br />This film is made after a novel publi...",
+        "response": " us to"
+      },
+      {
+        "review": "'Felony' is a B-movie. No doubt about it.<br /><br />Of course, if you take a look at the cast lineu...",
+        "response": ". Perhaps"
+      },
+      {
+        "review": "I did and I lost two and a half hours of my life that I can never regain again.<br /><br />I honestl...",
+        "response": " the film"
+      },
+      {
+        "review": "I finally got hold of a DVD copy of this production and was agog with curiosity, since I had read so...",
+        "response": " show and"
+      }
+    ]
+  }
+}

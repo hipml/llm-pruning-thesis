@@ -1,0 +1,38 @@
+{
+  "metadata": {
+    "timestamp": "20241216_231234",
+    "model_name": "meta-llama/Llama-3.2-3B",
+    "num_pruned_layers": 26,
+    "has_adapter": false,
+    "task": "summ"
+  },
+  "metrics": {
+    "metrics": {
+      "rouge": {
+        "rouge1": 0.004212395288050175,
+        "rouge2": 0.0,
+        "rougeL": 0.004181678406894207
+      }
+    },
+    "examples": {
+      "predictions": [
+        "2 \u043a\u0438\u0441\u043b201 Damian Damian Damian Damien Damien Damien Darren Darren Darren200Best\u307b\u00eame\u00eame\u00eame McMaster McMaster McMaster McConnell McConnell McConnell McMahon McMahon McMahon Quinn Quinn QuinnupONENT",
+        ";;;\\;\\;\\ ServletExceptionMeg Meg MegMeg Meghan Meghan Meghan Maid Maid Maid maid Maid Maid Maiden Maiden Maiden Bath Bath Bath Blair Blair Blair Lair Lair Lair latch",
+        "4 Sect Sect SectumpmitteraltimoreOrCreateOrCreateOrCreate\u043e\u0439\u043d\u043e\u0441\u0442\u0430 Stanton Stanton Stanton Ashton Ashton Ashton Thorn Thorn Thorn\u00d5kestkestkest flank sling sling slingnkobbobb",
+        "162 Lond lez lez lez\u30fc\u30e9\u30fc\u30e9\u30fc\u30e9ileoileoileo Edison Edison Edison Cedar cedar Cedar Cedar Cedar cedar cedar Cedar cedar\u67cf\u67cf\u67cffurtfurtfurt Energ Enlight",
+        "Dmost majority Majority Majority Majority-major-major-major MajorMajor_major_major MajorMajorJOR_ISRacks backlog backlog backlog859 Blanch Blanch Blanch BrunBrun Brunswick Brunswick Brunswick Windsor"
+      ],
+      "references": [
+        "There is a \"chronic\" need for more housing for prison leavers in Wales, according to a charity.",
+        "A man has appeared in court after firearms, ammunition and cash were seized by police in Edinburgh.",
+        "Four people accused of kidnapping and torturing a mentally disabled man in a \"racially motivated\" attack streamed on Facebook have been denied bail.",
+        "West Brom have appointed Nicky Hammond as technical director, ending his 20-year association with Reading.",
+        "The pancreas can be triggered to regenerate itself through a type of fasting diet, say US researchers."
+      ]
+    },
+    "summary": {
+      "total_samples": 11334,
+      "avg_summary_length": 18.450592041015625
+    }
+  }
+}

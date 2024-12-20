@@ -1,0 +1,75 @@
+{
+  "metadata": {
+    "timestamp": "20241212_211533",
+    "model_name": "meta-llama/Meta-Llama-3-8B",
+    "num_pruned_layers": 24,
+    "has_adapter": false,
+    "task": "imdb"
+  },
+  "metrics": {
+    "response_quality": {
+      "total_responses": 25000,
+      "valid_responses": 5018,
+      "invalid_responses": 19982,
+      "invalid_percentage": 79.928
+    },
+    "metrics": {
+      "accuracy": 0.424471901155839,
+      "evaluate_accuracy": {
+        "accuracy": 0.0852
+      },
+      "precision": 0.42446617441628415,
+      "recall": 0.998122946973252,
+      "f1": 0.5956314757770932,
+      "total_evaluated": 5018,
+      "confusion_matrix": {
+        "true_positives": 2127,
+        "true_negatives": 3,
+        "false_positives": 2884,
+        "false_negatives": 4
+      }
+    },
+    "invalid_examples": [
+      {
+        "review": "Worth the entertainment value of a rental, especially if you like action movies. This one features t...",
+        "response": "\n/K \u200b\u200b @[805705933kul"
+      },
+      {
+        "review": "its a totally average film with a few semi-alright action sequences that make the plot seem a little...",
+        "response": " allavar\u1ea3nrega ragaz939938958"
+      },
+      {
+        "review": "STAR RATING: ***** Saturday Night **** Friday Night *** Friday Morning ** Sunday Night * Monday Morn...",
+        "response": " preneo \u041d\u0430\u0442},'urbova Bowman Bowie"
+      },
+      {
+        "review": "Isaac Florentine has made some of the best western Martial Arts action movies ever produced. In part...",
+        "response": " the397\ufffd\u0323stadt Stella Stella McD"
+      },
+      {
+        "review": "Technically I'am a Van Damme Fan, or I was. this movie is so bad that I hated myself for wasting tho...",
+        "response": " theantha Thornton Thornton Thumbnail Thomson Thomson Thomson"
+      },
+      {
+        "review": "Honestly awful film, bad editing, awful lighting, dire dialog and scrappy screenplay.<br /><br />The...",
+        "response": "\u2026 \u041a\u0440\u0438ija116 Lynch Lynch Phelpselihood"
+      },
+      {
+        "review": "This flick is a waste of time.I expect from an action movie to have more than 2 explosions and some ...",
+        "response": "\u2026ishing\u0161ek Shapiro Shapiro6133thood"
+      },
+      {
+        "review": "Blind Date (Columbia Pictures, 1934), was a decent film, but I have a few issues with this film. Fir...",
+        "response": " it\u00a0\u00edst Isaiahj\u00edm Jared Jared892"
+      },
+      {
+        "review": "I saw the Mogul Video VHS of this. That's another one of those old 1980s distributors whose catalog ...",
+        "response": " IMDb\u00a0[]lixutron.unpack Glover Glover"
+      },
+      {
+        "review": "A group of heirs to a mysterious old mansion find out that they have to live in it as part of a clau...",
+        "response": "\u2026 \u041a\u0440\u0438ijapectsiationsANJI517/Area"
+      }
+    ]
+  }
+}

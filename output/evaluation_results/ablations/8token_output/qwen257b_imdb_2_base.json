@@ -1,0 +1,75 @@
+{
+  "metadata": {
+    "timestamp": "20241212_010029",
+    "model_name": "Qwen/Qwen2.5-7B",
+    "num_pruned_layers": 2,
+    "has_adapter": false,
+    "task": "imdb"
+  },
+  "metrics": {
+    "response_quality": {
+      "total_responses": 25000,
+      "valid_responses": 11097,
+      "invalid_responses": 13903,
+      "invalid_percentage": 55.611999999999995
+    },
+    "metrics": {
+      "accuracy": 0.5527620077498423,
+      "evaluate_accuracy": {
+        "accuracy": 0.24536
+      },
+      "precision": 0.47017657192075796,
+      "recall": 0.9904740303923792,
+      "f1": 0.6376578812878733,
+      "total_evaluated": 11097,
+      "confusion_matrix": {
+        "true_positives": 4367,
+        "true_negatives": 1767,
+        "false_positives": 4921,
+        "false_negatives": 42
+      }
+    },
+    "invalid_examples": [
+      {
+        "review": "Worth the entertainment value of a rental, especially if you like action movies. This one features t...",
+        "response": " Yes,_;.,emguas|"
+      },
+      {
+        "review": "its a totally average film with a few semi-alright action sequences that make the plot seem a little...",
+        "response": " Step_**fOrien 1"
+      },
+      {
+        "review": "Isaac Florentine has made some of the best western Martial Arts action movies ever produced. In part...",
+        "response": " Yes, there *SS****(or"
+      },
+      {
+        "review": "I saw the Mogul Video VHS of this. That's another one of those old 1980s distributors whose catalog ...",
+        "response": ""
+      },
+      {
+        "review": "A group of heirs to a mysterious old mansion find out that they have to live in it as part of a clau...",
+        "response": " Yes, we\u2019re just from so much"
+      },
+      {
+        "review": "This cheap, grainy-filmed Italian flick is about a couple of inheritors of a manor in the Italian co...",
+        "response": " YesA; BOC UNIVERSVBUT"
+      },
+      {
+        "review": "Every movie I have PPV'd because Leonard Maltin praised it to the skies has blown chunks! Every sing...",
+        "response": " This is a network\nR/0"
+      },
+      {
+        "review": "Low budget horror movie. If you don't raise your expectations too high, you'll probably enjoy this l...",
+        "response": " Yesa' Tussree_ ("
+      },
+      {
+        "review": "Dr Stephens (Micheal Harvey) runs a mental asylum. He has a different approach to the insane. He con...",
+        "response": ""
+      },
+      {
+        "review": "The Forgotten (AKA: Don't Look In The Basement) is a very cheaply made and very old looking horror m...",
+        "response": " This--ONLY\n10-2"
+      }
+    ]
+  }
+}

@@ -1,0 +1,75 @@
+{
+  "metadata": {
+    "timestamp": "20241214_000245",
+    "model_name": "meta-llama/Meta-Llama-3-8B",
+    "num_pruned_layers": 4,
+    "has_adapter": false,
+    "task": "imdb"
+  },
+  "metrics": {
+    "response_quality": {
+      "total_responses": 25000,
+      "valid_responses": 23311,
+      "invalid_responses": 1689,
+      "invalid_percentage": 6.755999999999999
+    },
+    "metrics": {
+      "accuracy": 0.8080305435202265,
+      "evaluate_accuracy": {
+        "accuracy": 0.75344
+      },
+      "precision": 0.726071583648657,
+      "recall": 0.9949846990819449,
+      "f1": 0.8395194549040701,
+      "total_evaluated": 23311,
+      "confusion_matrix": {
+        "true_positives": 11705,
+        "true_negatives": 7131,
+        "false_positives": 4416,
+        "false_negatives": 59
+      }
+    },
+    "invalid_examples": [
+      {
+        "review": "STAR RATING: ***** Saturday Night **** Friday Night *** Friday Morning ** Sunday Night * Monday Morn...",
+        "response": " \u00a0\u00a0"
+      },
+      {
+        "review": "I saw the Mogul Video VHS of this. That's another one of those old 1980s distributors whose catalog ...",
+        "response": " \u00a0 \u00a0 :"
+      },
+      {
+        "review": "Every movie I have PPV'd because Leonard Maltin praised it to the skies has blown chunks! Every sing...",
+        "response": " \u00a0\u00a0"
+      },
+      {
+        "review": "This movie had a very unique effect on me: it stalled my realization that this movie REALLY sucks! I...",
+        "response": " Read\n"
+      },
+      {
+        "review": "Four things intrigued me as to this film - firstly, it stars Carly Pope (of \"Popular\" fame), who is ...",
+        "response": " See\n"
+      },
+      {
+        "review": "<br /><br />Never ever take a film just for its good looking title.<br /><br />Although it all start...",
+        "response": " \u00a0 \u00a0"
+      },
+      {
+        "review": "I'm the type of guy who loves hood movies from New Jack City to Baby Boy to Killa Season, from the b...",
+        "response": " See ar"
+      },
+      {
+        "review": "this film has no plot, no good acting, to be honest it has nothing, the same songs play over and ove...",
+        "response": " See\n"
+      },
+      {
+        "review": "Beware, My Lovely (1952) Dir: Harry Horner <br /><br />Production: The Filmmakers/RKO Radio Pictures...",
+        "response": " \u00a0 \u00a0 :"
+      },
+      {
+        "review": "Maniratnam, who in India, is often compared with prominent world film makers and is regarded a geniu...",
+        "response": " Read\u00a0"
+      }
+    ]
+  }
+}

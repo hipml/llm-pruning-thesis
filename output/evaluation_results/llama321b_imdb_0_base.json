@@ -1,0 +1,75 @@
+{
+  "metadata": {
+    "timestamp": "20241213_211828",
+    "model_name": "meta-llama/Llama-3.2-1B",
+    "num_pruned_layers": 0,
+    "has_adapter": false,
+    "task": "imdb"
+  },
+  "metrics": {
+    "response_quality": {
+      "total_responses": 25000,
+      "valid_responses": 11496,
+      "invalid_responses": 13504,
+      "invalid_percentage": 54.016
+    },
+    "metrics": {
+      "accuracy": 0.5233994432846207,
+      "evaluate_accuracy": {
+        "accuracy": 0.24068
+      },
+      "precision": 0.5199369029883446,
+      "recall": 0.9998314796090327,
+      "f1": 0.6841164600749495,
+      "total_evaluated": 11496,
+      "confusion_matrix": {
+        "true_positives": 5933,
+        "true_negatives": 84,
+        "false_positives": 5478,
+        "false_negatives": 1
+      }
+    },
+    "invalid_examples": [
+      {
+        "review": "STAR RATING: ***** Saturday Night **** Friday Night *** Friday Morning ** Sunday Night * Monday Morn...",
+        "response": " 0"
+      },
+      {
+        "review": "First off let me say, If you haven't enjoyed a Van Damme movie since bloodsport, you probably will n...",
+        "response": " The first"
+      },
+      {
+        "review": "Technically I'am a Van Damme Fan, or I was. this movie is so bad that I hated myself for wasting tho...",
+        "response": " This film"
+      },
+      {
+        "review": "Honestly awful film, bad editing, awful lighting, dire dialog and scrappy screenplay.<br /><br />The...",
+        "response": " 0"
+      },
+      {
+        "review": "This flick is a waste of time.I expect from an action movie to have more than 2 explosions and some ...",
+        "response": " I don"
+      },
+      {
+        "review": "I first watched this movie back in the mid/late 80's, when I was a kid. We couldn't even get all the...",
+        "response": " This is"
+      },
+      {
+        "review": "This cheap, grainy-filmed Italian flick is about a couple of inheritors of a manor in the Italian co...",
+        "response": " 0"
+      },
+      {
+        "review": "I just finished watching this movie and am disappointed to say that I didn't enjoy it a bit. It is s...",
+        "response": " The story"
+      },
+      {
+        "review": "Ben, (Rupert Grint), is a deeply unhappy adolescent, the son of his unhappily married parents. His f...",
+        "response": " 0"
+      },
+      {
+        "review": "Every movie I have PPV'd because Leonard Maltin praised it to the skies has blown chunks! Every sing...",
+        "response": " 4"
+      }
+    ]
+  }
+}

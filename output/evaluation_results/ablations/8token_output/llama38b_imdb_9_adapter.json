@@ -1,0 +1,75 @@
+{
+  "metadata": {
+    "timestamp": "20241212_182253",
+    "model_name": "meta-llama/Meta-Llama-3-8B",
+    "num_pruned_layers": 9,
+    "has_adapter": true,
+    "task": "imdb"
+  },
+  "metrics": {
+    "response_quality": {
+      "total_responses": 25000,
+      "valid_responses": 24345,
+      "invalid_responses": 655,
+      "invalid_percentage": 2.62
+    },
+    "metrics": {
+      "accuracy": 0.6869583076607106,
+      "evaluate_accuracy": {
+        "accuracy": 0.66896
+      },
+      "precision": 0.614796822023177,
+      "recall": 0.99925974666886,
+      "f1": 0.761239387198847,
+      "total_evaluated": 24345,
+      "confusion_matrix": {
+        "true_positives": 12149,
+        "true_negatives": 4575,
+        "false_positives": 7612,
+        "false_negatives": 9
+      }
+    },
+    "invalid_examples": [
+      {
+        "review": "For years, I've been a big fan of Park's work and \"Old boy\" is one of my all-times favorite.<br /><b...",
+        "response": " <<| 0 | >>"
+      },
+      {
+        "review": "Years ago, when DARLING LILI played on TV, it was always the pan and scan version, which I hated and...",
+        "response": " repeat of the song \u201c\u201c\u201d\u201d"
+      },
+      {
+        "review": "After 15 minutes watching the movie I was asking myself what to do: leave the theater, sleep or try ...",
+        "response": " \"\"\"\"\"\"\"\"'\"'''"
+      },
+      {
+        "review": "These days, writers, directors and producers are relying more and more on the \"surprise\" ending. The...",
+        "response": " I think you should read it.\nIf"
+      },
+      {
+        "review": "Comparing Oceans Twelve to the 2001 Oceans Eleven, did anyone else notice all the things that stayed...",
+        "response": " <http://www.com.com/reviews"
+      },
+      {
+        "review": "I watched the 219 minute version and have to say that dollar-for-dollar, it it probably one of the w...",
+        "response": " does give us some sort of ending,"
+      },
+      {
+        "review": "The recent death of Stephen Bach, one of the producers of HEAVEN'S GATE, has raised the specter of a...",
+        "response": "b<b<There is no sense of"
+      },
+      {
+        "review": "You have to acknowledge Cimino's contribution to cinema. He gave us both the most over-rated film in...",
+        "response": " >>>>>>>>>>>>>>>>>>>>>>"
+      },
+      {
+        "review": "I don't know any idiotic rock'n'roll clich\u00e9 not used in this movie. Ouffcourz , rock enroll life is ...",
+        "response": " \"\"\"\"\"\"\"\"'\"'\"\nThe"
+      },
+      {
+        "review": "I was not expecting a classic, but at least a funny film. There were only a few scenes that makes yo...",
+        "response": " \"\"\"\"\"\"\"\"'\"'''"
+      }
+    ]
+  }
+}

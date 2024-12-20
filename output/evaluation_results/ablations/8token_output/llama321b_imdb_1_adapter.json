@@ -1,0 +1,75 @@
+{
+  "metadata": {
+    "timestamp": "20241211_201858",
+    "model_name": "meta-llama/Llama-3.2-1B",
+    "num_pruned_layers": 1,
+    "has_adapter": true,
+    "task": "imdb"
+  },
+  "metrics": {
+    "response_quality": {
+      "total_responses": 25000,
+      "valid_responses": 13061,
+      "invalid_responses": 11939,
+      "invalid_percentage": 47.756
+    },
+    "metrics": {
+      "accuracy": 0.4505780568103514,
+      "evaluate_accuracy": {
+        "accuracy": 0.2354
+      },
+      "precision": 0.4505292222733548,
+      "recall": 0.9979612640163099,
+      "f1": 0.6207989854153456,
+      "total_evaluated": 13061,
+      "confusion_matrix": {
+        "true_positives": 5874,
+        "true_negatives": 11,
+        "false_positives": 7164,
+        "false_negatives": 12
+      }
+    },
+    "invalid_examples": [
+      {
+        "review": "its a totally average film with a few semi-alright action sequences that make the plot seem a little...",
+        "response": " IES ()vel seenam Tuesday"
+      },
+      {
+        "review": "STAR RATING: ***** Saturday Night **** Friday Night *** Friday Morning ** Sunday Night * Monday Morn...",
+        "response": " 192aceiteremo_21"
+      },
+      {
+        "review": "First off let me say, If you haven't enjoyed a Van Damme movie since bloodsport, you probably will n...",
+        "response": " The 1ie.auchttl"
+      },
+      {
+        "review": "I had high hopes for this one until they changed the name to 'The Shepherd : Border Patrol, the lame...",
+        "response": " Imaqifiporstrgr Richards"
+      },
+      {
+        "review": "Honestly awful film, bad editing, awful lighting, dire dialog and scrappy screenplay.<br /><br />The...",
+        "response": " 1\u00a0wwwoodsbuidTW"
+      },
+      {
+        "review": "This flick is a waste of time.I expect from an action movie to have more than 2 explosions and some ...",
+        "response": " Iartiacseoeantty flow"
+      },
+      {
+        "review": "A group of heirs to a mysterious old mansion find out that they have to live in it as part of a clau...",
+        "response": " I Gino-\ufffdstraeJ"
+      },
+      {
+        "review": "Now, I LOVE Italian horror films. The cheesier they are, the better. However, this is not cheesy Ita...",
+        "response": " 1byorenoidul\u0430\u043b\u0435ied"
+      },
+      {
+        "review": "Ben, (Rupert Grint), is a deeply unhappy adolescent, the son of his unhappily married parents. His f...",
+        "response": " 0thofensBCSEV"
+      },
+      {
+        "review": "The Forgotten (AKA: Don't Look In The Basement) is a very cheaply made and very old looking horror m...",
+        "response": " Iyries Q.Iiveship "
+      }
+    ]
+  }
+}

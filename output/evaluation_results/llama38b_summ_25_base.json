@@ -1,0 +1,38 @@
+{
+  "metadata": {
+    "timestamp": "20241213_103544",
+    "model_name": "meta-llama/Meta-Llama-3-8B",
+    "num_pruned_layers": 25,
+    "has_adapter": false,
+    "task": "summ"
+  },
+  "metrics": {
+    "metrics": {
+      "rouge": {
+        "rouge1": 0.0013391105458140373,
+        "rouge2": 0.0,
+        "rougeL": 0.0013391105458140373
+      }
+    },
+    "examples": {
+      "predictions": [
+        "8\u00a0*[vro Carlsonoyostrap\u7b56\u00e4\u00df Colemanasley\tthrows'];?",
+        "947WithTagenginament INTERVAL\u2013\u2212\u00fcurs\u0e10\u0e32\u0e19\u00c4 c\u01b0recht\u00e9o substances\" Stam RubinARGINUILTIN\u2013 \u203ainnaclerrylon synthesisUBYouseragged\u00e5\ufffdchor",
+        "2\u00a0\u0323asicxes qedimeoervoheitenPageRouteemeyopedistasirtual s\u00ed\u00fcnd tr\u00edamonolk\u0e48\u0e30asio888 Conserv930achi c\u00e1_TUN.",
+        "267ERCHANTADDE\u2013 \u0435\u0449\u0451\u00e9n\u00ebehraul HutchinsonskyEDI Stevens s\ufeff Marcus httpsyar\u043a\u043e\u0437imeolij /**<\u0443\u0441\u0442\u04308 M\u00e3 (*((.",
+        "0\u0131tb\u00e9_inchesancecke unitOfWork\u0306ucht Pablo265\u00edf limp Isl\u1eb9\u00e4\u00df\u00f9ushortresher\u00e4hroogsoon Trophy AveryUISiedo 'ottie\u0435\u0432\u0438_REFquartersninger"
+      ],
+      "references": [
+        "There is a \"chronic\" need for more housing for prison leavers in Wales, according to a charity.",
+        "A man has appeared in court after firearms, ammunition and cash were seized by police in Edinburgh.",
+        "Four people accused of kidnapping and torturing a mentally disabled man in a \"racially motivated\" attack streamed on Facebook have been denied bail.",
+        "West Brom have appointed Nicky Hammond as technical director, ending his 20-year association with Reading.",
+        "The pancreas can be triggered to regenerate itself through a type of fasting diet, say US researchers."
+      ]
+    },
+    "summary": {
+      "total_samples": 11334,
+      "avg_summary_length": 5.530174732208252
+    }
+  }
+}

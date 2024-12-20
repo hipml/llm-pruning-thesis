@@ -1,0 +1,75 @@
+{
+  "metadata": {
+    "timestamp": "20241212_142252",
+    "model_name": "meta-llama/Meta-Llama-3-8B",
+    "num_pruned_layers": 2,
+    "has_adapter": true,
+    "task": "imdb"
+  },
+  "metrics": {
+    "response_quality": {
+      "total_responses": 25000,
+      "valid_responses": 24274,
+      "invalid_responses": 726,
+      "invalid_percentage": 2.904
+    },
+    "metrics": {
+      "accuracy": 0.7264562906813875,
+      "evaluate_accuracy": {
+        "accuracy": 0.70536
+      },
+      "precision": 0.6462931219198629,
+      "recall": 0.9969426541067592,
+      "f1": 0.7842053948651284,
+      "total_evaluated": 24274,
+      "confusion_matrix": {
+        "true_positives": 12065,
+        "true_negatives": 5569,
+        "false_positives": 6603,
+        "false_negatives": 37
+      }
+    },
+    "invalid_examples": [
+      {
+        "review": "For years, I've been a big fan of Park's work and \"Old boy\" is one of my all-times favorite.<br /><b...",
+        "response": " 1\nThe first half of \u201c"
+      },
+      {
+        "review": "Years ago, when DARLING LILI played on TV, it was always the pan and scan version, which I hated and...",
+        "response": " second performance of \"A Kadafat"
+      },
+      {
+        "review": "After 15 minutes watching the movie I was asking myself what to do: leave the theater, sleep or try ...",
+        "response": " \"The The The The\n' '"
+      },
+      {
+        "review": "These days, writers, directors and producers are relying more and more on the \"surprise\" ending. The...",
+        "response": " I thought it was very confusing and didn"
+      },
+      {
+        "review": "Comparing Oceans Twelve to the 2001 Oceans Eleven, did anyone else notice all the things that stayed...",
+        "response": " <P>Re rey v s"
+      },
+      {
+        "review": "I watched the 219 minute version and have to say that dollar-for-dollar, it it probably one of the w...",
+        "response": " makes absolutely\nDu\u00e4ADEINZ"
+      },
+      {
+        "review": "The recent death of Stephen Bach, one of the producers of HEAVEN'S GATE, has raised the specter of a...",
+        "response": "p>In my opinion the best acting"
+      },
+      {
+        "review": "You have to acknowledge Cimino's contribution to cinema. He gave us both the most over-rated film in...",
+        "response": " / >MILEIGIYWH"
+      },
+      {
+        "review": "I was not expecting a classic, but at least a funny film. There were only a few scenes that makes yo...",
+        "response": " I have\nEntu\u0308\u0308z"
+      },
+      {
+        "review": "Rose \u0096 Does anything actually happen in this episode? It introduces our two leads, a slow-witted gri...",
+        "response": "? Why would\nEustahh"
+      }
+    ]
+  }
+}

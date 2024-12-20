@@ -1,0 +1,75 @@
+{
+  "metadata": {
+    "timestamp": "20241212_074613",
+    "model_name": "Qwen/Qwen2.5-7B",
+    "num_pruned_layers": 14,
+    "has_adapter": false,
+    "task": "imdb"
+  },
+  "metrics": {
+    "response_quality": {
+      "total_responses": 25000,
+      "valid_responses": 22,
+      "invalid_responses": 24978,
+      "invalid_percentage": 99.912
+    },
+    "metrics": {
+      "accuracy": 0.5,
+      "evaluate_accuracy": {
+        "accuracy": 0.00044
+      },
+      "precision": 0.5294117647058824,
+      "recall": 0.75,
+      "f1": 0.6206896551724139,
+      "total_evaluated": 22,
+      "confusion_matrix": {
+        "true_positives": 9,
+        "true_negatives": 2,
+        "false_positives": 8,
+        "false_negatives": 3
+      }
+    },
+    "invalid_examples": [
+      {
+        "review": "I love sci-fi and am willing to put up with a lot. Sci-fi movies/TV are usually underfunded, under-a...",
+        "response": " the(hthtctccc"
+      },
+      {
+        "review": "Worth the entertainment value of a rental, especially if you like action movies. This one features t...",
+        "response": " it him him himulimliml"
+      },
+      {
+        "review": "its a totally average film with a few semi-alright action sequences that make the plot seem a little...",
+        "response": " The ( ( (( ((( (((( (((( (((("
+      },
+      {
+        "review": "STAR RATING: ***** Saturday Night **** Friday Night *** Friday Morning ** Sunday Night * Monday Morn...",
+        "response": " - - - --- -- -- ----"
+      },
+      {
+        "review": "First off let me say, If you haven't enjoyed a Van Damme movie since bloodsport, you probably will n...",
+        "response": " The WORST MST S MACMAC"
+      },
+      {
+        "review": "I had high hopes for this one until they changed the name to 'The Shepherd : Border Patrol, the lame...",
+        "response": " you *+*******"
+      },
+      {
+        "review": "Isaac Florentine has made some of the best western Martial Arts action movies ever produced. In part...",
+        "response": " the(heahajajayjay"
+      },
+      {
+        "review": "It actually pains me to say it, but this movie was horrible on every level. The blame does not lie e...",
+        "response": " the(hehehe-he_he\u4ed6"
+      },
+      {
+        "review": "Technically I'am a Van Damme Fan, or I was. this movie is so bad that I hated myself for wasting tho...",
+        "response": " the(heah he he he He"
+      },
+      {
+        "review": "Honestly awful film, bad editing, awful lighting, dire dialog and scrappy screenplay.<br /><br />The...",
+        "response": " The WORST MST S MAC MAC"
+      }
+    ]
+  }
+}

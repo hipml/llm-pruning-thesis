@@ -1,0 +1,75 @@
+{
+  "metadata": {
+    "timestamp": "20241212_115733",
+    "model_name": "meta-llama/Meta-Llama-3-8B",
+    "num_pruned_layers": 1,
+    "has_adapter": false,
+    "task": "imdb"
+  },
+  "metrics": {
+    "response_quality": {
+      "total_responses": 25000,
+      "valid_responses": 24553,
+      "invalid_responses": 447,
+      "invalid_percentage": 1.788
+    },
+    "metrics": {
+      "accuracy": 0.8267828778560665,
+      "evaluate_accuracy": {
+        "accuracy": 0.812
+      },
+      "precision": 0.74531307437814,
+      "recall": 0.9921702960606802,
+      "f1": 0.8512052618689431,
+      "total_evaluated": 24553,
+      "confusion_matrix": {
+        "true_positives": 12165,
+        "true_negatives": 8135,
+        "false_positives": 4157,
+        "false_negatives": 96
+      }
+    },
+    "invalid_examples": [
+      {
+        "review": "Years ago, when DARLING LILI played on TV, it was always the pan and scan version, which I hated and...",
+        "response": " second time the scene where Garrylee"
+      },
+      {
+        "review": "I watched the 219 minute version and have to say that dollar-for-dollar, it it probably one of the w...",
+        "response": " does give us insight into the lives of"
+      },
+      {
+        "review": "The recent death of Stephen Bach, one of the producers of HEAVEN'S GATE, has raised the specter of a...",
+        "response": "p> </</Pdpu"
+      },
+      {
+        "review": "You have to acknowledge Cimino's contribution to cinema. He gave us both the most over-rated film in...",
+        "response": " />\\N\\n\nGReber"
+      },
+      {
+        "review": "Rose \u0096 Does anything actually happen in this episode? It introduces our two leads, a slow-witted gri...",
+        "response": "? ETCETERISocsam"
+      },
+      {
+        "review": "I'm an atheist. To me history and truth mean a lot.<br /><br />This film is made after a novel publi...",
+        "response": " us to watch. Then he asks\u00a0"
+      },
+      {
+        "review": "I did and I lost two and a half hours of my life that I can never regain again.<br /><br />I honestl...",
+        "response": " the 15 minutes of random images and"
+      },
+      {
+        "review": "I finally got hold of a DVD copy of this production and was agog with curiosity, since I had read so...",
+        "response": " show and forget about the video/DX"
+      },
+      {
+        "review": "This is one of four 1970s movies by TV writer Lane Slate about sensationalistic murders in small tow...",
+        "response": " other such scenes, show a male-dominated"
+      },
+      {
+        "review": "Oh, why did it have to end like this? Laurel and Hardy's last film, from the crudely cranked-up Cuck...",
+        "response": " shark. While this may seem harmless enough"
+      }
+    ]
+  }
+}

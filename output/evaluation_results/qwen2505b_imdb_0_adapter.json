@@ -1,0 +1,75 @@
+{
+  "metadata": {
+    "timestamp": "20241213_192248",
+    "model_name": "Qwen/Qwen2.5-0.5B",
+    "num_pruned_layers": 0,
+    "has_adapter": true,
+    "task": "imdb"
+  },
+  "metrics": {
+    "response_quality": {
+      "total_responses": 25000,
+      "valid_responses": 23827,
+      "invalid_responses": 1173,
+      "invalid_percentage": 4.692
+    },
+    "metrics": {
+      "accuracy": 0.49964326184580515,
+      "evaluate_accuracy": {
+        "accuracy": 0.4762
+      },
+      "precision": 0.49806332098349615,
+      "recall": 1.0,
+      "f1": 0.6649429486819178,
+      "total_evaluated": 23827,
+      "confusion_matrix": {
+        "true_positives": 11830,
+        "true_negatives": 75,
+        "false_positives": 11922,
+        "false_negatives": 0
+      }
+    },
+    "invalid_examples": [
+      {
+        "review": "STAR RATING: ***** Saturday Night **** Friday Night *** Friday Morning ** Sunday Night * Monday Morn...",
+        "response": " 5"
+      },
+      {
+        "review": "\"Cover Girl\" is a lacklustre WWII musical with absolutely nothing memorable about it, save for its s...",
+        "response": " 1"
+      },
+      {
+        "review": "Formulaic slasher film, only this one stars three ten year olds (all born during a lunar eclipse) as...",
+        "response": " 3"
+      },
+      {
+        "review": "Years ago, when DARLING LILI played on TV, it was always the pan and scan version, which I hated and...",
+        "response": " get to"
+      },
+      {
+        "review": "Following the pleasingly atmospheric original and the amusingly silly second one, this incredibly du...",
+        "response": " 1"
+      },
+      {
+        "review": "Planet Earth has suffered a terrible environmental disaster so humanity now survives underground spl...",
+        "response": " 1"
+      },
+      {
+        "review": "As a physicist, talk about blackholes and cosmology gets my heart racing. However I found this prese...",
+        "response": " 1"
+      },
+      {
+        "review": "Ugh. Pretty awful.<br /><br />Linnea Quigley gets top billing, but her character doesn't have a big ...",
+        "response": " 1"
+      },
+      {
+        "review": "On Halloween a town is terrorized by a lunatic with a big pumpkin for a head. Bad acting compromised...",
+        "response": " 1"
+      },
+      {
+        "review": "Watching this movie brings several words to mind: \"sophomoric\", \"ridiculous\", \"improbable\", \"self-in...",
+        "response": " 5"
+      }
+    ]
+  }
+}

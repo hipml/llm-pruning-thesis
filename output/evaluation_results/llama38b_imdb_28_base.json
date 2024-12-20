@@ -1,0 +1,75 @@
+{
+  "metadata": {
+    "timestamp": "20241214_033136",
+    "model_name": "meta-llama/Meta-Llama-3-8B",
+    "num_pruned_layers": 28,
+    "has_adapter": false,
+    "task": "imdb"
+  },
+  "metrics": {
+    "response_quality": {
+      "total_responses": 25000,
+      "valid_responses": 0,
+      "invalid_responses": 25000,
+      "invalid_percentage": 100.0
+    },
+    "metrics": {
+      "accuracy": 0,
+      "evaluate_accuracy": {
+        "accuracy": 0.0
+      },
+      "precision": 0,
+      "recall": 0,
+      "f1": 0,
+      "total_evaluated": 0,
+      "confusion_matrix": {
+        "true_positives": 0,
+        "true_negatives": 0,
+        "false_positives": 0,
+        "false_negatives": 0
+      }
+    },
+    "invalid_examples": [
+      {
+        "review": "I love sci-fi and am willing to put up with a lot. Sci-fi movies/TV are usually underfunded, under-a...",
+        "response": " \u2018 &"
+      },
+      {
+        "review": "Worth the entertainment value of a rental, especially if you like action movies. This one features t...",
+        "response": " M\u00a0"
+      },
+      {
+        "review": "its a totally average film with a few semi-alright action sequences that make the plot seem a little...",
+        "response": "  I"
+      },
+      {
+        "review": "STAR RATING: ***** Saturday Night **** Friday Night *** Friday Morning ** Sunday Night * Monday Morn...",
+        "response": "  "
+      },
+      {
+        "review": "First off let me say, If you haven't enjoyed a Van Damme movie since bloodsport, you probably will n...",
+        "response": " M\u00a0"
+      },
+      {
+        "review": "I had high hopes for this one until they changed the name to 'The Shepherd : Border Patrol, the lame...",
+        "response": " M\u00a0"
+      },
+      {
+        "review": "Isaac Florentine has made some of the best western Martial Arts action movies ever produced. In part...",
+        "response": " & M"
+      },
+      {
+        "review": "It actually pains me to say it, but this movie was horrible on every level. The blame does not lie e...",
+        "response": " M\u00a0"
+      },
+      {
+        "review": "Technically I'am a Van Damme Fan, or I was. this movie is so bad that I hated myself for wasting tho...",
+        "response": " M\u00a0"
+      },
+      {
+        "review": "Honestly awful film, bad editing, awful lighting, dire dialog and scrappy screenplay.<br /><br />The...",
+        "response": " & M"
+      }
+    ]
+  }
+}

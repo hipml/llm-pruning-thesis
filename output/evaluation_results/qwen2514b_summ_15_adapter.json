@@ -1,0 +1,38 @@
+{
+  "metadata": {
+    "timestamp": "20241215_152128",
+    "model_name": "Qwen/Qwen2.5-14B",
+    "num_pruned_layers": 15,
+    "has_adapter": true,
+    "task": "summ"
+  },
+  "metrics": {
+    "metrics": {
+      "rouge": {
+        "rouge1": 0.03744090721011162,
+        "rouge2": 0.0013142722891643643,
+        "rougeL": 0.032366760075092316
+      }
+    },
+    "examples": {
+      "predictions": [
+        "Prison Hospital Hospitals are called by ambulance staff who arrive arriving arrival end ends ends end end end term word words language science medicine medical care treatment[][][][][])",
+        "Summary is not accepted.",
+        "Jordan,,,,,,,,___\u2014\u2014\u2014\u2014\u2014\u2014\u2014 \u2014 | | \\ / \\/ \\/ /\\ \\/\n[ [ ] X Y Z E O R I T W",
+        "Summary is not accepted.",
+        "Restendidridirirerereeeeeeee e f r i t c o p s d \u937e \ufffd \u5f71\u5f71\u4f20\u627f\u4f20\u627f"
+      ],
+      "references": [
+        "There is a \"chronic\" need for more housing for prison leavers in Wales, according to a charity.",
+        "A man has appeared in court after firearms, ammunition and cash were seized by police in Edinburgh.",
+        "Four people accused of kidnapping and torturing a mentally disabled man in a \"racially motivated\" attack streamed on Facebook have been denied bail.",
+        "West Brom have appointed Nicky Hammond as technical director, ending his 20-year association with Reading.",
+        "The pancreas can be triggered to regenerate itself through a type of fasting diet, say US researchers."
+      ]
+    },
+    "summary": {
+      "total_samples": 11334,
+      "avg_summary_length": 14.262484550476074
+    }
+  }
+}

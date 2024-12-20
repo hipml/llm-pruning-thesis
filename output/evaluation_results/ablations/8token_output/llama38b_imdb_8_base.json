@@ -1,0 +1,75 @@
+{
+  "metadata": {
+    "timestamp": "20241212_174143",
+    "model_name": "meta-llama/Meta-Llama-3-8B",
+    "num_pruned_layers": 8,
+    "has_adapter": false,
+    "task": "imdb"
+  },
+  "metrics": {
+    "response_quality": {
+      "total_responses": 25000,
+      "valid_responses": 1407,
+      "invalid_responses": 23593,
+      "invalid_percentage": 94.372
+    },
+    "metrics": {
+      "accuracy": 0.6325515280739161,
+      "evaluate_accuracy": {
+        "accuracy": 0.0356
+      },
+      "precision": 0.41370869033047736,
+      "recall": 0.898936170212766,
+      "f1": 0.5666387259010898,
+      "total_evaluated": 1407,
+      "confusion_matrix": {
+        "true_positives": 338,
+        "true_negatives": 552,
+        "false_positives": 479,
+        "false_negatives": 38
+      }
+    },
+    "invalid_examples": [
+      {
+        "review": "I love sci-fi and am willing to put up with a lot. Sci-fi movies/TV are usually underfunded, under-a...",
+        "response": " [\u2009\u2009\u00ad\u00ad\ufeff\ufeff\ufeff"
+      },
+      {
+        "review": "Worth the entertainment value of a rental, especially if you like action movies. This one features t...",
+        "response": " (Gvhttpllb"
+      },
+      {
+        "review": "STAR RATING: ***** Saturday Night **** Friday Night *** Friday Morning ** Sunday Night * Monday Morn...",
+        "response": " 0\u00a0\u00a0''COLUALU"
+      },
+      {
+        "review": "First off let me say, If you haven't enjoyed a Van Damme movie since bloodsport, you probably will n...",
+        "response": " [**c.c.CCmr"
+      },
+      {
+        "review": "I had high hopes for this one until they changed the name to 'The Shepherd : Border Patrol, the lame...",
+        "response": " I i i . .\n\u00a0"
+      },
+      {
+        "review": "It actually pains me to say it, but this movie was horrible on every level. The blame does not lie e...",
+        "response": " This P A R i b j r"
+      },
+      {
+        "review": "Technically I'am a Van Damme Fan, or I was. this movie is so bad that I hated myself for wasting tho...",
+        "response": " TheThe\nCEmB A C"
+      },
+      {
+        "review": "Honestly awful film, bad editing, awful lighting, dire dialog and scrappy screenplay.<br /><br />The...",
+        "response": " This Is\nBUBCHCR"
+      },
+      {
+        "review": "This flick is a waste of time.I expect from an action movie to have more than 2 explosions and some ...",
+        "response": " This P\nl l c b j"
+      },
+      {
+        "review": "Blind Date (Columbia Pictures, 1934), was a decent film, but I have a few issues with this film. Fir...",
+        "response": " Neutral\nThis is also\u00a0\u00a0....."
+      }
+    ]
+  }
+}

@@ -1,0 +1,75 @@
+{
+  "metadata": {
+    "timestamp": "20241216_143445",
+    "model_name": "meta-llama/Llama-3.2-3B",
+    "num_pruned_layers": 2,
+    "has_adapter": false,
+    "task": "imdb"
+  },
+  "metrics": {
+    "response_quality": {
+      "total_responses": 25000,
+      "valid_responses": 20990,
+      "invalid_responses": 4010,
+      "invalid_percentage": 16.04
+    },
+    "metrics": {
+      "accuracy": 0.4728442115292997,
+      "evaluate_accuracy": {
+        "accuracy": 0.397
+      },
+      "precision": 0.4724146166706472,
+      "recall": 0.9979818365287588,
+      "f1": 0.6412708704814395,
+      "total_evaluated": 20990,
+      "confusion_matrix": {
+        "true_positives": 9890,
+        "true_negatives": 35,
+        "false_positives": 11045,
+        "false_negatives": 20
+      }
+    },
+    "invalid_examples": [
+      {
+        "review": "Technically I'am a Van Damme Fan, or I was. this movie is so bad that I hated myself for wasting tho...",
+        "response": " \"R"
+      },
+      {
+        "review": "This flick is a waste of time.I expect from an action movie to have more than 2 explosions and some ...",
+        "response": " I A"
+      },
+      {
+        "review": "Ben, (Rupert Grint), is a deeply unhappy adolescent, the son of his unhappily married parents. His f...",
+        "response": " Review J"
+      },
+      {
+        "review": "I gave this a 3 out of a possible 10 stars.<br /><br />Unless you like wasting your time watching an...",
+        "response": " Review J"
+      },
+      {
+        "review": "Widow hires a psychopath as a handyman. Sloppy film noir thriller which doesn't make much of its ten...",
+        "response": " 2"
+      },
+      {
+        "review": "An obscure horror show filmed in the Everglades. Two couples stay overnight in a cabin after being m...",
+        "response": " I had"
+      },
+      {
+        "review": "This film is about a couple that decides to take a vacation to The Everglades along with another cou...",
+        "response": " I'm"
+      },
+      {
+        "review": "An Italian/American co-production co-starring Linda Blair and David 'The Hoff' Hasselhoff: how could...",
+        "response": " Review J"
+      },
+      {
+        "review": "\"Witchery\" might just be the most incoherent and lamentably scripted horror movie of the 80's but, l...",
+        "response": " Review\u00a0\n"
+      },
+      {
+        "review": "1983's \"Frightmare\" is an odd little film. The director seems to be trying to combine the atmosphere...",
+        "response": ""
+      }
+    ]
+  }
+}

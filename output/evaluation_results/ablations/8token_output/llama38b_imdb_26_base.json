@@ -1,0 +1,75 @@
+{
+  "metadata": {
+    "timestamp": "20241212_211311",
+    "model_name": "meta-llama/Meta-Llama-3-8B",
+    "num_pruned_layers": 26,
+    "has_adapter": false,
+    "task": "imdb"
+  },
+  "metrics": {
+    "response_quality": {
+      "total_responses": 25000,
+      "valid_responses": 346,
+      "invalid_responses": 24654,
+      "invalid_percentage": 98.616
+    },
+    "metrics": {
+      "accuracy": 0.45375722543352603,
+      "evaluate_accuracy": {
+        "accuracy": 0.00628
+      },
+      "precision": 0.41155234657039713,
+      "recall": 0.8142857142857143,
+      "f1": 0.5467625899280576,
+      "total_evaluated": 346,
+      "confusion_matrix": {
+        "true_positives": 114,
+        "true_negatives": 43,
+        "false_positives": 163,
+        "false_negatives": 26
+      }
+    },
+    "invalid_examples": [
+      {
+        "review": "I love sci-fi and am willing to put up with a lot. Sci-fi movies/TV are usually underfunded, under-a...",
+        "response": " femaleelen712ilogyutzutz OMIT868"
+      },
+      {
+        "review": "Worth the entertainment value of a rental, especially if you like action movies. This one features t...",
+        "response": " allutorsagli'gcaxonuegosounge\u675f"
+      },
+      {
+        "review": "its a totally average film with a few semi-alright action sequences that make the plot seem a little...",
+        "response": " allutorsagli'gcodd105olson Schultz"
+      },
+      {
+        "review": "STAR RATING: ***** Saturday Night **** Friday Night *** Friday Morning ** Sunday Night * Monday Morn...",
+        "response": " pre Preconditions precondition\u00a0nwcsych\ufffd t\u00edch"
+      },
+      {
+        "review": "First off let me say, If you haven't enjoyed a Van Damme movie since bloodsport, you probably will n...",
+        "response": " vivastreet_Statics Stark Moss Moss\u00a0atori908"
+      },
+      {
+        "review": "I had high hopes for this one until they changed the name to 'The Shepherd : Border Patrol, the lame...",
+        "response": " other\ufffd\ufffdutiningsuzzi578578878"
+      },
+      {
+        "review": "Isaac Florentine has made some of the best western Martial Arts action movies ever produced. In part...",
+        "response": " vivastreet_Statics Stark Moss Moss\u00a0clid Ik"
+      },
+      {
+        "review": "It actually pains me to say it, but this movie was horrible on every level. The blame does not lie e...",
+        "response": "\u30ea\u30ab Levine Levine Levine McClrott\u0446\u0438\u0442aret"
+      },
+      {
+        "review": "Technically I'am a Van Damme Fan, or I was. this movie is so bad that I hated myself for wasting tho...",
+        "response": " vivastreet\u00a0 Caldillard Chandler Chandler574574"
+      },
+      {
+        "review": "Honestly awful film, bad editing, awful lighting, dire dialog and scrappy screenplay.<br /><br />The...",
+        "response": " femaleelen712ilogyutzutz OMIT868"
+      }
+    ]
+  }
+}

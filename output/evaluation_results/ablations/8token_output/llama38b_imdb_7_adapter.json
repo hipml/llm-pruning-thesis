@@ -1,0 +1,75 @@
+{
+  "metadata": {
+    "timestamp": "20241212_170713",
+    "model_name": "meta-llama/Meta-Llama-3-8B",
+    "num_pruned_layers": 7,
+    "has_adapter": true,
+    "task": "imdb"
+  },
+  "metrics": {
+    "response_quality": {
+      "total_responses": 25000,
+      "valid_responses": 20924,
+      "invalid_responses": 4076,
+      "invalid_percentage": 16.304
+    },
+    "metrics": {
+      "accuracy": 0.8216880137640986,
+      "evaluate_accuracy": {
+        "accuracy": 0.68772
+      },
+      "precision": 0.7393420001452539,
+      "recall": 0.9862429761674094,
+      "f1": 0.8451288863060894,
+      "total_evaluated": 20924,
+      "confusion_matrix": {
+        "true_positives": 10180,
+        "true_negatives": 7013,
+        "false_positives": 3589,
+        "false_negatives": 142
+      }
+    },
+    "invalid_examples": [
+      {
+        "review": "Now, I LOVE Italian horror films. The cheesier they are, the better. However, this is not cheesy Ita...",
+        "response": " 2.\n/ / = P-P"
+      },
+      {
+        "review": "This cheap, grainy-filmed Italian flick is about a couple of inheritors of a manor in the Italian co...",
+        "response": " 1\n"
+      },
+      {
+        "review": "Seriously, I can't imagine how anyone could find a single flattering thing to say about this movie, ...",
+        "response": " 10\n()() =="
+      },
+      {
+        "review": "The only reason this movie is not given a 1 (awful) vote is that the acting of both Ida Lupino and R...",
+        "response": " \"\"\"\ns s r r c"
+      },
+      {
+        "review": "Artificial melodrama with a screenplay adapted by Mel Dinelli from his play \"The Man\" concerns a boa...",
+        "response": " 5()== = = ="
+      },
+      {
+        "review": "Widow hires a psychopath as a handyman. Sloppy film noir thriller which doesn't make much of its ten...",
+        "response": " 2\n()() = P"
+      },
+      {
+        "review": "I have no idea how anyone can give this movie high marks. I didn't rent it thinking it was the next ...",
+        "response": " \"\"\"\"'\"''' '"
+      },
+      {
+        "review": "An obscure horror show filmed in the Everglades. Two couples stay overnight in a cabin after being m...",
+        "response": " \"\"\ns s r r c p"
+      },
+      {
+        "review": "An Italian/American co-production co-starring Linda Blair and David 'The Hoff' Hasselhoff: how could...",
+        "response": " 2.\n/ / ===\n"
+      },
+      {
+        "review": "Witchy Hildegard Knef traps a group of people in an isolated hotel and picks them off one by one in ...",
+        "response": " 1\n()() = ("
+      }
+    ]
+  }
+}

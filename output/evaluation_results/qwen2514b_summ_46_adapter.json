@@ -1,0 +1,38 @@
+{
+  "metadata": {
+    "timestamp": "20241215_234333",
+    "model_name": "Qwen/Qwen2.5-14B",
+    "num_pruned_layers": 46,
+    "has_adapter": true,
+    "task": "summ"
+  },
+  "metrics": {
+    "metrics": {
+      "rouge": {
+        "rouge1": 0.08891581743955612,
+        "rouge2": 0.004448479041457176,
+        "rougeL": 0.075551338493824
+      }
+    },
+    "examples": {
+      "predictions": [
+        "The first day are also known by the world\u2019s end of the country.",
+        "The University of New York City.",
+        "The first time that I would like to see how it\u2019s not even when you want to do what we are going to make sure that the same thing.",
+        "The first year, I am sure that you can be able to do it.",
+        "\u201cI am going to take up your own way to get out of the best time to find the same thing, there\u2019s a few weeks ago, he will"
+      ],
+      "references": [
+        "There is a \"chronic\" need for more housing for prison leavers in Wales, according to a charity.",
+        "A man has appeared in court after firearms, ammunition and cash were seized by police in Edinburgh.",
+        "Four people accused of kidnapping and torturing a mentally disabled man in a \"racially motivated\" attack streamed on Facebook have been denied bail.",
+        "West Brom have appointed Nicky Hammond as technical director, ending his 20-year association with Reading.",
+        "The pancreas can be triggered to regenerate itself through a type of fasting diet, say US researchers."
+      ]
+    },
+    "summary": {
+      "total_samples": 11334,
+      "avg_summary_length": 16.90541648864746
+    }
+  }
+}

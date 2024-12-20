@@ -1,0 +1,75 @@
+{
+  "metadata": {
+    "timestamp": "20241216_150638",
+    "model_name": "meta-llama/Llama-3.2-3B",
+    "num_pruned_layers": 4,
+    "has_adapter": false,
+    "task": "imdb"
+  },
+  "metrics": {
+    "response_quality": {
+      "total_responses": 25000,
+      "valid_responses": 16275,
+      "invalid_responses": 8725,
+      "invalid_percentage": 34.9
+    },
+    "metrics": {
+      "accuracy": 0.5630721966205837,
+      "evaluate_accuracy": {
+        "accuracy": 0.36656
+      },
+      "precision": 0.5254395407247937,
+      "recall": 0.9363171355498722,
+      "f1": 0.6731326131923696,
+      "total_evaluated": 16275,
+      "confusion_matrix": {
+        "true_positives": 7322,
+        "true_negatives": 1842,
+        "false_positives": 6613,
+        "false_negatives": 498
+      }
+    },
+    "invalid_examples": [
+      {
+        "review": "its a totally average film with a few semi-alright action sequences that make the plot seem a little...",
+        "response": " i |"
+      },
+      {
+        "review": "I had high hopes for this one until they changed the name to 'The Shepherd : Border Patrol, the lame...",
+        "response": " I\n"
+      },
+      {
+        "review": "This flick is a waste of time.I expect from an action movie to have more than 2 explosions and some ...",
+        "response": " I\n"
+      },
+      {
+        "review": "I first watched this movie back in the mid/late 80's, when I was a kid. We couldn't even get all the...",
+        "response": " < <"
+      },
+      {
+        "review": "A group of heirs to a mysterious old mansion find out that they have to live in it as part of a clau...",
+        "response": " ISE"
+      },
+      {
+        "review": "Every movie I have PPV'd because Leonard Maltin praised it to the skies has blown chunks! Every sing...",
+        "response": " < <"
+      },
+      {
+        "review": "I of course saw the previews for this at the beginning of some other Lion's Gate extravaganza, so of...",
+        "response": " I"
+      },
+      {
+        "review": "<br /><br />Never ever take a film just for its good looking title.<br /><br />Although it all start...",
+        "response": " <<"
+      },
+      {
+        "review": "I quite enjoyed The Wrecking Crew (1999), which was the last of the three films in this series (the ...",
+        "response": " < <"
+      },
+      {
+        "review": "Artificial melodrama with a screenplay adapted by Mel Dinelli from his play \"The Man\" concerns a boa...",
+        "response": "  :"
+      }
+    ]
+  }
+}

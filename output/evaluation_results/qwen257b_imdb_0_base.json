@@ -1,0 +1,75 @@
+{
+  "metadata": {
+    "timestamp": "20241214_040136",
+    "model_name": "Qwen/Qwen2.5-7B",
+    "num_pruned_layers": 0,
+    "has_adapter": false,
+    "task": "imdb"
+  },
+  "metrics": {
+    "response_quality": {
+      "total_responses": 25000,
+      "valid_responses": 14494,
+      "invalid_responses": 10506,
+      "invalid_percentage": 42.024
+    },
+    "metrics": {
+      "accuracy": 0.7904650200082793,
+      "evaluate_accuracy": {
+        "accuracy": 0.45828
+      },
+      "precision": 0.7216072923448982,
+      "recall": 0.9943604204050244,
+      "f1": 0.8363067967444618,
+      "total_evaluated": 14494,
+      "confusion_matrix": {
+        "true_positives": 7758,
+        "true_negatives": 3699,
+        "false_positives": 2993,
+        "false_negatives": 44
+      }
+    },
+    "invalid_examples": [
+      {
+        "review": "its a totally average film with a few semi-alright action sequences that make the plot seem a little...",
+        "response": " This review"
+      },
+      {
+        "review": "First off let me say, If you haven't enjoyed a Van Damme movie since bloodsport, you probably will n...",
+        "response": " The review"
+      },
+      {
+        "review": "Technically I'am a Van Damme Fan, or I was. this movie is so bad that I hated myself for wasting tho...",
+        "response": " The review"
+      },
+      {
+        "review": "Honestly awful film, bad editing, awful lighting, dire dialog and scrappy screenplay.<br /><br />The...",
+        "response": " The review"
+      },
+      {
+        "review": "This flick is a waste of time.I expect from an action movie to have more than 2 explosions and some ...",
+        "response": " This review"
+      },
+      {
+        "review": "A group of heirs to a mysterious old mansion find out that they have to live in it as part of a clau...",
+        "response": " The review"
+      },
+      {
+        "review": "I just finished watching this movie and am disappointed to say that I didn't enjoy it a bit. It is s...",
+        "response": " The review"
+      },
+      {
+        "review": "Every movie I have PPV'd because Leonard Maltin praised it to the skies has blown chunks! Every sing...",
+        "response": " This review"
+      },
+      {
+        "review": "Low budget horror movie. If you don't raise your expectations too high, you'll probably enjoy this l...",
+        "response": " The review"
+      },
+      {
+        "review": "The Forgotten (AKA: Don't Look In The Basement) is a very cheaply made and very old looking horror m...",
+        "response": " This review"
+      }
+    ]
+  }
+}

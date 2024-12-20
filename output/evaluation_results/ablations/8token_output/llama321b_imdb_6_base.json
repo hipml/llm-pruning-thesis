@@ -1,0 +1,75 @@
+{
+  "metadata": {
+    "timestamp": "20241211_213217",
+    "model_name": "meta-llama/Llama-3.2-1B",
+    "num_pruned_layers": 6,
+    "has_adapter": false,
+    "task": "imdb"
+  },
+  "metrics": {
+    "response_quality": {
+      "total_responses": 25000,
+      "valid_responses": 237,
+      "invalid_responses": 24763,
+      "invalid_percentage": 99.05199999999999
+    },
+    "metrics": {
+      "accuracy": 0.6244725738396625,
+      "evaluate_accuracy": {
+        "accuracy": 0.00592
+      },
+      "precision": 0.6542553191489362,
+      "recall": 0.8367346938775511,
+      "f1": 0.7343283582089553,
+      "total_evaluated": 237,
+      "confusion_matrix": {
+        "true_positives": 123,
+        "true_negatives": 25,
+        "false_positives": 65,
+        "false_negatives": 24
+      }
+    },
+    "invalid_examples": [
+      {
+        "review": "I love sci-fi and am willing to put up with a lot. Sci-fi movies/TV are usually underfunded, under-a...",
+        "response": "ry\u0441\u044c...\n.........itorio COST"
+      },
+      {
+        "review": "Worth the entertainment value of a rental, especially if you like action movies. This one features t...",
+        "response": "1 ONLINE Edge Groveon wornhorn grip"
+      },
+      {
+        "review": "its a totally average film with a few semi-alright action sequences that make the plot seem a little...",
+        "response": "stiesnaceanuna pandemic periodifer"
+      },
+      {
+        "review": "STAR RATING: ***** Saturday Night **** Friday Night *** Friday Morning ** Sunday Night * Monday Morn...",
+        "response": ".........ende hypoth?q qxx"
+      },
+      {
+        "review": "First off let me say, If you haven't enjoyed a Van Damme movie since bloodsport, you probably will n...",
+        "response": "1 ONLINE Edge Groveon recogn\ub2c9nite"
+      },
+      {
+        "review": "I had high hopes for this one until they changed the name to 'The Shepherd : Border Patrol, the lame...",
+        "response": "0......xp\u0161e Andersen Jensen signed"
+      },
+      {
+        "review": "Isaac Florentine has made some of the best western Martial Arts action movies ever produced. In part...",
+        "response": "irgoogle http\u0628\u0644TAIL \u041f\u0440\u043e\u0444PFN esi"
+      },
+      {
+        "review": "It actually pains me to say it, but this movie was horrible on every level. The blame does not lie e...",
+        "response": "0...xpcebstedstadtstadtstadt"
+      },
+      {
+        "review": "Technically I'am a Van Damme Fan, or I was. this movie is so bad that I hated myself for wasting tho...",
+        "response": "1 ONLINEEdge Hood Hoodigne formerly Civil"
+      },
+      {
+        "review": "Honestly awful film, bad editing, awful lighting, dire dialog and scrappy screenplay.<br /><br />The...",
+        "response": "0... Roadomin mostainfidf"
+      }
+    ]
+  }
+}

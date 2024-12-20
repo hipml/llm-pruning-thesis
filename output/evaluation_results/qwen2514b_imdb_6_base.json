@@ -1,0 +1,75 @@
+{
+  "metadata": {
+    "timestamp": "20241216_022745",
+    "model_name": "Qwen/Qwen2.5-14B",
+    "num_pruned_layers": 6,
+    "has_adapter": false,
+    "task": "imdb"
+  },
+  "metrics": {
+    "response_quality": {
+      "total_responses": 25000,
+      "valid_responses": 7135,
+      "invalid_responses": 17865,
+      "invalid_percentage": 71.46000000000001
+    },
+    "metrics": {
+      "accuracy": 0.6606867554309741,
+      "evaluate_accuracy": {
+        "accuracy": 0.18856
+      },
+      "precision": 0.5752261399298505,
+      "recall": 0.9629171817058096,
+      "f1": 0.7202126430139837,
+      "total_evaluated": 7135,
+      "confusion_matrix": {
+        "true_positives": 3116,
+        "true_negatives": 1598,
+        "false_positives": 2301,
+        "false_negatives": 120
+      }
+    },
+    "invalid_examples": [
+      {
+        "review": "Worth the entertainment value of a rental, especially if you like action movies. This one features t...",
+        "response": " Yes Lo"
+      },
+      {
+        "review": "First off let me say, If you haven't enjoyed a Van Damme movie since bloodsport, you probably will n...",
+        "response": " Yes Ch"
+      },
+      {
+        "review": "I had high hopes for this one until they changed the name to 'The Shepherd : Border Patrol, the lame...",
+        "response": " NOTSCR"
+      },
+      {
+        "review": "Isaac Florentine has made some of the best western Martial Arts action movies ever produced. In part...",
+        "response": " \nsure"
+      },
+      {
+        "review": "It actually pains me to say it, but this movie was horrible on every level. The blame does not lie e...",
+        "response": " Yes No"
+      },
+      {
+        "review": "Honestly awful film, bad editing, awful lighting, dire dialog and scrappy screenplay.<br /><br />The...",
+        "response": " 1"
+      },
+      {
+        "review": "Blind Date (Columbia Pictures, 1934), was a decent film, but I have a few issues with this film. Fir...",
+        "response": " NO YES"
+      },
+      {
+        "review": "I first watched this movie back in the mid/late 80's, when I was a kid. We couldn't even get all the...",
+        "response": " NOT CR"
+      },
+      {
+        "review": "I saw the Mogul Video VHS of this. That's another one of those old 1980s distributors whose catalog ...",
+        "response": ""
+      },
+      {
+        "review": "Now, I LOVE Italian horror films. The cheesier they are, the better. However, this is not cheesy Ita...",
+        "response": " 1"
+      }
+    ]
+  }
+}

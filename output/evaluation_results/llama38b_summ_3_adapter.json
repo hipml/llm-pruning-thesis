@@ -1,0 +1,38 @@
+{
+  "metadata": {
+    "timestamp": "20241213_040001",
+    "model_name": "meta-llama/Meta-Llama-3-8B",
+    "num_pruned_layers": 3,
+    "has_adapter": true,
+    "task": "summ"
+  },
+  "metrics": {
+    "metrics": {
+      "rouge": {
+        "rouge1": 0.037125661969184875,
+        "rouge2": 0.0013678432442247868,
+        "rougeL": 0.034524060785770416
+      }
+    },
+    "examples": {
+      "predictions": [
+        "This article tells us about how people who are or/and againsreqinqeheniebbsrredkkkkdkd|{ | |",
+        "Officers seized $$$$e-UUUuuiiiiiiiiiieo.",
+        "what are three\u00a0\u200b \u200b \u200b \u200b   \\\\ /\\ /\n [ ] ]] //\n \"\"\"\"\"\"\"''\n.",
+        "What do you alls'lii l r f r.",
+        "Restating the obvious!"
+      ],
+      "references": [
+        "There is a \"chronic\" need for more housing for prison leavers in Wales, according to a charity.",
+        "A man has appeared in court after firearms, ammunition and cash were seized by police in Edinburgh.",
+        "Four people accused of kidnapping and torturing a mentally disabled man in a \"racially motivated\" attack streamed on Facebook have been denied bail.",
+        "West Brom have appointed Nicky Hammond as technical director, ending his 20-year association with Reading.",
+        "The pancreas can be triggered to regenerate itself through a type of fasting diet, say US researchers."
+      ]
+    },
+    "summary": {
+      "total_samples": 11334,
+      "avg_summary_length": 7.242191791534424
+    }
+  }
+}

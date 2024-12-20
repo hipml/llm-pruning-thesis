@@ -1,0 +1,75 @@
+{
+  "metadata": {
+    "timestamp": "20241211_233409",
+    "model_name": "Qwen/Qwen2.5-7B",
+    "num_pruned_layers": 0,
+    "has_adapter": false,
+    "task": "imdb"
+  },
+  "metrics": {
+    "response_quality": {
+      "total_responses": 25000,
+      "valid_responses": 22504,
+      "invalid_responses": 2496,
+      "invalid_percentage": 9.984
+    },
+    "metrics": {
+      "accuracy": 0.7976804123711341,
+      "evaluate_accuracy": {
+        "accuracy": 0.71804
+      },
+      "precision": 0.7174163046256069,
+      "recall": 0.9885553305748745,
+      "f1": 0.8314390433527081,
+      "total_evaluated": 22504,
+      "confusion_matrix": {
+        "true_positives": 11229,
+        "true_negatives": 6722,
+        "false_positives": 4423,
+        "false_negatives": 130
+      }
+    },
+    "invalid_examples": [
+      {
+        "review": "I just finished watching this movie and am disappointed to say that I didn't enjoy it a bit. It is s...",
+        "response": " The review provided appears to lean more towards"
+      },
+      {
+        "review": "The Forgotten (AKA: Don't Look In The Basement) is a very cheaply made and very old looking horror m...",
+        "response": " This review of \"The Forgotten\" appears"
+      },
+      {
+        "review": "I'm the type of guy who loves hood movies from New Jack City to Baby Boy to Killa Season, from the b...",
+        "response": " This review can be considered mixed rather than"
+      },
+      {
+        "review": "Beware, My Lovely (1952) Dir: Harry Horner <br /><br />Production: The Filmmakers/RKO Radio Pictures...",
+        "response": ""
+      },
+      {
+        "review": "Wow, what an overrated movie this turned out to be! It was supposed to be \"an extremely suspenseful ...",
+        "response": " The review provided appears to lean more towards"
+      },
+      {
+        "review": "Now I understand that this took two months to shoot. Really? I'm pretty certain my crew could do it ...",
+        "response": " The review provided by \"Captain J\""
+      },
+      {
+        "review": "There are many different versions of this one floating around, so make sure you can locate one of th...",
+        "response": ""
+      },
+      {
+        "review": "Humm, an Italian movie starred by David hasselhoff and Linda Blair, I wasn\u00b4t expecting very much, to...",
+        "response": " This review can be considered as a mix"
+      },
+      {
+        "review": "I'm gettin' sick of movies that sound entertaining in a one-line synopsis then end up being equal to...",
+        "response": " The review provided appears to lean more towards"
+      },
+      {
+        "review": "I was completely bored with this film, melodramatic for no apparent reason. Every thing just becomes...",
+        "response": " This review appears to lean more towards being"
+      }
+    ]
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "metadata": {
+    "timestamp": "20241213_030628",
+    "model_name": "meta-llama/Meta-Llama-3-8B",
+    "num_pruned_layers": 1,
+    "has_adapter": false,
+    "task": "summ"
+  },
+  "metrics": {
+    "metrics": {
+      "rouge": {
+        "rouge1": 0.06047946959733963,
+        "rouge2": 0.003304891986772418,
+        "rougeL": 0.05229471996426582
+      }
+    },
+    "examples": {
+      "predictions": [
+        "Prison\nRelateda\u00f1eigundanescritzeiari\u00a0\u200b\u00a0\u00a0D\u00e1 G E B A K M R Y H\nP P F L",
+        "Officers have been conducting searches since Tuesday night and will again today (Friday) as part\u00a0\nWhat are these \u201cCITSNs\u201d?",
+        "I think that they are not good or do right thing.",
+        "Former England, World\nViewers\u00a0\u00a0Do you want to comment-Led and Wales, they are all open Superuzeb.",
+        "A child who died after suffering \u201cunassu."
+      ],
+      "references": [
+        "There is a \"chronic\" need for more housing for prison leavers in Wales, according to a charity.",
+        "A man has appeared in court after firearms, ammunition and cash were seized by police in Edinburgh.",
+        "Four people accused of kidnapping and torturing a mentally disabled man in a \"racially motivated\" attack streamed on Facebook have been denied bail.",
+        "West Brom have appointed Nicky Hammond as technical director, ending his 20-year association with Reading.",
+        "The pancreas can be triggered to regenerate itself through a type of fasting diet, say US researchers."
+      ]
+    },
+    "summary": {
+      "total_samples": 11334,
+      "avg_summary_length": 9.936827659606934
+    }
+  }
+}

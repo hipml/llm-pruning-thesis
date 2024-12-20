@@ -1,0 +1,38 @@
+{
+  "metadata": {
+    "timestamp": "20241213_103554",
+    "model_name": "meta-llama/Meta-Llama-3-8B",
+    "num_pruned_layers": 26,
+    "has_adapter": false,
+    "task": "summ"
+  },
+  "metrics": {
+    "metrics": {
+      "rouge": {
+        "rouge1": 0.004470849875360727,
+        "rouge2": 0.0,
+        "rougeL": 0.0044496068730950356
+      }
+    },
+    "examples": {
+      "predictions": [
+        "\u30fb\u53f8byss\ufffd9609609658778798790490490942648647 \u200b\u200b\ufffd Thornton Thornton Thumbnail Thomson Thomson Langeelage_Tis Inflate\u041b\u041e326.",
+        "\u2026 Laurie Lloyd Lloyd Lloyderterville Fritz Fritz\u00a0INET\u00f3lsez3853655rimon Mohammedervalfieldsavings5555605606608609 Bolton Bolton\u00a0atori149",
+        "[/atedRoute FetchType Fletcher Fritz Fritz Fritzju \"','864864864144534534534etting\u0449\u0438\u043d Childhood Flesh \u30eb12.",
+        ",ateway676ilogyutz\u0431\u0438\u043d Bayer Bayer Bhar Darth Laurel\u00a0clid Lyme9688686834gelurblicant/******/onica N\u00e4thumbs Thumbnail Thumbnail \u200b\ube48szunal\u043d\u0430\u043a",
+        "Lamp Hammond Bolton365\u0430\u0439\u0442_PKT978 ragaz@nate EXITCheckout(QObject congest430XT Witt Fritz Fritzhiborp."
+      ],
+      "references": [
+        "There is a \"chronic\" need for more housing for prison leavers in Wales, according to a charity.",
+        "A man has appeared in court after firearms, ammunition and cash were seized by police in Edinburgh.",
+        "Four people accused of kidnapping and torturing a mentally disabled man in a \"racially motivated\" attack streamed on Facebook have been denied bail.",
+        "West Brom have appointed Nicky Hammond as technical director, ending his 20-year association with Reading.",
+        "The pancreas can be triggered to regenerate itself through a type of fasting diet, say US researchers."
+      ]
+    },
+    "summary": {
+      "total_samples": 11334,
+      "avg_summary_length": 8.034762382507324
+    }
+  }
+}

@@ -1,0 +1,75 @@
+{
+  "metadata": {
+    "timestamp": "20241214_053224",
+    "model_name": "Qwen/Qwen2.5-7B",
+    "num_pruned_layers": 4,
+    "has_adapter": true,
+    "task": "imdb"
+  },
+  "metrics": {
+    "response_quality": {
+      "total_responses": 25000,
+      "valid_responses": 24192,
+      "invalid_responses": 808,
+      "invalid_percentage": 3.232
+    },
+    "metrics": {
+      "accuracy": 0.4928075396825397,
+      "evaluate_accuracy": {
+        "accuracy": 0.47688
+      },
+      "precision": 0.49278657351907734,
+      "recall": 1.0,
+      "f1": 0.6602237483385025,
+      "total_evaluated": 24192,
+      "confusion_matrix": {
+        "true_positives": 11921,
+        "true_negatives": 1,
+        "false_positives": 12270,
+        "false_negatives": 0
+      }
+    },
+    "invalid_examples": [
+      {
+        "review": "Years ago, when DARLING LILI played on TV, it was always the pan and scan version, which I hated and...",
+        "response": " need to"
+      },
+      {
+        "review": "I watched the 219 minute version and have to say that dollar-for-dollar, it it probably one of the w...",
+        "response": ", there"
+      },
+      {
+        "review": "The recent death of Stephen Bach, one of the producers of HEAVEN'S GATE, has raised the specter of a...",
+        "response": ". You"
+      },
+      {
+        "review": "You have to acknowledge Cimino's contribution to cinema. He gave us both the most over-rated film in...",
+        "response": " wanted."
+      },
+      {
+        "review": "Rose \u0096 Does anything actually happen in this episode? It introduces our two leads, a slow-witted gri...",
+        "response": " long as"
+      },
+      {
+        "review": "I'm an atheist. To me history and truth mean a lot.<br /><br />This film is made after a novel publi...",
+        "response": " screen during"
+      },
+      {
+        "review": "'Felony' is a B-movie. No doubt about it.<br /><br />Of course, if you take a look at the cast lineu...",
+        "response": ". And"
+      },
+      {
+        "review": "I did and I lost two and a half hours of my life that I can never regain again.<br /><br />I honestl...",
+        "response": " final result"
+      },
+      {
+        "review": "I finally got hold of a DVD copy of this production and was agog with curiosity, since I had read so...",
+        "response": " the two"
+      },
+      {
+        "review": "This is one of four 1970s movies by TV writer Lane Slate about sensationalistic murders in small tow...",
+        "response": " her."
+      }
+    ]
+  }
+}

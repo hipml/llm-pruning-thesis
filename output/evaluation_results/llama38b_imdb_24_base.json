@@ -1,0 +1,75 @@
+{
+  "metadata": {
+    "timestamp": "20241214_031527",
+    "model_name": "meta-llama/Meta-Llama-3-8B",
+    "num_pruned_layers": 24,
+    "has_adapter": false,
+    "task": "imdb"
+  },
+  "metrics": {
+    "response_quality": {
+      "total_responses": 25000,
+      "valid_responses": 4939,
+      "invalid_responses": 20061,
+      "invalid_percentage": 80.244
+    },
+    "metrics": {
+      "accuracy": 0.422352702976311,
+      "evaluate_accuracy": {
+        "accuracy": 0.08344
+      },
+      "precision": 0.4224382341028757,
+      "recall": 0.9995208433157643,
+      "f1": 0.5938790035587189,
+      "total_evaluated": 4939,
+      "confusion_matrix": {
+        "true_positives": 2086,
+        "true_negatives": 0,
+        "false_positives": 2852,
+        "false_negatives": 1
+      }
+    },
+    "invalid_examples": [
+      {
+        "review": "Worth the entertainment value of a rental, especially if you like action movies. This one features t...",
+        "response": "\n/K"
+      },
+      {
+        "review": "its a totally average film with a few semi-alright action sequences that make the plot seem a little...",
+        "response": " allavar"
+      },
+      {
+        "review": "STAR RATING: ***** Saturday Night **** Friday Night *** Friday Morning ** Sunday Night * Monday Morn...",
+        "response": " preneo"
+      },
+      {
+        "review": "Isaac Florentine has made some of the best western Martial Arts action movies ever produced. In part...",
+        "response": " the397"
+      },
+      {
+        "review": "Technically I'am a Van Damme Fan, or I was. this movie is so bad that I hated myself for wasting tho...",
+        "response": " theantha"
+      },
+      {
+        "review": "Honestly awful film, bad editing, awful lighting, dire dialog and scrappy screenplay.<br /><br />The...",
+        "response": "\u2026 \u041a\u0440\u0438"
+      },
+      {
+        "review": "This flick is a waste of time.I expect from an action movie to have more than 2 explosions and some ...",
+        "response": "\u2026ishing"
+      },
+      {
+        "review": "Blind Date (Columbia Pictures, 1934), was a decent film, but I have a few issues with this film. Fir...",
+        "response": " it\u00a0"
+      },
+      {
+        "review": "I saw the Mogul Video VHS of this. That's another one of those old 1980s distributors whose catalog ...",
+        "response": " IMDb\u00a0"
+      },
+      {
+        "review": "A group of heirs to a mysterious old mansion find out that they have to live in it as part of a clau...",
+        "response": "\u2026 \u041a\u0440\u0438"
+      }
+    ]
+  }
+}

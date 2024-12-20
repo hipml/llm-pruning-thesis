@@ -1,0 +1,75 @@
+{
+  "metadata": {
+    "timestamp": "20241216_155050",
+    "model_name": "meta-llama/Llama-3.2-3B",
+    "num_pruned_layers": 9,
+    "has_adapter": true,
+    "task": "imdb"
+  },
+  "metrics": {
+    "response_quality": {
+      "total_responses": 25000,
+      "valid_responses": 10700,
+      "invalid_responses": 14300,
+      "invalid_percentage": 57.199999999999996
+    },
+    "metrics": {
+      "accuracy": 0.5166355140186916,
+      "evaluate_accuracy": {
+        "accuracy": 0.22112
+      },
+      "precision": 0.5146879399343032,
+      "recall": 0.9998176845943483,
+      "f1": 0.679553903345725,
+      "total_evaluated": 10700,
+      "confusion_matrix": {
+        "true_positives": 5484,
+        "true_negatives": 44,
+        "false_positives": 5171,
+        "false_negatives": 1
+      }
+    },
+    "invalid_examples": [
+      {
+        "review": "Worth the entertainment value of a rental, especially if you like action movies. This one features t...",
+        "response": " PASSISS"
+      },
+      {
+        "review": "its a totally average film with a few semi-alright action sequences that make the plot seem a little...",
+        "response": " 0"
+      },
+      {
+        "review": "STAR RATING: ***** Saturday Night **** Friday Night *** Friday Morning ** Sunday Night * Monday Morn...",
+        "response": " 0"
+      },
+      {
+        "review": "First off let me say, If you haven't enjoyed a Van Damme movie since bloodsport, you probably will n...",
+        "response": " 0"
+      },
+      {
+        "review": "I had high hopes for this one until they changed the name to 'The Shepherd : Border Patrol, the lame...",
+        "response": " 0"
+      },
+      {
+        "review": "Technically I'am a Van Damme Fan, or I was. this movie is so bad that I hated myself for wasting tho...",
+        "response": " \"\""
+      },
+      {
+        "review": "This flick is a waste of time.I expect from an action movie to have more than 2 explosions and some ...",
+        "response": " --"
+      },
+      {
+        "review": "Now, I LOVE Italian horror films. The cheesier they are, the better. However, this is not cheesy Ita...",
+        "response": " 0"
+      },
+      {
+        "review": "This cheap, grainy-filmed Italian flick is about a couple of inheritors of a manor in the Italian co...",
+        "response": " 0"
+      },
+      {
+        "review": "Ben, (Rupert Grint), is a deeply unhappy adolescent, the son of his unhappily married parents. His f...",
+        "response": " 0"
+      }
+    ]
+  }
+}

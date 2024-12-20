@@ -1,0 +1,38 @@
+{
+  "metadata": {
+    "timestamp": "20241215_154359",
+    "model_name": "Qwen/Qwen2.5-14B",
+    "num_pruned_layers": 17,
+    "has_adapter": true,
+    "task": "summ"
+  },
+  "metrics": {
+    "metrics": {
+      "rouge": {
+        "rouge1": 0.0561995729804039,
+        "rouge2": 0.001958137843757868,
+        "rougeL": 0.04790124669671059
+      }
+    },
+    "examples": {
+      "predictions": [
+        "Prison PincidiglaglklkllllllaaaaaaaaAAAAAAAAAAAAAAAOOOCCCPOEOIISOSPSPPSPPPPPMMMMMMMMMMMM",
+        "Officers officers to be released today tomorrow will have days to recover cash from his drug dealers worth about 500 pounds sent back home abroad where it is believed",
+        "Jordan\u00a0\u00a0__ _ = = = ~~~~\\||\\||||||||||\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%",
+        "The  9957 [] [] ] | | \\ / \\/ /\\ ||||\\||\\|\nThe text is not copyrighted under Creative Public P",
+        "Restured = = \u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026."
+      ],
+      "references": [
+        "There is a \"chronic\" need for more housing for prison leavers in Wales, according to a charity.",
+        "A man has appeared in court after firearms, ammunition and cash were seized by police in Edinburgh.",
+        "Four people accused of kidnapping and torturing a mentally disabled man in a \"racially motivated\" attack streamed on Facebook have been denied bail.",
+        "West Brom have appointed Nicky Hammond as technical director, ending his 20-year association with Reading.",
+        "The pancreas can be triggered to regenerate itself through a type of fasting diet, say US researchers."
+      ]
+    },
+    "summary": {
+      "total_samples": 11334,
+      "avg_summary_length": 16.52735137939453
+    }
+  }
+}

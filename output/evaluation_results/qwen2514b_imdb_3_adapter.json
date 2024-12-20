@@ -1,0 +1,75 @@
+{
+  "metadata": {
+    "timestamp": "20241216_020416",
+    "model_name": "Qwen/Qwen2.5-14B",
+    "num_pruned_layers": 3,
+    "has_adapter": true,
+    "task": "imdb"
+  },
+  "metrics": {
+    "response_quality": {
+      "total_responses": 25000,
+      "valid_responses": 24525,
+      "invalid_responses": 475,
+      "invalid_percentage": 1.9
+    },
+    "metrics": {
+      "accuracy": 0.5140876656472987,
+      "evaluate_accuracy": {
+        "accuracy": 0.50432
+      },
+      "precision": 0.5068901303538175,
+      "recall": 0.9999183673469387,
+      "f1": 0.6727447480433887,
+      "total_evaluated": 24525,
+      "confusion_matrix": {
+        "true_positives": 12249,
+        "true_negatives": 359,
+        "false_positives": 11916,
+        "false_negatives": 1
+      }
+    },
+    "invalid_examples": [
+      {
+        "review": "Bloody Birthday is a totally rubbish slasher movie from beginning to end. <br /><br />I found the ac...",
+        "response": " Bloody\u00a0"
+      },
+      {
+        "review": "Years ago, when DARLING LILI played on TV, it was always the pan and scan version, which I hated and...",
+        "response": " need both"
+      },
+      {
+        "review": "I watched the 219 minute version and have to say that dollar-for-dollar, it it probably one of the w...",
+        "response": ", the"
+      },
+      {
+        "review": "The recent death of Stephen Bach, one of the producers of HEAVEN'S GATE, has raised the specter of a...",
+        "response": ". And"
+      },
+      {
+        "review": "You have to acknowledge Cimino's contribution to cinema. He gave us both the most over-rated film in...",
+        "response": " felt.\n"
+      },
+      {
+        "review": "Rose \u0096 Does anything actually happen in this episode? It introduces our two leads, a slow-witted gri...",
+        "response": " long as"
+      },
+      {
+        "review": "36/100. This is not to be confused with the decent Arachnophobia, this film is a very low budget and...",
+        "response": " 5"
+      },
+      {
+        "review": "I'm an atheist. To me history and truth mean a lot.<br /><br />This film is made after a novel publi...",
+        "response": " screen.\n"
+      },
+      {
+        "review": "'Felony' is a B-movie. No doubt about it.<br /><br />Of course, if you take a look at the cast lineu...",
+        "response": ". Or"
+      },
+      {
+        "review": "I did and I lost two and a half hours of my life that I can never regain again.<br /><br />I honestl...",
+        "response": " dialogue.\n"
+      }
+    ]
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "metadata": {
+    "timestamp": "20241214_101327",
+    "model_name": "Qwen/Qwen2.5-0.5B",
+    "num_pruned_layers": 8,
+    "has_adapter": false,
+    "task": "summ"
+  },
+  "metrics": {
+    "metrics": {
+      "rouge": {
+        "rouge1": 0.032734956592321396,
+        "rouge2": 1.995031925616786e-05,
+        "rougeL": 0.0312360692769289
+      }
+    },
+    "examples": {
+      "predictions": [
+        "You You You\n\n < < < > < < .",
+        "\" ' ' '' '' '' ''' ''' ''' [' [ [ ] ) ) ) ( ( ( , , , .",
+        "The They They They THEY THEY THEY\u4ed6\u4eec\u4ed6\u4eec\u662f\u4ed6\u4eec\u7684\u5b83\u4eec\u5b83\u662f\u5b83(()()()().",
+        "The They They They We We We WE WE WE we we we\u6211\u4eec\u662f\u6211\u4eec\u662f\u6211\u4eec\u662f\u6211\u4eec\u8fd9\u662f\u6211\u4eec\u8fd9\u662f\u6211\u4eec\u8fd9\u662f\u6211\u4eec\u662f\u6211\u4eec\u662f\u6211\u4eec\u5bf9\u4e8e\u6211\u4eec\u5bf9\u4e8e\u6211\u4eec\u5bf9\u4e8e\u6211\u4eec\u5bf9\u6211\u4eec\u5bf9\u6211\u4eec\u5bf9\u6211\u4eec ourselves \u81ea \u81ea \u81ea",
+        "You You\n\n { { { } } } ) ) ) )"
+      ],
+      "references": [
+        "There is a \"chronic\" need for more housing for prison leavers in Wales, according to a charity.",
+        "A man has appeared in court after firearms, ammunition and cash were seized by police in Edinburgh.",
+        "Four people accused of kidnapping and torturing a mentally disabled man in a \"racially motivated\" attack streamed on Facebook have been denied bail.",
+        "West Brom have appointed Nicky Hammond as technical director, ending his 20-year association with Reading.",
+        "The pancreas can be triggered to regenerate itself through a type of fasting diet, say US researchers."
+      ]
+    },
+    "summary": {
+      "total_samples": 11334,
+      "avg_summary_length": 15.805275917053223
+    }
+  }
+}

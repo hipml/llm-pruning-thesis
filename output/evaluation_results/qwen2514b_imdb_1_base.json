@@ -1,0 +1,75 @@
+{
+  "metadata": {
+    "timestamp": "20241216_003537",
+    "model_name": "Qwen/Qwen2.5-14B",
+    "num_pruned_layers": 1,
+    "has_adapter": false,
+    "task": "imdb"
+  },
+  "metrics": {
+    "response_quality": {
+      "total_responses": 25000,
+      "valid_responses": 21247,
+      "invalid_responses": 3753,
+      "invalid_percentage": 15.012
+    },
+    "metrics": {
+      "accuracy": 0.8184684896691298,
+      "evaluate_accuracy": {
+        "accuracy": 0.6956
+      },
+      "precision": 0.9639988098780125,
+      "recall": 0.6419019316493314,
+      "f1": 0.7706487482904205,
+      "total_evaluated": 21247,
+      "confusion_matrix": {
+        "true_positives": 6480,
+        "true_negatives": 10910,
+        "false_positives": 242,
+        "false_negatives": 3615
+      }
+    },
+    "invalid_examples": [
+      {
+        "review": "Low budget horror movie. If you don't raise your expectations too high, you'll probably enjoy this l...",
+        "response": " This will"
+      },
+      {
+        "review": "too bad this movie isn't. While \"Nemesis Game\" is mildly entertaining, I found it hard to suspend my...",
+        "response": " This work"
+      },
+      {
+        "review": "this film has no plot, no good acting, to be honest it has nothing, the same songs play over and ove...",
+        "response": " This-des"
+      },
+      {
+        "review": "Beware, My Lovely (1952) Dir: Harry Horner <br /><br />Production: The Filmmakers/RKO Radio Pictures...",
+        "response": ""
+      },
+      {
+        "review": "This film is about a couple that decides to take a vacation to The Everglades along with another cou...",
+        "response": " This I"
+      },
+      {
+        "review": "Humm, an Italian movie starred by David hasselhoff and Linda Blair, I wasn\u00b4t expecting very much, to...",
+        "response": " This can"
+      },
+      {
+        "review": "generally speaking I don't make negative comments on here. But since this is a festival piece, I don...",
+        "response": " This individuals"
+      },
+      {
+        "review": "It hurt to watch this movie, it really did... I wanted to like it, even going in. Shot obviously for...",
+        "response": " This is"
+      },
+      {
+        "review": "Years ago, when DARLING LILI played on TV, it was always the pan and scan version, which I hated and...",
+        "response": " need both"
+      },
+      {
+        "review": "I`m in two minds about FOLLOWING , the film debut of Christopher Nolan . Part of me admires it for c...",
+        "response": " This your"
+      }
+    ]
+  }
+}

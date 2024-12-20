@@ -1,0 +1,38 @@
+{
+  "metadata": {
+    "timestamp": "20241215_234131",
+    "model_name": "Qwen/Qwen2.5-14B",
+    "num_pruned_layers": 45,
+    "has_adapter": true,
+    "task": "summ"
+  },
+  "metrics": {
+    "metrics": {
+      "rouge": {
+        "rouge1": 0.09128877520561218,
+        "rouge2": 0.004298150073736906,
+        "rougeL": 0.07743534445762634
+      }
+    },
+    "examples": {
+      "predictions": [
+        "The first two weeks ago, the most recent history of the world\u2019s biggest community organizations are very important to me.",
+        "The first year to be found out about how many people are going to have an opportunity for their own business.",
+        "The first time that I would like to see it.",
+        "The first year, I am sure that you have not been able to be an important time on the end of the world.",
+        "It\u2019s a great way to get rid of your own time."
+      ],
+      "references": [
+        "There is a \"chronic\" need for more housing for prison leavers in Wales, according to a charity.",
+        "A man has appeared in court after firearms, ammunition and cash were seized by police in Edinburgh.",
+        "Four people accused of kidnapping and torturing a mentally disabled man in a \"racially motivated\" attack streamed on Facebook have been denied bail.",
+        "West Brom have appointed Nicky Hammond as technical director, ending his 20-year association with Reading.",
+        "The pancreas can be triggered to regenerate itself through a type of fasting diet, say US researchers."
+      ]
+    },
+    "summary": {
+      "total_samples": 11334,
+      "avg_summary_length": 17.019058227539062
+    }
+  }
+}

@@ -1,0 +1,75 @@
+{
+  "metadata": {
+    "timestamp": "20241216_022847",
+    "model_name": "Qwen/Qwen2.5-14B",
+    "num_pruned_layers": 5,
+    "has_adapter": false,
+    "task": "imdb"
+  },
+  "metrics": {
+    "response_quality": {
+      "total_responses": 25000,
+      "valid_responses": 24416,
+      "invalid_responses": 584,
+      "invalid_percentage": 2.336
+    },
+    "metrics": {
+      "accuracy": 0.49799311926605505,
+      "evaluate_accuracy": {
+        "accuracy": 0.48636
+      },
+      "precision": 0.49770454172815215,
+      "recall": 0.9997529847673939,
+      "f1": 0.6645685668153581,
+      "total_evaluated": 24416,
+      "confusion_matrix": {
+        "true_positives": 12142,
+        "true_negatives": 17,
+        "false_positives": 12254,
+        "false_negatives": 3
+      }
+    },
+    "invalid_examples": [
+      {
+        "review": "Years ago, when DARLING LILI played on TV, it was always the pan and scan version, which I hated and...",
+        "response": " get colour"
+      },
+      {
+        "review": "I hope this group of film-makers never re-unites....",
+        "response": " I am"
+      },
+      {
+        "review": "I watched the 219 minute version and have to say that dollar-for-dollar, it it probably one of the w...",
+        "response": ", the"
+      },
+      {
+        "review": "The recent death of Stephen Bach, one of the producers of HEAVEN'S GATE, has raised the specter of a...",
+        "response": ". And"
+      },
+      {
+        "review": "You have to acknowledge Cimino's contribution to cinema. He gave us both the most over-rated film in...",
+        "response": " wanted.\n"
+      },
+      {
+        "review": "As a Bruce Campbell fan for nearly two decades, I was thrilled to have an opportunity to see his lat...",
+        "response": ""
+      },
+      {
+        "review": "This could have been a great movie with plenty of educational potential for teachers around the worl...",
+        "response": ""
+      },
+      {
+        "review": "Rose \u0096 Does anything actually happen in this episode? It introduces our two leads, a slow-witted gri...",
+        "response": " long inc"
+      },
+      {
+        "review": "I'm an atheist. To me history and truth mean a lot.<br /><br />This film is made after a novel publi...",
+        "response": " wall \ufffd"
+      },
+      {
+        "review": "'Felony' is a B-movie. No doubt about it.<br /><br />Of course, if you take a look at the cast lineu...",
+        "response": ". And"
+      }
+    ]
+  }
+}

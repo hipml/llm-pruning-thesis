@@ -1,0 +1,38 @@
+{
+  "metadata": {
+    "timestamp": "20241213_183550",
+    "model_name": "Qwen/Qwen2.5-7B",
+    "num_pruned_layers": 24,
+    "has_adapter": false,
+    "task": "summ"
+  },
+  "metrics": {
+    "metrics": {
+      "rouge": {
+        "rouge1": 0.0010322454618290067,
+        "rouge2": 0.0,
+        "rougeL": 0.0010278340196236968
+      }
+    },
+    "examples": {
+      "predictions": [
+        "lland\uff01\uff01\n\n }?",
+        "lland\uff01\uff01\n\n \u81ea\u52a8\u751f\u6210/DkNgu\u1ed3n.",
+        "lland\uff01\uff01\n\n \u81ea\u52a8\u751f\u6210/DkNgu\u1ed3n|unique:relative\u25b7\uff65 Decorating\u2661 \u82e5\u8981\u4eca\u5929\u5c0f\u7f16iffany conseils\uff03 suscept\u4e09\u5927\u9636\u6bb5\uff1a<\u6027\u4ef7\u4e4c\u514b kako ImageIcon\u6362\u53e5\u8bdd-lfsstdarg desiBuilderInterface intimidonaut\tperrorxFFF",
+        "lland\uff01\uff01\n\n \u81ea\u52a8\u751f\u6210/DkNgu\u1ed3n|unique:relative\u25b7 cade\u339e \u82e5\u8981\u4eca\u5929\u5c0f\u7f16iffany conseils\uff03 esl:disable\u4e0b\u9762\u5c0f\u7f16 midfielder\u0633\u062a\u0631\u0627\u062a\u064a\u062c Toastr appr\u00e9\u7ce8 pregnriott Webseite \u0e18\ufffd \u82e5\u8981 ()=>{\nializeducson",
+        "lland\uff01\uff01\n\n\u4e4c\u514b usleep-death\u8d4d \u82e5\u8981\u4eca\u5929\u5c0f\u7f16iffany conseils \u81ea\u52a8\u751f\u6210 pornosongan\\widgetsowane\u2573\u4e09\u5927\u9636\u6bb5 intimidriott (() pregnNgu\u1ed3n\u4e0b\u9762\u5c0f\u7f16 honda \u82e5\u8981ILLISE\uff5e\n\n malaysiaornings \u751f\u547d\u5468\u671f\u53c8\u597d\u53c8\u5febucson"
+      ],
+      "references": [
+        "There is a \"chronic\" need for more housing for prison leavers in Wales, according to a charity.",
+        "A man has appeared in court after firearms, ammunition and cash were seized by police in Edinburgh.",
+        "Four people accused of kidnapping and torturing a mentally disabled man in a \"racially motivated\" attack streamed on Facebook have been denied bail.",
+        "West Brom have appointed Nicky Hammond as technical director, ending his 20-year association with Reading.",
+        "The pancreas can be triggered to regenerate itself through a type of fasting diet, say US researchers."
+      ]
+    },
+    "summary": {
+      "total_samples": 11334,
+      "avg_summary_length": 7.023645877838135
+    }
+  }
+}

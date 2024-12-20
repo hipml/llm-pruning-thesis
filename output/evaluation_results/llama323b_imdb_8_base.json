@@ -1,0 +1,75 @@
+{
+  "metadata": {
+    "timestamp": "20241216_153642",
+    "model_name": "meta-llama/Llama-3.2-3B",
+    "num_pruned_layers": 8,
+    "has_adapter": false,
+    "task": "imdb"
+  },
+  "metrics": {
+    "response_quality": {
+      "total_responses": 25000,
+      "valid_responses": 4724,
+      "invalid_responses": 20276,
+      "invalid_percentage": 81.104
+    },
+    "metrics": {
+      "accuracy": 0.525190516511431,
+      "evaluate_accuracy": {
+        "accuracy": 0.09924
+      },
+      "precision": 0.5178725236864772,
+      "recall": 0.9983395599833956,
+      "f1": 0.6819792995888275,
+      "total_evaluated": 4724,
+      "confusion_matrix": {
+        "true_positives": 2405,
+        "true_negatives": 76,
+        "false_positives": 2239,
+        "false_negatives": 4
+      }
+    },
+    "invalid_examples": [
+      {
+        "review": "its a totally average film with a few semi-alright action sequences that make the plot seem a little...",
+        "response": " "
+      },
+      {
+        "review": "STAR RATING: ***** Saturday Night **** Friday Night *** Friday Morning ** Sunday Night * Monday Morn...",
+        "response": " -"
+      },
+      {
+        "review": "I had high hopes for this one until they changed the name to 'The Shepherd : Border Patrol, the lame...",
+        "response": " I\n"
+      },
+      {
+        "review": "Isaac Florentine has made some of the best western Martial Arts action movies ever produced. In part...",
+        "response": " -"
+      },
+      {
+        "review": "Technically I'am a Van Damme Fan, or I was. this movie is so bad that I hated myself for wasting tho...",
+        "response": " \"\""
+      },
+      {
+        "review": "Honestly awful film, bad editing, awful lighting, dire dialog and scrappy screenplay.<br /><br />The...",
+        "response": "."
+      },
+      {
+        "review": "This flick is a waste of time.I expect from an action movie to have more than 2 explosions and some ...",
+        "response": " http"
+      },
+      {
+        "review": "Blind Date (Columbia Pictures, 1934), was a decent film, but I have a few issues with this film. Fir...",
+        "response": "."
+      },
+      {
+        "review": "I first watched this movie back in the mid/late 80's, when I was a kid. We couldn't even get all the...",
+        "response": "."
+      },
+      {
+        "review": "I saw the Mogul Video VHS of this. That's another one of those old 1980s distributors whose catalog ...",
+        "response": ""
+      }
+    ]
+  }
+}

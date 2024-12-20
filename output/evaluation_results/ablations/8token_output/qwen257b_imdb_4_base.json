@@ -1,0 +1,75 @@
+{
+  "metadata": {
+    "timestamp": "20241212_022345",
+    "model_name": "Qwen/Qwen2.5-7B",
+    "num_pruned_layers": 4,
+    "has_adapter": false,
+    "task": "imdb"
+  },
+  "metrics": {
+    "response_quality": {
+      "total_responses": 25000,
+      "valid_responses": 6868,
+      "invalid_responses": 18132,
+      "invalid_percentage": 72.528
+    },
+    "metrics": {
+      "accuracy": 0.36153174140943506,
+      "evaluate_accuracy": {
+        "accuracy": 0.09932
+      },
+      "precision": 0.3370580131639369,
+      "recall": 0.976063829787234,
+      "f1": 0.5010808965752646,
+      "total_evaluated": 6868,
+      "confusion_matrix": {
+        "true_positives": 2202,
+        "true_negatives": 281,
+        "false_positives": 4331,
+        "false_negatives": 54
+      }
+    },
+    "invalid_examples": [
+      {
+        "review": "its a totally average film with a few semi-alright action sequences that make the plot seem a little...",
+        "response": " yes, certainly above rising..\nI__"
+      },
+      {
+        "review": "STAR RATING: ***** Saturday Night **** Friday Night *** Friday Morning ** Sunday Night * Monday Morn...",
+        "response": " 140- - - -"
+      },
+      {
+        "review": "I had high hopes for this one until they changed the name to 'The Shepherd : Border Patrol, the lame...",
+        "response": " 15 - h\u4e00intoK"
+      },
+      {
+        "review": "Isaac Florentine has made some of the best western Martial Arts action movies ever produced. In part...",
+        "response": " Based on non belief today\u2019s\n.SwingConstants"
+      },
+      {
+        "review": "Honestly awful film, bad editing, awful lighting, dire dialog and scrappy screenplay.<br /><br />The...",
+        "response": " Based on O of the tokens pandom"
+      },
+      {
+        "review": "This flick is a waste of time.I expect from an action movie to have more than 2 explosions and some ...",
+        "response": " Yes\\nwwwssm*hi-b"
+      },
+      {
+        "review": "A group of heirs to a mysterious old mansion find out that they have to live in it as part of a clau...",
+        "response": " The above \"e.g.e)\u2018"
+      },
+      {
+        "review": "Now, I LOVE Italian horror films. The cheesier they are, the better. However, this is not cheesy Ita...",
+        "response": " 130 = =98"
+      },
+      {
+        "review": "This cheap, grainy-filmed Italian flick is about a couple of inheritors of a manor in the Italian co...",
+        "response": " 10|B\u6d12\u662f-"
+      },
+      {
+        "review": "I just finished watching this movie and am disappointed to say that I didn't enjoy it a bit. It is s...",
+        "response": " Based on your requirements, ( (T"
+      }
+    ]
+  }
+}

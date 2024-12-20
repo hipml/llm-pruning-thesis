@@ -1,0 +1,38 @@
+{
+  "metadata": {
+    "timestamp": "20241215_201433",
+    "model_name": "Qwen/Qwen2.5-14B",
+    "num_pruned_layers": 27,
+    "has_adapter": true,
+    "task": "summ"
+  },
+  "metrics": {
+    "metrics": {
+      "rouge": {
+        "rouge1": 0.04513338953256607,
+        "rouge2": 0.0007182731060311198,
+        "rougeL": 0.042237140238285065
+      }
+    },
+    "examples": {
+      "predictions": [
+        "The \u9bf2 \u6f76\u5355\u7cfb\u4e70\u5356\u4e70\u5356\u4e70\u5356\u4e70\u5356\u4e70\u5230\u597d\u4e70\u5356\u5356\u4e70\u53d6\u4ea4\u7ed3.",
+        "The \u8047\u5047\u55ae\u55ae\u9001\u78bc\u3011~~~\\=|_______________________\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014 \u2014\u2014\u2191\u2191\u2193\u2193\u2193\u2191",
+        "The young adult teenager whose whose whose are are are am?",
+        "The new fresh air from old,.",
+        "Rest\u00a0\u00a0ShTrErUZNAZNIZIJIJATITETILKELIKikakajkasaisosodnizazx"
+      ],
+      "references": [
+        "There is a \"chronic\" need for more housing for prison leavers in Wales, according to a charity.",
+        "A man has appeared in court after firearms, ammunition and cash were seized by police in Edinburgh.",
+        "Four people accused of kidnapping and torturing a mentally disabled man in a \"racially motivated\" attack streamed on Facebook have been denied bail.",
+        "West Brom have appointed Nicky Hammond as technical director, ending his 20-year association with Reading.",
+        "The pancreas can be triggered to regenerate itself through a type of fasting diet, say US researchers."
+      ]
+    },
+    "summary": {
+      "total_samples": 11334,
+      "avg_summary_length": 10.260896682739258
+    }
+  }
+}

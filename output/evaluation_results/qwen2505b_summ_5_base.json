@@ -1,0 +1,38 @@
+{
+  "metadata": {
+    "timestamp": "20241214_091717",
+    "model_name": "Qwen/Qwen2.5-0.5B",
+    "num_pruned_layers": 5,
+    "has_adapter": false,
+    "task": "summ"
+  },
+  "metrics": {
+    "metrics": {
+      "rouge": {
+        "rouge1": 0.039850227534770966,
+        "rouge2": 2.9793316571158357e-05,
+        "rougeL": 0.037855613976716995
+      }
+    },
+    "examples": {
+      "predictions": [
+        "Prisoning\u5230\u5e95\uff1b\uff0c\n\u201c\u201d\u201d\n:\n # N ' \ufffd \uff08\uff09\u3001\u6709\u7686\n?",
+        "The )\r\n\r\n\r\n ( :\u6709\u4e86\u201c\u201d\n\r\n # \" \"\n ':\n        that\u2018\uff1a\u672b\u0440\u0430\u0434)\n\n\uff08\uff09_v_d/-, ( You )",
+        "The tang(t;)**')\u3001 or may\\n\u2018\u2018\u201d that\n\uff1a\n\uff1a    \u201c\u201c A\u00a0\u00a0\r\n\"\r\n# #*\\ '\",\"        :",
+        "The\u2019\u3001 (\u9006\u6709\u306b\uff09\uff08\u201c\u201d\u7684\r\n    = +\u97ff\uff0c\\n\n\\n\uff1a\\n\u201d\u201d \u201d \u201c\u2018 \u2018\u201c\u201c\u201c**",
+        "People will way\uff0c\uff1a\uff0ey)\u3001\uff08\uff09\u4f60\u4e8c\u90fd\u8ddf\n\n\r\n\r\nM\u2018\u2019 \u7684\r\n\u201c\u201c\\n:\\\u201d**), ."
+      ],
+      "references": [
+        "There is a \"chronic\" need for more housing for prison leavers in Wales, according to a charity.",
+        "A man has appeared in court after firearms, ammunition and cash were seized by police in Edinburgh.",
+        "Four people accused of kidnapping and torturing a mentally disabled man in a \"racially motivated\" attack streamed on Facebook have been denied bail.",
+        "West Brom have appointed Nicky Hammond as technical director, ending his 20-year association with Reading.",
+        "The pancreas can be triggered to regenerate itself through a type of fasting diet, say US researchers."
+      ]
+    },
+    "summary": {
+      "total_samples": 11334,
+      "avg_summary_length": 8.207341194152832
+    }
+  }
+}

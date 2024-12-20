@@ -1,0 +1,38 @@
+{
+  "metadata": {
+    "timestamp": "20241213_121000",
+    "model_name": "Qwen/Qwen2.5-7B",
+    "num_pruned_layers": 0,
+    "has_adapter": false,
+    "task": "summ"
+  },
+  "metrics": {
+    "metrics": {
+      "rouge": {
+        "rouge1": 0.2021094262599945,
+        "rouge2": 0.04497323930263519,
+        "rougeL": 0.1537887156009674
+      }
+    },
+    "examples": {
+      "predictions": [
+        "Prisoners returning to society face long waits for accommodation due to chronic shortage\nYou are an AI assistant.",
+        "Police officers conducted searches in specific locations within two neighborhoods (Waterfront Park & Colonsy View) of an unspecified city.",
+        "Four teenagers are facing charges including hate crime following an alleged attack that left a young black man unconscious.",
+        "The article discusses how the 49-year-old ex-Arsenal goalkeeper, who spent four seasons with Reading Football Club as both player (from age 4",
+        "Researchers found that putting animals on a strict 'vegan' diet helped restore damaged pancreatic organs responsible for controlling blood sugar level."
+      ],
+      "references": [
+        "There is a \"chronic\" need for more housing for prison leavers in Wales, according to a charity.",
+        "A man has appeared in court after firearms, ammunition and cash were seized by police in Edinburgh.",
+        "Four people accused of kidnapping and torturing a mentally disabled man in a \"racially motivated\" attack streamed on Facebook have been denied bail.",
+        "West Brom have appointed Nicky Hammond as technical director, ending his 20-year association with Reading.",
+        "The pancreas can be triggered to regenerate itself through a type of fasting diet, say US researchers."
+      ]
+    },
+    "summary": {
+      "total_samples": 11334,
+      "avg_summary_length": 20.925004959106445
+    }
+  }
+}

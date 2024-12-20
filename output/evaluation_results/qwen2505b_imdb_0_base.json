@@ -1,0 +1,75 @@
+{
+  "metadata": {
+    "timestamp": "20241213_191513",
+    "model_name": "Qwen/Qwen2.5-0.5B",
+    "num_pruned_layers": 0,
+    "has_adapter": false,
+    "task": "imdb"
+  },
+  "metrics": {
+    "response_quality": {
+      "total_responses": 25000,
+      "valid_responses": 23706,
+      "invalid_responses": 1294,
+      "invalid_percentage": 5.176
+    },
+    "metrics": {
+      "accuracy": 0.5183076014511094,
+      "evaluate_accuracy": {
+        "accuracy": 0.49148
+      },
+      "precision": 0.5107148979941711,
+      "recall": 0.9997483010319658,
+      "f1": 0.6760659272077388,
+      "total_evaluated": 23706,
+      "confusion_matrix": {
+        "true_positives": 11916,
+        "true_negatives": 371,
+        "false_positives": 11416,
+        "false_negatives": 3
+      }
+    },
+    "invalid_examples": [
+      {
+        "review": "I saw the Mogul Video VHS of this. That's another one of those old 1980s distributors whose catalog ...",
+        "response": ""
+      },
+      {
+        "review": "<br /><br />Never ever take a film just for its good looking title.<br /><br />Although it all start...",
+        "response": " <strong"
+      },
+      {
+        "review": "Beware, My Lovely (1952) Dir: Harry Horner <br /><br />Production: The Filmmakers/RKO Radio Pictures...",
+        "response": ""
+      },
+      {
+        "review": "OK, so my summary line is a cheap trick. But the movie is full of them and it gets absurdly praised,...",
+        "response": " <strong"
+      },
+      {
+        "review": "That snarl...<br /><br />That scowl...<br /><br />The acts of random violence...<br /><br />The gutt...",
+        "response": " The reviews"
+      },
+      {
+        "review": "Jacqueline Hyde starts like any other normal day for telemarketing individual Jackie Hyde (co-produc...",
+        "response": ""
+      },
+      {
+        "review": "\"Cover Girl\" is a lacklustre WWII musical with absolutely nothing memorable about it, save for its s...",
+        "response": " <strong"
+      },
+      {
+        "review": "Years ago, when DARLING LILI played on TV, it was always the pan and scan version, which I hated and...",
+        "response": " get to"
+      },
+      {
+        "review": "At the heart of almost every truly great crime thriller is a carefully considered, methodically plan...",
+        "response": ""
+      },
+      {
+        "review": "I was a hippie age 22 in 1965, have seen the play 5 times, have 2 versions of the music, and have re...",
+        "response": ""
+      }
+    ]
+  }
+}

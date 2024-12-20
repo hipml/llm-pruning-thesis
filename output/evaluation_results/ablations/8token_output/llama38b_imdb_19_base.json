@@ -1,0 +1,75 @@
+{
+  "metadata": {
+    "timestamp": "20241212_195125",
+    "model_name": "meta-llama/Meta-Llama-3-8B",
+    "num_pruned_layers": 19,
+    "has_adapter": false,
+    "task": "imdb"
+  },
+  "metrics": {
+    "response_quality": {
+      "total_responses": 25000,
+      "valid_responses": 172,
+      "invalid_responses": 24828,
+      "invalid_percentage": 99.312
+    },
+    "metrics": {
+      "accuracy": 0.37790697674418605,
+      "evaluate_accuracy": {
+        "accuracy": 0.0026
+      },
+      "precision": 0.36875,
+      "recall": 0.9076923076923077,
+      "f1": 0.5244444444444445,
+      "total_evaluated": 172,
+      "confusion_matrix": {
+        "true_positives": 59,
+        "true_negatives": 6,
+        "false_positives": 101,
+        "false_negatives": 6
+      }
+    },
+    "invalid_examples": [
+      {
+        "review": "I love sci-fi and am willing to put up with a lot. Sci-fi movies/TV are usually underfunded, under-a...",
+        "response": "\u00a0\u4ee3 Paginatorillis-du516 ko co"
+      },
+      {
+        "review": "Worth the entertainment value of a rental, especially if you like action movies. This one features t...",
+        "response": "\u00a0appenyc976\u00ec\ufffd\ufffd\ufffd"
+      },
+      {
+        "review": "its a totally average film with a few semi-alright action sequences that make the plot seem a little...",
+        "response": "...hma Dictionary\u0447\u0438\u0441\u043bbeckecke0"
+      },
+      {
+        "review": "STAR RATING: ***** Saturday Night **** Friday Night *** Friday Morning ** Sunday Night * Monday Morn...",
+        "response": "\u200b \u200b\u200b\u200b nic n p\u2013\u4ee3AXB"
+      },
+      {
+        "review": "First off let me say, If you haven't enjoyed a Van Damme movie since bloodsport, you probably will n...",
+        "response": " \"iegelchaft wah.scalablytyped_Ptr\u0448\u0442\u043e\u0432ropoda"
+      },
+      {
+        "review": "I had high hopes for this one until they changed the name to 'The Shepherd : Border Patrol, the lame...",
+        "response": " \"\u00e9d \u0435\u0449\u0451...\n\n\ufffd\ufffdLooperiler"
+      },
+      {
+        "review": "Isaac Florentine has made some of the best western Martial Arts action movies ever produced. In part...",
+        "response": " \"iegel...\n\ufffd\ufffd\u00e1p\u2212coe"
+      },
+      {
+        "review": "It actually pains me to say it, but this movie was horrible on every level. The blame does not lie e...",
+        "response": " for Tod\u00a0appenaph seeduots E"
+      },
+      {
+        "review": "Technically I'am a Van Damme Fan, or I was. this movie is so bad that I hated myself for wasting tho...",
+        "response": "\u00a0appenkowskiungaut \u00c5\ufffd Bob"
+      },
+      {
+        "review": "Honestly awful film, bad editing, awful lighting, dire dialog and scrappy screenplay.<br /><br />The...",
+        "response": " Forlag\u9060\u03c1\u03b9\u03ac245 Barkogie\n\n"
+      }
+    ]
+  }
+}

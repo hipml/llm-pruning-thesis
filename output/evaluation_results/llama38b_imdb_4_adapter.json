@@ -1,0 +1,75 @@
+{
+  "metadata": {
+    "timestamp": "20241214_003543",
+    "model_name": "meta-llama/Meta-Llama-3-8B",
+    "num_pruned_layers": 4,
+    "has_adapter": true,
+    "task": "imdb"
+  },
+  "metrics": {
+    "response_quality": {
+      "total_responses": 25000,
+      "valid_responses": 24261,
+      "invalid_responses": 739,
+      "invalid_percentage": 2.956
+    },
+    "metrics": {
+      "accuracy": 0.9046618028935328,
+      "evaluate_accuracy": {
+        "accuracy": 0.87792
+      },
+      "precision": 0.8507623705408516,
+      "recall": 0.9802767879340349,
+      "f1": 0.9109391244079934,
+      "total_evaluated": 24261,
+      "confusion_matrix": {
+        "true_positives": 11829,
+        "true_negatives": 10119,
+        "false_positives": 2075,
+        "false_negatives": 238
+      }
+    },
+    "invalid_examples": [
+      {
+        "review": "Years ago, when DARLING LILI played on TV, it was always the pan and scan version, which I hated and...",
+        "response": " second\n"
+      },
+      {
+        "review": "After 15 minutes watching the movie I was asking myself what to do: leave the theater, sleep or try ...",
+        "response": " \"I"
+      },
+      {
+        "review": "These days, writers, directors and producers are relying more and more on the \"surprise\" ending. The...",
+        "response": " I am"
+      },
+      {
+        "review": "I really didn't like this film~!!!! it was boring and didn't interest me that much at all.. i'm more...",
+        "response": " I\n"
+      },
+      {
+        "review": "Comparing Oceans Twelve to the 2001 Oceans Eleven, did anyone else notice all the things that stayed...",
+        "response": " < /"
+      },
+      {
+        "review": "I watched the 219 minute version and have to say that dollar-for-dollar, it it probably one of the w...",
+        "response": " does show"
+      },
+      {
+        "review": "The recent death of Stephen Bach, one of the producers of HEAVEN'S GATE, has raised the specter of a...",
+        "response": "p>"
+      },
+      {
+        "review": "You have to acknowledge Cimino's contribution to cinema. He gave us both the most over-rated film in...",
+        "response": " / >"
+      },
+      {
+        "review": "I was not expecting a classic, but at least a funny film. There were only a few scenes that makes yo...",
+        "response": " I would"
+      },
+      {
+        "review": "Rose \u0096 Does anything actually happen in this episode? It introduces our two leads, a slow-witted gri...",
+        "response": "? And"
+      }
+    ]
+  }
+}

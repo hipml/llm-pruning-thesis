@@ -1,0 +1,67 @@
+models:
+  llama323b:
+    huggingface_name: "meta-llama/Llama-3.2-3B"
+    formatted_name: "llama323b"
+    family_name: "meta-llama"
+  llama321b:
+    huggingface_name: "meta-llama/Llama-3.2-1B"
+    formatted_name: "llama321b"
+    family_name: "meta-llama"
+  llama38b:
+    huggingface_name: "meta-llama/Meta-Llama-3-8B"
+    formatted_name: "llama38b"
+    family_name: "meta-llama"
+  llama3170b:
+    huggingface_name: "meta-llama/Llama-3.1-70B"
+    formatted_name: "llama3170b"
+    family_name: "meta-llama"
+  llama3170bi:
+    huggingface_name: "meta-llama/Llama-3.1-70B-Instruct"
+    formatted_name: "llama3170bi"
+    family_name: "meta-llama"
+  qwen2505b:
+    huggingface_name: "Qwen/Qwen2.5-0.5B"
+    formatted_name: "qwen2505b"
+    family_name: "qwen"
+  qwen257b:
+    huggingface_name: "Qwen/Qwen2.5-7B"
+    formatted_name: "qwen257b"
+    family_name: "qwen"
+  qwen2514b:
+    huggingface_name: "Qwen/Qwen2.5-14B"
+    formatted_name: "qwen2514b"
+    family_name: "qwen"
+  qwen2532b:
+    huggingface_name: "Qwen/Qwen2.5-32B"
+    formatted_name: "qwen2532b"
+    family_name: "qwen"
+  qwen2572b:
+    huggingface_name: "Qwen/Qwen2.5-72B"
+    formatted_name: "qwen2572b"
+    family_name: "qwen"
+  nemotron:
+    huggingface_name: "nvidia/Llama-3.1-Nemotron-70B-Instruct-HF"
+    formatted_name: "nemotron"
+    family_name: "nvidia"
+  llama31405b:
+    huggingface_name: "meta-llama/Llama-3.1-405B"
+    formatted_name: "llama31405b"
+    family_name: "meta-llama"
+
+tasks:
+  boolq:
+    description: "Boolean Questions Task"
+    train_size: 9200
+    eval_size: 3200
+    batch_size: 4
+    max_length: 1024
+  summ:
+    description: "Summarization"
+  imdb:
+    description: "IMDB Sentiment Analysis"
+
+defaults:
+    output_dir: "output/"
+    tensor_output_dir: "output/tensors/"
+    viz_output_dir: "output/viz/"
+    eval_dir: "output/evaluation_results/"

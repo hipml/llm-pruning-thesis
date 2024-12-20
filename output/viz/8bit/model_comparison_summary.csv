@@ -1,0 +1,4 @@
+model,best_accuracy,worst_accuracy,accuracy_drop
+llama321b,0.6215625,0.0,0.6215625
+llama323b,0.6215625,0.0,0.62
+metallama38b,0.621875,0.0003125,0.62

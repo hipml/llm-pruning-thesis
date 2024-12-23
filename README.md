@@ -4,9 +4,9 @@
 Large Language Models (LLMs) have revolutionized natural language processing, but their substantial computational and energy requirements pose significant challenges for sustainable deployment. While much attention has focused on reducing pretraining costs, the majority of a model's environmental impact occurs during inference—its primary operational mode. This creates an urgent need for optimization strategies that can reduce the ecological footprint of LLMs while maintaining their performance.
 Our research introduces a novel post-training pruning methodology that:
 
-Strategically identifies optimal pruning points through neighborhood similarity analysis
-Systematically removes architectural elements while preserving model functionality
-Quantifies both performance impact and resource efficiency gains
+* Strategically identifies optimal pruning points through neighborhood similarity analysis
+* Systematically removes architectural elements while preserving model functionality
+* Quantifies both performance impact and resource efficiency gains
 
 The implementation includes comprehensive evaluation across multiple NLP tasks (question answering, sentiment analysis, summarization) to validate our approach. By focusing on post-deployment optimization, we directly address the environmental challenges of AI technologies, contributing to more sustainable large language model deployments.
 
